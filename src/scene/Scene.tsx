@@ -1,4 +1,4 @@
-import { useRef, useCallback } from "react";
+import { useRef, useCallback, Suspense } from "react";
 import * as THREE from "three";
 import { Canvas, useThree } from "@react-three/fiber";
 import { OrbitControls, Grid } from "@react-three/drei";
@@ -123,6 +123,43 @@ function CameraRig({ sx, sz }: { sx: number; sz: number }) {
 // Scene interior (inside Canvas)
 // ---------------------------------------------------------------------------
 
+// TerrainGround: uses useLoader (Suspense-compatible) for proper GPU texture upload
+function TerrainGround({
+  region,
+  sx,
+  sz,
+}: {
+  region: RegionId;
+  sx: number;
+  sz: number;
+}) {
+  const mapTexture = useGroundTexture(region);
+  return (
+    <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.02, 0]}>
+      <planeGeometry args={[sx, sz]} />
+      <meshStandardMaterial map={mapTexture} roughness={1} metalness={0} />
+    </mesh>
+  );
+}
+
+// FallbackGround: shown while the texture is loading (Suspense fallback)
+function FallbackGround({
+  ground,
+  sx,
+  sz,
+}: {
+  ground: string;
+  sx: number;
+  sz: number;
+}) {
+  return (
+    <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.02, 0]}>
+      <planeGeometry args={[sx, sz]} />
+      <meshStandardMaterial color={ground} />
+    </mesh>
+  );
+}
+
 function SceneContent({
   region,
   sx,
@@ -139,7 +176,6 @@ function SceneContent({
   const ghostRef = useRef<THREE.Vector3 | null>(null);
   const placeBlock = useEditorStore((s) => s.placeBlock);
   const removeBlock = useEditorStore((s) => s.removeBlock);
-  const mapTexture = useGroundTexture(region);
 
   const handlePlace = useCallback(
     (x: number, y: number, z: number) => placeBlock(x, y, z),
@@ -153,44 +189,29 @@ function SceneContent({
   return (
     <>
       <color attach="background" args={[sky]} />
-      <ambientLight intensity={0.6} />
-      <directionalLight
-        position={[sx * 0.5, 200, sz * 0.5]}
-        intensity={1.0}
-        castShadow
-        shadow-mapSize-width={2048}
-        shadow-mapSize-height={2048}
-        shadow-camera-left={-sz / 2}
-        shadow-camera-right={sz / 2}
-        shadow-camera-top={sx / 2}
-        shadow-camera-bottom={-sx / 2}
-      />
 
-      {/* Ground — Serebii map texture or fallback colour */}
-      <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.02, 0]} receiveShadow>
-        <planeGeometry args={[sx, sz]} />
-        {mapTexture ? (
-          <meshStandardMaterial map={mapTexture} roughness={0.9} metalness={0} />
-        ) : (
-          <meshStandardMaterial color={ground} />
-        )}
-      </mesh>
+      {/* Lighting — ambient keeps the map visible, directional adds depth to placed blocks */}
+      <ambientLight intensity={1.2} />
+      <directionalLight position={[sx * 0.4, 150, sz * 0.6]} intensity={0.6} />
 
-      {/* Subtle grid overlay so users can judge block positions */}
+      {/* Terrain ground with Serebii map texture */}
+      <Suspense fallback={<FallbackGround ground={ground} sx={sx} sz={sz} />}>
+        <TerrainGround region={region} sx={sx} sz={sz} />
+      </Suspense>
+
+      {/* Grid overlay — faint white lines so you can judge block positions */}
       <Grid
         args={[sx, sz]}
         position={[0, 0.01, 0]}
         cellSize={1}
         cellThickness={0.2}
-        cellColor={mapTexture ? "#ffffff" : "#444"}
-        cellOpacity={mapTexture ? 0.08 : 0.5}
+        cellColor="#ffffff"
         sectionSize={16}
         sectionThickness={0.6}
-        sectionColor={mapTexture ? "#ffffff" : "#666"}
-        sectionOpacity={mapTexture ? 0.18 : 0.7}
+        sectionColor="#ffffff"
         infiniteGrid={false}
         fadeDistance={Math.max(sx, sz) * 1.4}
-        fadeStrength={1.5}
+        fadeStrength={2}
       />
 
       {/* Invisible hit-plane for ground placement */}
@@ -217,15 +238,9 @@ export function Scene() {
   const regionDef = REGIONS[region];
   const { x: sx, z: sz } = regionDef.size;
 
-  // Isometric-ish starting view: high enough to see the full map,
-  // angled so the terrain is visible as a 3D surface.
-  const camH = Math.max(sx, sz) * 0.8;
-  const camD = Math.max(sx, sz) * 0.55;
-
   return (
     <Canvas
-      shadows
-      camera={{ position: [0, camH, camD], fov: 50 }}
+      camera={{ position: [sx * 0.4, 80, sz * 0.6], fov: 55 }}
       gl={{ antialias: true }}
     >
       <SceneContent
