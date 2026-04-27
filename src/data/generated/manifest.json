@@ -1,5 +1,11 @@
 {
-  "generatedAt": "2026-04-27T13:49:31.186Z",
+  "generatedAt": "2026-04-27T14:04:26.044Z",
   "source": "JEschete/PokopiaPlanning",
-  "note": "Stub manifest; real parsed data lands once parsers are implemented."
+  "pokemon": 305,
+  "habitats": 212,
+  "items": 1230,
+  "itemsByFavorite": 43,
+  "locations": 6,
+  "specialties": 31,
+  "houseGroups": 87
 }

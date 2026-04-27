@@ -1,0 +1,9719 @@
+[
+  {
+    "region": "witheredWasteland",
+    "habitatType": "Bright",
+    "number": 1,
+    "title": "The Fighters",
+    "pokemon": [
+      {
+        "number": 36,
+        "numberStr": "#036",
+        "name": "Hitmonchan",
+        "favorites": [
+          "Exercise",
+          "Group activities",
+          "Fabric",
+          "Stone stuff",
+          "Round stuff"
+        ]
+      },
+      {
+        "number": 35,
+        "numberStr": "#035",
+        "name": "Hitmonlee",
+        "favorites": [
+          "Exercise",
+          "Group activities",
+          "Fabric",
+          "Stone stuff",
+          "Round stuff"
+        ]
+      },
+      {
+        "number": 37,
+        "numberStr": "#037",
+        "name": "Hitmontop",
+        "favorites": [
+          "Exercise",
+          "Group activities",
+          "Fabric",
+          "Stone stuff",
+          "Round stuff"
+        ]
+      },
+      {
+        "number": 34,
+        "numberStr": "#034",
+        "name": "Tyrogue",
+        "favorites": [
+          "Exercise",
+          "Group activities",
+          "Fabric",
+          "Stone stuff",
+          "Round stuff"
+        ]
+      }
+    ],
+    "shared": [
+      "Exercise",
+      "Group activities",
+      "Fabric",
+      "Stone stuff",
+      "Round stuff"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Exercise",
+        "items": [
+          "Punching bag"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Iron bench"
+        ]
+      },
+      {
+        "favorite": "Fabric",
+        "items": [
+          "Substitute doll"
+        ]
+      },
+      {
+        "favorite": "Stone Stuff",
+        "items": [
+          "Strength rock",
+          "Stone bench"
+        ]
+      },
+      {
+        "favorite": "Round Stuff",
+        "items": [
+          "Wobbuffet Wobbler"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "witheredWasteland",
+    "habitatType": "Bright",
+    "number": 2,
+    "title": "The Nature Warriors",
+    "pokemon": [
+      {
+        "number": 50,
+        "numberStr": "#050",
+        "name": "Heracross",
+        "favorites": [
+          "Lots of nature",
+          "Wooden stuff",
+          "Pretty flowers",
+          "Looks like food",
+          "Exercise"
+        ]
+      },
+      {
+        "number": 44,
+        "numberStr": "#044",
+        "name": "Pinsir",
+        "favorites": [
+          "Lots of nature",
+          "Wooden stuff",
+          "Pretty flowers",
+          "Sharp stuff",
+          "Exercise"
+        ]
+      },
+      {
+        "number": 42,
+        "numberStr": "#042",
+        "name": "Scyther",
+        "favorites": [
+          "Lots of nature",
+          "Nice breezes",
+          "Wooden stuff",
+          "Sharp stuff",
+          "Exercise"
+        ]
+      },
+      {
+        "number": 140,
+        "numberStr": "#140",
+        "name": "Vikavolt",
+        "favorites": [
+          "Lots of nature",
+          "Electronics",
+          "Exercise",
+          "Glass stuff",
+          "Nice breezes"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of nature",
+      "Exercise",
+      "Wooden stuff"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Nature",
+        "items": [
+          "Log table",
+          "Garden bench"
+        ]
+      },
+      {
+        "favorite": "Exercise",
+        "items": [
+          "Punching bag"
+        ]
+      },
+      {
+        "favorite": "Wooden Stuff",
+        "items": [
+          "Log chair",
+          "Vine wall decoration"
+        ]
+      },
+      {
+        "favorite": "Pretty Flowers",
+        "items": [
+          "Wildflowers",
+          "Mountain flowers"
+        ]
+      },
+      {
+        "favorite": "Looks Like Food",
+        "items": [
+          "Berry basket"
+        ]
+      },
+      {
+        "favorite": "Sharp Stuff",
+        "items": [
+          "Vending machine"
+        ]
+      },
+      {
+        "favorite": "Nice Breezes",
+        "items": [
+          "Pinwheels"
+        ]
+      },
+      {
+        "favorite": "Electronics",
+        "items": [
+          "Utility pole"
+        ]
+      },
+      {
+        "favorite": "Glass Stuff",
+        "items": [
+          "Stained-glass window"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "witheredWasteland",
+    "habitatType": "Bright",
+    "number": 3,
+    "title": "The Hive",
+    "pokemon": [
+      {
+        "number": 57,
+        "numberStr": "#057",
+        "name": "Combee",
+        "favorites": [
+          "Lots of nature",
+          "Nice breezes",
+          "Wooden stuff",
+          "Gatherings",
+          "Group activities"
+        ]
+      },
+      {
+        "number": 58,
+        "numberStr": "#058",
+        "name": "Vespiquen",
+        "favorites": [
+          "Lots of nature",
+          "Nice breezes",
+          "Wooden stuff",
+          "Gatherings",
+          "Complicated stuff"
+        ]
+      },
+      {
+        "number": 20,
+        "numberStr": "#020",
+        "name": "Venomoth",
+        "favorites": [
+          "Lots of nature",
+          "Wooden stuff",
+          "Watching stuff",
+          "Nice breezes",
+          "Pretty flowers"
+        ]
+      },
+      {
+        "number": 19,
+        "numberStr": "#019",
+        "name": "Venonat",
+        "favorites": [
+          "Lots of nature",
+          "Wooden stuff",
+          "Watching stuff",
+          "Complicated stuff",
+          "Letters and words"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of nature",
+      "Wooden stuff",
+      "Nice breezes"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Nature",
+        "items": [
+          "Log table",
+          "Garden bench"
+        ]
+      },
+      {
+        "favorite": "Wooden Stuff",
+        "items": [
+          "Vine wall decoration",
+          "Mushroom lamp"
+        ]
+      },
+      {
+        "favorite": "Nice Breezes",
+        "items": [
+          "Fan"
+        ]
+      },
+      {
+        "favorite": "Gatherings",
+        "items": [
+          "Sandbags"
+        ]
+      },
+      {
+        "favorite": "Complicated Stuff",
+        "items": [
+          "Magazine rack"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Television"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Bonfire"
+        ]
+      },
+      {
+        "favorite": "Pretty Flowers",
+        "items": [
+          "Wildflowers"
+        ]
+      },
+      {
+        "favorite": "Letters and Words",
+        "items": [
+          "Open Book"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "witheredWasteland",
+    "habitatType": "Bright",
+    "number": 4,
+    "title": "The Garden",
+    "pokemon": [
+      {
+        "number": 1,
+        "numberStr": "#001",
+        "name": "Bulbasaur",
+        "favorites": [
+          "Lots of nature",
+          "Soft stuff",
+          "Cute stuff",
+          "Lots of water",
+          "Group activities"
+        ]
+      },
+      {
+        "number": 2,
+        "numberStr": "#002",
+        "name": "Ivysaur",
+        "favorites": [
+          "Lots of nature",
+          "Soft stuff",
+          "Cute stuff",
+          "Pretty flowers",
+          "Colorful stuff"
+        ]
+      },
+      {
+        "number": 3,
+        "numberStr": "#003",
+        "name": "Venusaur",
+        "favorites": [
+          "Lots of nature",
+          "Soft stuff",
+          "Cute stuff",
+          "Pretty flowers",
+          "Luxury"
+        ]
+      },
+      {
+        "number": 16,
+        "numberStr": "#016",
+        "name": "Bellossom",
+        "favorites": [
+          "Lots of nature",
+          "Pretty flowers",
+          "Play spaces",
+          "Cute stuff",
+          "Noisy stuff"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of nature",
+      "Cute stuff",
+      "Soft stuff",
+      "Pretty flowers"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Nature",
+        "items": [
+          "Garden table",
+          "Berry bed"
+        ]
+      },
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute bed",
+          "Cute flower"
+        ]
+      },
+      {
+        "favorite": "Soft Stuff",
+        "items": [
+          "Plain sofa"
+        ]
+      },
+      {
+        "favorite": "Pretty Flowers",
+        "items": [
+          "Beautiful flower",
+          "Wildflowers"
+        ]
+      },
+      {
+        "favorite": "Lots of Water",
+        "items": [
+          "Water basin",
+          "Horsea fountain"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Garden bench"
+        ]
+      },
+      {
+        "favorite": "Colorful Stuff",
+        "items": [
+          "Knitting supplies"
+        ]
+      },
+      {
+        "favorite": "Luxury",
+        "items": [
+          "Luxury bed"
+        ]
+      },
+      {
+        "favorite": "Play Spaces",
+        "items": [
+          "Tire toy"
+        ]
+      },
+      {
+        "favorite": "Noisy Stuff",
+        "items": [
+          "Clear Bell"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "witheredWasteland",
+    "habitatType": "Bright",
+    "number": 5,
+    "title": "The Flock",
+    "pokemon": [
+      {
+        "number": 10,
+        "numberStr": "#010",
+        "name": "Pidgey",
+        "favorites": [
+          "Soft stuff",
+          "Nice breezes",
+          "Watching stuff",
+          "Lots of nature",
+          "Play spaces"
+        ]
+      },
+      {
+        "number": 11,
+        "numberStr": "#011",
+        "name": "Pidgeotto",
+        "favorites": [
+          "Soft stuff",
+          "Nice breezes",
+          "Watching stuff",
+          "Lots of nature",
+          "Looks like food"
+        ]
+      },
+      {
+        "number": 12,
+        "numberStr": "#012",
+        "name": "Pidgeot",
+        "favorites": [
+          "Soft stuff",
+          "Nice breezes",
+          "Wooden stuff",
+          "Lots of nature",
+          "Luxury"
+        ]
+      }
+    ],
+    "shared": [
+      "Soft stuff",
+      "Nice breezes",
+      "Lots of nature"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Soft Stuff",
+        "items": [
+          "Straw bed",
+          "Plain sofa"
+        ]
+      },
+      {
+        "favorite": "Nice Breezes",
+        "items": [
+          "Ceiling fan"
+        ]
+      },
+      {
+        "favorite": "Lots of Nature",
+        "items": [
+          "Log Bed",
+          "Berry basket"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Painting (landscape)"
+        ]
+      },
+      {
+        "favorite": "Play Spaces",
+        "items": [
+          "Slide"
+        ]
+      },
+      {
+        "favorite": "Looks Like Food",
+        "items": [
+          "Berry basket"
+        ]
+      },
+      {
+        "favorite": "Wooden Stuff",
+        "items": [
+          "Arrow sign"
+        ]
+      },
+      {
+        "favorite": "Luxury",
+        "items": [
+          "Luxury bed"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "witheredWasteland",
+    "habitatType": "Bright",
+    "number": 6,
+    "title": "The Workshop",
+    "pokemon": [
+      {
+        "number": 66,
+        "numberStr": "#066",
+        "name": "Gurdurr",
+        "favorites": [
+          "Exercise",
+          "Construction",
+          "Metal stuff",
+          "Slender objects",
+          "Group activities"
+        ]
+      },
+      {
+        "number": 65,
+        "numberStr": "#065",
+        "name": "Timburr",
+        "favorites": [
+          "Exercise",
+          "Construction",
+          "Wooden stuff",
+          "Slender objects",
+          "Blocky stuff"
+        ]
+      },
+      {
+        "number": 67,
+        "numberStr": "#067",
+        "name": "Conkeldurr",
+        "favorites": [
+          "Exercise",
+          "Construction",
+          "Stone stuff",
+          "Slender objects",
+          "Group activities"
+        ]
+      },
+      {
+        "number": 27,
+        "numberStr": "#027",
+        "name": "Magnemite",
+        "favorites": [
+          "Electronics",
+          "Metal stuff",
+          "Shiny stuff",
+          "Hard stuff",
+          "Group activities"
+        ]
+      }
+    ],
+    "shared": [],
+    "suggestedItems": [
+      {
+        "favorite": "Exercise",
+        "items": [
+          "Punching bag"
+        ]
+      },
+      {
+        "favorite": "Construction",
+        "items": [
+          "Iron scaffold",
+          "Construction supplies"
+        ]
+      },
+      {
+        "favorite": "Slender Objects",
+        "items": [
+          "Rope",
+          "Town streetlight"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Industrial bench"
+        ]
+      },
+      {
+        "favorite": "Metal Stuff",
+        "items": [
+          "Iron pipes",
+          "Metal drum"
+        ]
+      },
+      {
+        "favorite": "Wooden Stuff",
+        "items": [
+          "Plain stand",
+          "Wooden crate"
+        ]
+      },
+      {
+        "favorite": "Blocky Stuff",
+        "items": [
+          "Polygonal Shelf"
+        ]
+      },
+      {
+        "favorite": "Stone Stuff",
+        "items": [
+          "Strength rock"
+        ]
+      },
+      {
+        "favorite": "Electronics",
+        "items": [
+          "Utility pole",
+          "Wall switch"
+        ]
+      },
+      {
+        "favorite": "Shiny Stuff",
+        "items": [
+          "Crystal fragment"
+        ]
+      },
+      {
+        "favorite": "Hard Stuff",
+        "items": [
+          "Iron stand"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "witheredWasteland",
+    "habitatType": "Dark",
+    "number": 7,
+    "title": "The Dragon Den",
+    "pokemon": [
+      {
+        "number": 71,
+        "numberStr": "#071",
+        "name": "Axew",
+        "favorites": [
+          "Lots of fire",
+          "Luxury",
+          "Lots of dirt",
+          "Hard stuff",
+          "Sharp stuff",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 72,
+        "numberStr": "#072",
+        "name": "Fraxure",
+        "favorites": [
+          "Lots of fire",
+          "Luxury",
+          "Lots of dirt",
+          "Exercise",
+          "Sharp stuff",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 73,
+        "numberStr": "#073",
+        "name": "Haxorus",
+        "favorites": [
+          "Lots of fire",
+          "Luxury",
+          "Lots of dirt",
+          "Exercise",
+          "Sharp stuff",
+          "Sour Flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of fire",
+      "Luxury",
+      "Lots of dirt",
+      "Sharp stuff"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Fire",
+        "items": [
+          "Bonfire",
+          "Firepit"
+        ]
+      },
+      {
+        "favorite": "Luxury",
+        "items": [
+          "Luxury lamp",
+          "Luxury bed"
+        ]
+      },
+      {
+        "favorite": "Lots of Dirt",
+        "items": [
+          "Sandbags"
+        ]
+      },
+      {
+        "favorite": "Hard Stuff",
+        "items": [
+          "Strength rock"
+        ]
+      },
+      {
+        "favorite": "Sharp Stuff",
+        "items": [
+          "Vending machine"
+        ]
+      },
+      {
+        "favorite": "Exercise",
+        "items": [
+          "Punching bag"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "witheredWasteland",
+    "habitatType": "Dark",
+    "number": 8,
+    "title": "The Night Watch",
+    "pokemon": [
+      {
+        "number": 63,
+        "numberStr": "#063",
+        "name": "Drilbur",
+        "favorites": [
+          "Lots of dirt",
+          "Strange stuff",
+          "Lots of nature",
+          "Watching stuff",
+          "Sharp stuff",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 64,
+        "numberStr": "#064",
+        "name": "Excadrill",
+        "favorites": [
+          "Lots of dirt",
+          "Metal stuff",
+          "Exercise",
+          "Watching stuff",
+          "Sharp stuff",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 48,
+        "numberStr": "#048",
+        "name": "Hoothoot",
+        "favorites": [
+          "Soft stuff",
+          "Nice breezes",
+          "Fabric",
+          "Wobbly stuff",
+          "Watching stuff",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 49,
+        "numberStr": "#049",
+        "name": "Noctowl",
+        "favorites": [
+          "Soft stuff",
+          "Nice breezes",
+          "Letters and words",
+          "Containers",
+          "Watching stuff",
+          "Dry flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Watching stuff"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Painting (landscape)",
+          "Television"
+        ]
+      },
+      {
+        "favorite": "Lots of Dirt",
+        "items": [
+          "Sandbags"
+        ]
+      },
+      {
+        "favorite": "Sharp Stuff",
+        "items": [
+          "Vending machine"
+        ]
+      },
+      {
+        "favorite": "Soft Stuff",
+        "items": [
+          "Straw bed",
+          "Plain sofa"
+        ]
+      },
+      {
+        "favorite": "Nice Breezes",
+        "items": [
+          "Ceiling fan",
+          "Pinwheels"
+        ]
+      },
+      {
+        "favorite": "Letters and Words",
+        "items": [
+          "Open Book"
+        ]
+      },
+      {
+        "favorite": "Containers",
+        "items": [
+          "Plain chest"
+        ]
+      },
+      {
+        "favorite": "Strange Stuff",
+        "items": [
+          "Repel"
+        ]
+      },
+      {
+        "favorite": "Lots of Nature",
+        "items": [
+          "Log table"
+        ]
+      },
+      {
+        "favorite": "Metal Stuff",
+        "items": [
+          "Iron bench"
+        ]
+      },
+      {
+        "favorite": "Exercise",
+        "items": [
+          "Punching bag"
+        ]
+      },
+      {
+        "favorite": "Fabric",
+        "items": [
+          "Fluff"
+        ]
+      },
+      {
+        "favorite": "Wobbly Stuff",
+        "items": [
+          "Resort hammock"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "witheredWasteland",
+    "habitatType": "Dark",
+    "number": 9,
+    "title": "The Fireflies",
+    "pokemon": [
+      {
+        "number": 51,
+        "numberStr": "#051",
+        "name": "Volbeat",
+        "favorites": [
+          "Lots of nature",
+          "Wooden stuff",
+          "Shiny stuff",
+          "Cute stuff",
+          "Group activities",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 52,
+        "numberStr": "#052",
+        "name": "Illumise",
+        "favorites": [
+          "Lots of nature",
+          "Wooden stuff",
+          "Shiny stuff",
+          "Cute stuff",
+          "Group activities",
+          "Sour Flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of nature",
+      "Wooden stuff",
+      "Shiny stuff",
+      "Cute stuff",
+      "Group activities"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Nature",
+        "items": [
+          "Garden table",
+          "Berry bed"
+        ]
+      },
+      {
+        "favorite": "Wooden Stuff",
+        "items": [
+          "Vine wall decoration",
+          "Mushroom lamp"
+        ]
+      },
+      {
+        "favorite": "Shiny Stuff",
+        "items": [
+          "Yellow meteor lamp"
+        ]
+      },
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute lamp"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Garden bench"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "witheredWasteland",
+    "habitatType": "Dry",
+    "number": 10,
+    "title": "The Bone Crew",
+    "pokemon": [
+      {
+        "number": 32,
+        "numberStr": "#032",
+        "name": "Cubone",
+        "favorites": [
+          "Lots of dirt",
+          "Construction",
+          "Exercise",
+          "Slender objects",
+          "Group activities",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 33,
+        "numberStr": "#033",
+        "name": "Marowak",
+        "favorites": [
+          "Lots of dirt",
+          "Construction",
+          "Exercise",
+          "Slender objects",
+          "Luxury",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 30,
+        "numberStr": "#030",
+        "name": "Onix",
+        "favorites": [
+          "Stone stuff",
+          "Lots of dirt",
+          "Blocky stuff",
+          "Slender objects",
+          "Exercise",
+          "Dry flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of dirt",
+      "Exercise",
+      "Slender objects"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Dirt",
+        "items": [
+          "Sandbags"
+        ]
+      },
+      {
+        "favorite": "Construction",
+        "items": [
+          "Wheelbarrow",
+          "Iron scaffold"
+        ]
+      },
+      {
+        "favorite": "Exercise",
+        "items": [
+          "Punching bag"
+        ]
+      },
+      {
+        "favorite": "Slender Objects",
+        "items": [
+          "Rope"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Bonfire"
+        ]
+      },
+      {
+        "favorite": "Luxury",
+        "items": [
+          "Luxury lamp"
+        ]
+      },
+      {
+        "favorite": "Stone Stuff",
+        "items": [
+          "Strength rock",
+          "Stone bench"
+        ]
+      },
+      {
+        "favorite": "Blocky Stuff",
+        "items": [
+          "Worn wooden crate"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "witheredWasteland",
+    "habitatType": "Dry",
+    "number": 11,
+    "title": "The Cacti",
+    "pokemon": [
+      {
+        "number": 55,
+        "numberStr": "#055",
+        "name": "Cacnea",
+        "favorites": [
+          "Lots of nature",
+          "Pretty flowers",
+          "Cute stuff",
+          "Round stuff",
+          "Sharp stuff",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 56,
+        "numberStr": "#056",
+        "name": "Cacturne",
+        "favorites": [
+          "Lots of nature",
+          "Nice breezes",
+          "Luxury",
+          "Shiny stuff",
+          "Sharp stuff",
+          "Dry flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of nature",
+      "Sharp stuff"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Nature",
+        "items": [
+          "Garden table"
+        ]
+      },
+      {
+        "favorite": "Pretty Flowers",
+        "items": [
+          "Mountain flowers"
+        ]
+      },
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute flower"
+        ]
+      },
+      {
+        "favorite": "Round Stuff",
+        "items": [
+          "Crystal ball"
+        ]
+      },
+      {
+        "favorite": "Sharp Stuff",
+        "items": [
+          "Vending machine"
+        ]
+      },
+      {
+        "favorite": "Nice Breezes",
+        "items": [
+          "Pinwheels"
+        ]
+      },
+      {
+        "favorite": "Luxury",
+        "items": [
+          "Luxury lamp"
+        ]
+      },
+      {
+        "favorite": "Shiny Stuff",
+        "items": [
+          "Crystal fragment"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "witheredWasteland",
+    "habitatType": "Humid",
+    "number": 12,
+    "title": "The Flower Patch",
+    "pokemon": [
+      {
+        "number": 13,
+        "numberStr": "#013",
+        "name": "Oddish",
+        "favorites": [
+          "Lots of nature",
+          "Lots of dirt",
+          "Soft stuff",
+          "Pretty flowers",
+          "Lots of water",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 15,
+        "numberStr": "#015",
+        "name": "Vileplume",
+        "favorites": [
+          "Lots of nature",
+          "Lots of dirt",
+          "Soft stuff",
+          "Pretty flowers",
+          "Colorful stuff",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 22,
+        "numberStr": "#022",
+        "name": "Weepinbell",
+        "favorites": [
+          "Lots of nature",
+          "Wooden stuff",
+          "Lots of dirt",
+          "Colorful stuff",
+          "Pretty flowers",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 23,
+        "numberStr": "#023",
+        "name": "Victreebel",
+        "favorites": [
+          "Lots of nature",
+          "Wooden stuff",
+          "Lots of dirt",
+          "Colorful stuff",
+          "Pretty flowers",
+          "Bitter flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of nature",
+      "Lots of dirt",
+      "Pretty flowers",
+      "Bitter flavors"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Nature",
+        "items": [
+          "Garden table",
+          "Berry bed"
+        ]
+      },
+      {
+        "favorite": "Lots of Dirt",
+        "items": [
+          "Sandbags"
+        ]
+      },
+      {
+        "favorite": "Soft Stuff",
+        "items": [
+          "Plain sofa"
+        ]
+      },
+      {
+        "favorite": "Pretty Flowers",
+        "items": [
+          "Wildflowers",
+          "Beautiful flower"
+        ]
+      },
+      {
+        "favorite": "Lots of Water",
+        "items": [
+          "Water basin",
+          "Horsea fountain"
+        ]
+      },
+      {
+        "favorite": "Colorful Stuff",
+        "items": [
+          "Pink paint",
+          "Green paint"
+        ]
+      },
+      {
+        "favorite": "Wooden Stuff",
+        "items": [
+          "Vine wall decoration",
+          "Mushroom lamp"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "witheredWasteland",
+    "habitatType": "Humid",
+    "number": 13,
+    "title": "The Undergrowth",
+    "pokemon": [
+      {
+        "number": 21,
+        "numberStr": "#021",
+        "name": "Bellsprout",
+        "favorites": [
+          "Lots of nature",
+          "Wooden stuff",
+          "Lots of dirt",
+          "Lots of water",
+          "Pretty flowers",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 17,
+        "numberStr": "#017",
+        "name": "Paras",
+        "favorites": [
+          "Lots of nature",
+          "Wooden stuff",
+          "Watching stuff",
+          "Lots of dirt",
+          "Looks like food",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 18,
+        "numberStr": "#018",
+        "name": "Parasect",
+        "favorites": [
+          "Lots of nature",
+          "Wooden stuff",
+          "Watching stuff",
+          "Lots of dirt",
+          "Strange stuff",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 41,
+        "numberStr": "#041",
+        "name": "Tangrowth",
+        "favorites": [
+          "Lots of nature",
+          "Lots of water",
+          "Gatherings",
+          "Pretty flowers",
+          "Watching stuff",
+          "Bitter flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of nature"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Nature",
+        "items": [
+          "Log table",
+          "Garden bench"
+        ]
+      },
+      {
+        "favorite": "Wooden Stuff",
+        "items": [
+          "Mushroom lamp",
+          "Vine wall decoration"
+        ]
+      },
+      {
+        "favorite": "Lots of Dirt",
+        "items": [
+          "Sandbags"
+        ]
+      },
+      {
+        "favorite": "Lots of Water",
+        "items": [
+          "Water basin"
+        ]
+      },
+      {
+        "favorite": "Pretty Flowers",
+        "items": [
+          "Wildflowers"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Painting (landscape)"
+        ]
+      },
+      {
+        "favorite": "Looks Like Food",
+        "items": [
+          "Berry basket"
+        ]
+      },
+      {
+        "favorite": "Strange Stuff",
+        "items": [
+          "Large Lost Relic"
+        ]
+      },
+      {
+        "favorite": "Gatherings",
+        "items": [
+          "Sandbags"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "witheredWasteland",
+    "habitatType": "Humid",
+    "number": 14,
+    "title": "The Tidal Pools",
+    "pokemon": [
+      {
+        "number": 59,
+        "numberStr": "#059",
+        "name": "Shellos",
+        "favorites": [
+          "Lots of water",
+          "Ocean vibes",
+          "Cleanliness",
+          "Colorful stuff",
+          "Containers",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 59,
+        "numberStr": "#059",
+        "name": "Shellos East Sea",
+        "favorites": [
+          "Lots of water",
+          "Ocean vibes",
+          "Cleanliness",
+          "Colorful stuff",
+          "Containers",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 60,
+        "numberStr": "#060",
+        "name": "Gastrodon",
+        "favorites": [
+          "Lots of water",
+          "Lots of dirt",
+          "Ocean vibes",
+          "Cleanliness",
+          "Containers",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 60,
+        "numberStr": "#060",
+        "name": "Gastrodon East Sea",
+        "favorites": [
+          "Lots of water",
+          "Lots of dirt",
+          "Ocean vibes",
+          "Cleanliness",
+          "Containers",
+          "Dry flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of water",
+      "Ocean vibes",
+      "Cleanliness",
+      "Containers"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Water",
+        "items": [
+          "Water basin"
+        ]
+      },
+      {
+        "favorite": "Ocean Vibes",
+        "items": [
+          "Deck chair",
+          "Beach parasol"
+        ]
+      },
+      {
+        "favorite": "Cleanliness",
+        "items": [
+          "Shower"
+        ]
+      },
+      {
+        "favorite": "Colorful Stuff",
+        "items": [
+          "Paint balloon (pink)",
+          "Paint balloon (blue)"
+        ]
+      },
+      {
+        "favorite": "Containers",
+        "items": [
+          "Berry case"
+        ]
+      },
+      {
+        "favorite": "Lots of Dirt",
+        "items": [
+          "Sandbags"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "witheredWasteland",
+    "habitatType": "Humid",
+    "number": 15,
+    "title": "The Goo Gang",
+    "pokemon": [
+      {
+        "number": 74,
+        "numberStr": "#074",
+        "name": "Goomy",
+        "favorites": [
+          "Lots of water",
+          "Luxury",
+          "Lots of nature",
+          "Cleanliness",
+          "Healing",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 75,
+        "numberStr": "#075",
+        "name": "Sliggoo",
+        "favorites": [
+          "Lots of water",
+          "Luxury",
+          "Soft stuff",
+          "Cleanliness",
+          "Healing",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 76,
+        "numberStr": "#076",
+        "name": "Goodra",
+        "favorites": [
+          "Lots of water",
+          "Luxury",
+          "Exercise",
+          "Cleanliness",
+          "Healing",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 9,
+        "numberStr": "#009",
+        "name": "Blastoise",
+        "favorites": [
+          "Lots of water",
+          "Cleanliness",
+          "Healing",
+          "Exercise",
+          "Luxury",
+          "Sour Flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of water",
+      "Cleanliness",
+      "Healing"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Water",
+        "items": [
+          "Water basin",
+          "Horsea fountain"
+        ]
+      },
+      {
+        "favorite": "Luxury",
+        "items": [
+          "Luxury bed",
+          "Luxury lamp"
+        ]
+      },
+      {
+        "favorite": "Lots of Nature",
+        "items": [
+          "Garden bench"
+        ]
+      },
+      {
+        "favorite": "Cleanliness",
+        "items": [
+          "Bathtub",
+          "Shower"
+        ]
+      },
+      {
+        "favorite": "Healing",
+        "items": [
+          "First aid kit"
+        ]
+      },
+      {
+        "favorite": "Soft Stuff",
+        "items": [
+          "Plain sofa"
+        ]
+      },
+      {
+        "favorite": "Exercise",
+        "items": [
+          "Punching bag"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "witheredWasteland",
+    "habitatType": "Humid",
+    "number": 16,
+    "title": "The Zen Pond",
+    "pokemon": [
+      {
+        "number": 24,
+        "numberStr": "#024",
+        "name": "Slowpoke",
+        "favorites": [
+          "Lots of water",
+          "Cleanliness",
+          "Strange stuff",
+          "Soft stuff",
+          "Healing",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 25,
+        "numberStr": "#025",
+        "name": "Slowbro",
+        "favorites": [
+          "Lots of water",
+          "Cleanliness",
+          "Strange stuff",
+          "Group activities",
+          "Healing",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 26,
+        "numberStr": "#026",
+        "name": "Slowking",
+        "favorites": [
+          "Lots of water",
+          "Cleanliness",
+          "Strange stuff",
+          "Group activities",
+          "Healing",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 45,
+        "numberStr": "#045",
+        "name": "Magikarp",
+        "favorites": [
+          "Lots of water",
+          "Ocean vibes",
+          "Group activities",
+          "Rides",
+          "Wobbly stuff",
+          "Sweet Flavors"
+        ]
+      }
+    ],
+    "shared": [],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Water",
+        "items": [
+          "Water basin"
+        ]
+      },
+      {
+        "favorite": "Cleanliness",
+        "items": [
+          "Bathtub"
+        ]
+      },
+      {
+        "favorite": "Strange Stuff",
+        "items": [
+          "Large Lost Relic"
+        ]
+      },
+      {
+        "favorite": "Soft Stuff",
+        "items": [
+          "Plain sofa"
+        ]
+      },
+      {
+        "favorite": "Healing",
+        "items": [
+          "First aid kit"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Inflatable boat"
+        ]
+      },
+      {
+        "favorite": "Ocean Vibes",
+        "items": [
+          "Beach chair"
+        ]
+      },
+      {
+        "favorite": "Rides",
+        "items": [
+          "Handcar"
+        ]
+      },
+      {
+        "favorite": "Wobbly Stuff",
+        "items": [
+          "Resort hammock"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "witheredWasteland",
+    "habitatType": "Humid",
+    "number": 17,
+    "title": "The Oddballs",
+    "pokemon": [
+      {
+        "number": 7,
+        "numberStr": "#007",
+        "name": "Squirtle",
+        "favorites": [
+          "Lots of water",
+          "Cleanliness",
+          "Healing",
+          "Cute stuff",
+          "Group Activities",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 8,
+        "numberStr": "#008",
+        "name": "Wartortle",
+        "favorites": [
+          "Lots of water",
+          "Cleanliness",
+          "Healing",
+          "Exercise",
+          "Hard stuff",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 53,
+        "numberStr": "#053",
+        "name": "Gulpin",
+        "favorites": [
+          "Cute stuff",
+          "Looks like food",
+          "Round stuff",
+          "Containers",
+          "Colorful stuff",
+          "Spicy flavors"
+        ]
+      }
+    ],
+    "shared": [],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Water",
+        "items": [
+          "Water basin"
+        ]
+      },
+      {
+        "favorite": "Cleanliness",
+        "items": [
+          "Shower"
+        ]
+      },
+      {
+        "favorite": "Healing",
+        "items": [
+          "First aid kit"
+        ]
+      },
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute flower",
+          "Cute lamp"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Picnic basket"
+        ]
+      },
+      {
+        "favorite": "Exercise",
+        "items": [
+          "Punching bag"
+        ]
+      },
+      {
+        "favorite": "Hard Stuff",
+        "items": [
+          "Strength rock"
+        ]
+      },
+      {
+        "favorite": "Looks Like Food",
+        "items": [
+          "Berry basket",
+          "Berry table"
+        ]
+      },
+      {
+        "favorite": "Round Stuff",
+        "items": [
+          "Berry clock"
+        ]
+      },
+      {
+        "favorite": "Containers",
+        "items": [
+          "Berry case"
+        ]
+      },
+      {
+        "favorite": "Colorful Stuff",
+        "items": [
+          "Paint balloon (green)"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "witheredWasteland",
+    "habitatType": "Warm",
+    "number": 18,
+    "title": "The Inferno",
+    "pokemon": [
+      {
+        "number": 6,
+        "numberStr": "#006",
+        "name": "Charizard",
+        "favorites": [
+          "Lots of fire",
+          "Nice breezes",
+          "Wooden stuff",
+          "Exercise",
+          "Luxury",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 4,
+        "numberStr": "#004",
+        "name": "Charmander",
+        "favorites": [
+          "Lots of fire",
+          "Wooden stuff",
+          "Hard stuff",
+          "Exercise",
+          "Group activities",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 5,
+        "numberStr": "#005",
+        "name": "Charmeleon",
+        "favorites": [
+          "Lots of fire",
+          "Wooden stuff",
+          "Hard stuff",
+          "Exercise",
+          "Rides",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 162,
+        "numberStr": "#162",
+        "name": "Magby",
+        "favorites": [
+          "Lots of fire",
+          "Stone stuff",
+          "Watching stuff",
+          "Cute stuff",
+          "Wobbly stuff",
+          "Sweet Flavors"
+        ]
+      }
+    ],
+    "shared": [],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Fire",
+        "items": [
+          "Bonfire",
+          "Firepit"
+        ]
+      },
+      {
+        "favorite": "Nice Breezes",
+        "items": [
+          "Ceiling fan"
+        ]
+      },
+      {
+        "favorite": "Wooden Stuff",
+        "items": [
+          "Log table",
+          "Wooden crate"
+        ]
+      },
+      {
+        "favorite": "Exercise",
+        "items": [
+          "Punching bag"
+        ]
+      },
+      {
+        "favorite": "Luxury",
+        "items": [
+          "Luxury lamp"
+        ]
+      },
+      {
+        "favorite": "Hard Stuff",
+        "items": [
+          "Strength rock"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Industrial bench"
+        ]
+      },
+      {
+        "favorite": "Rides",
+        "items": [
+          "Handcar"
+        ]
+      },
+      {
+        "favorite": "Stone Stuff",
+        "items": [
+          "Fiery Magby statue"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Pinwheels"
+        ]
+      },
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute lamp"
+        ]
+      },
+      {
+        "favorite": "Wobbly Stuff",
+        "items": [
+          "Wobbuffet Wobbler"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "witheredWasteland",
+    "habitatType": "Warm",
+    "number": 19,
+    "title": "The Haunted Lanterns",
+    "pokemon": [
+      {
+        "number": 70,
+        "numberStr": "#070",
+        "name": "Chandelure",
+        "favorites": [
+          "Spooky stuff",
+          "Strange stuff",
+          "Lots of fire",
+          "Wobbly stuff",
+          "Watching stuff",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 61,
+        "numberStr": "#061",
+        "name": "Drifloon",
+        "favorites": [
+          "Spooky stuff",
+          "Strange stuff",
+          "Nice breezes",
+          "Cute stuff",
+          "Round stuff",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 69,
+        "numberStr": "#069",
+        "name": "Lampent",
+        "favorites": [
+          "Spooky stuff",
+          "Strange stuff",
+          "Lots of fire",
+          "Wobbly stuff",
+          "Containers",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 68,
+        "numberStr": "#068",
+        "name": "Litwick",
+        "favorites": [
+          "Spooky stuff",
+          "Strange stuff",
+          "Lots of fire",
+          "Wobbly stuff",
+          "Blocky stuff",
+          "Bitter flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Spooky stuff",
+      "Strange stuff"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Spooky Stuff",
+        "items": [
+          "Gravestone",
+          "Eerie candle"
+        ]
+      },
+      {
+        "favorite": "Strange Stuff",
+        "items": [
+          "Repel"
+        ]
+      },
+      {
+        "favorite": "Lots of Fire",
+        "items": [
+          "Slender candle"
+        ]
+      },
+      {
+        "favorite": "Wobbly Stuff",
+        "items": [
+          "Wobbuffet Wobbler"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Painting (portrait)"
+        ]
+      },
+      {
+        "favorite": "Nice Breezes",
+        "items": [
+          "Pinwheels"
+        ]
+      },
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute lamp"
+        ]
+      },
+      {
+        "favorite": "Round Stuff",
+        "items": [
+          "Crystal ball"
+        ]
+      },
+      {
+        "favorite": "Containers",
+        "items": [
+          "Wall storage box"
+        ]
+      },
+      {
+        "favorite": "Blocky Stuff",
+        "items": [
+          "Wooden crate"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "bleakBeach",
+    "habitatType": "Bright",
+    "number": 20,
+    "title": "The Healers",
+    "pokemon": [
+      {
+        "number": 101,
+        "numberStr": "#101",
+        "name": "Chansey",
+        "favorites": [
+          "Soft stuff",
+          "Fabric",
+          "Healing",
+          "Round stuff",
+          "Group activities",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 102,
+        "numberStr": "#102",
+        "name": "Blissey",
+        "favorites": [
+          "Soft stuff",
+          "Fabric",
+          "Healing",
+          "Round stuff",
+          "Group activities",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 100,
+        "numberStr": "#100",
+        "name": "Happiny",
+        "favorites": [
+          "Soft stuff",
+          "Fabric",
+          "Healing",
+          "Round stuff",
+          "Containers",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 131,
+        "numberStr": "#131",
+        "name": "Audino",
+        "favorites": [
+          "Soft stuff",
+          "Fabric",
+          "Healing",
+          "Cute stuff",
+          "Round stuff",
+          "Bitter flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Soft stuff",
+      "Fabric",
+      "Healing",
+      "Round stuff"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Soft Stuff",
+        "items": [
+          "Plain sofa"
+        ]
+      },
+      {
+        "favorite": "Fabric",
+        "items": [
+          "Fluff"
+        ]
+      },
+      {
+        "favorite": "Healing",
+        "items": [
+          "First aid kit"
+        ]
+      },
+      {
+        "favorite": "Round Stuff",
+        "items": [
+          "Munna bank"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Garden bench"
+        ]
+      },
+      {
+        "favorite": "Containers",
+        "items": [
+          "Plain chest"
+        ]
+      },
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute lamp"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "bleakBeach",
+    "habitatType": "Bright",
+    "number": 21,
+    "title": "The Fluffy Four",
+    "pokemon": [
+      {
+        "number": 137,
+        "numberStr": "#137",
+        "name": "Cinccino",
+        "favorites": [
+          "Soft stuff",
+          "Fabric",
+          "Rides",
+          "Cute stuff",
+          "Cleanliness",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 136,
+        "numberStr": "#136",
+        "name": "Minccino",
+        "favorites": [
+          "Soft stuff",
+          "Fabric",
+          "Rides",
+          "Cute stuff",
+          "Cleanliness",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 108,
+        "numberStr": "#108",
+        "name": "Mosslax",
+        "favorites": [
+          "Soft stuff",
+          "Fabric",
+          "Looks like food",
+          "Watching stuff",
+          "Strange stuff",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 119,
+        "numberStr": "#119",
+        "name": "Smeargle",
+        "favorites": [
+          "Soft stuff",
+          "Fabric",
+          "Strange stuff",
+          "Colorful stuff",
+          "Shiny stuff",
+          "Dry flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Soft stuff",
+      "Fabric"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Soft Stuff",
+        "items": [
+          "Plain sofa",
+          "Resort hammock"
+        ]
+      },
+      {
+        "favorite": "Fabric",
+        "items": [
+          "Fluff"
+        ]
+      },
+      {
+        "favorite": "Rides",
+        "items": [
+          "Handcar"
+        ]
+      },
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute lamp"
+        ]
+      },
+      {
+        "favorite": "Cleanliness",
+        "items": [
+          "Bathtime set"
+        ]
+      },
+      {
+        "favorite": "Looks Like Food",
+        "items": [
+          "Berry basket"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Painting (landscape)"
+        ]
+      },
+      {
+        "favorite": "Strange Stuff",
+        "items": [
+          "CD rack"
+        ]
+      },
+      {
+        "favorite": "Colorful Stuff",
+        "items": [
+          "Knitting supplies"
+        ]
+      },
+      {
+        "favorite": "Shiny Stuff",
+        "items": [
+          "Crystal fragment"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "bleakBeach",
+    "habitatType": "Bright",
+    "number": 22,
+    "title": "The Sheep & Paw",
+    "pokemon": [
+      {
+        "number": 111,
+        "numberStr": "#111",
+        "name": "Mareep",
+        "favorites": [
+          "Electronics",
+          "Shiny stuff",
+          "Glass stuff",
+          "Cute stuff",
+          "Fabric",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 112,
+        "numberStr": "#112",
+        "name": "Flaaffy",
+        "favorites": [
+          "Electronics",
+          "Shiny stuff",
+          "Glass stuff",
+          "Cute stuff",
+          "Rides",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 113,
+        "numberStr": "#113",
+        "name": "Ampharos",
+        "favorites": [
+          "Electronics",
+          "Shiny stuff",
+          "Glass stuff",
+          "Cute stuff",
+          "Pretty flowers",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 142,
+        "numberStr": "#142",
+        "name": "Pawmi",
+        "favorites": [
+          "Electronics",
+          "Shiny stuff",
+          "Cute stuff",
+          "Glass stuff",
+          "Group activities",
+          "Sweet Flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Electronics",
+      "Shiny stuff",
+      "Glass stuff",
+      "Cute stuff"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Electronics",
+        "items": [
+          "Gaming PC",
+          "Wall monitor"
+        ]
+      },
+      {
+        "favorite": "Shiny Stuff",
+        "items": [
+          "Yellow meteor lamp"
+        ]
+      },
+      {
+        "favorite": "Glass Stuff",
+        "items": [
+          "Stained-glass window"
+        ]
+      },
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute lamp"
+        ]
+      },
+      {
+        "favorite": "Fabric",
+        "items": [
+          "Fluff"
+        ]
+      },
+      {
+        "favorite": "Rides",
+        "items": [
+          "Handcar"
+        ]
+      },
+      {
+        "favorite": "Pretty Flowers",
+        "items": [
+          "Beautiful flower"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Pikachu sofa"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "bleakBeach",
+    "habitatType": "Bright",
+    "number": 23,
+    "title": "The Shockers",
+    "pokemon": [
+      {
+        "number": 143,
+        "numberStr": "#143",
+        "name": "Pawmo",
+        "favorites": [
+          "Electronics",
+          "Shiny stuff",
+          "Exercise",
+          "Glass stuff",
+          "Group activities",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 144,
+        "numberStr": "#144",
+        "name": "Pawmot",
+        "favorites": [
+          "Electronics",
+          "Shiny stuff",
+          "Exercise",
+          "Healing",
+          "Group activities",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 104,
+        "numberStr": "#104",
+        "name": "Electabuzz",
+        "favorites": [
+          "Electronics",
+          "Glass stuff",
+          "Lots of fire",
+          "Sharp stuff",
+          "Exercise",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 105,
+        "numberStr": "#105",
+        "name": "Electivire",
+        "favorites": [
+          "Electronics",
+          "Glass stuff",
+          "Lots of fire",
+          "Hard stuff",
+          "Exercise",
+          "Sour Flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Electronics",
+      "Exercise"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Electronics",
+        "items": [
+          "Arcade machine",
+          "Utility pole"
+        ]
+      },
+      {
+        "favorite": "Shiny Stuff",
+        "items": [
+          "Red meteor lamp"
+        ]
+      },
+      {
+        "favorite": "Exercise",
+        "items": [
+          "Punching bag"
+        ]
+      },
+      {
+        "favorite": "Glass Stuff",
+        "items": [
+          "Glass window"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Iron bench"
+        ]
+      },
+      {
+        "favorite": "Healing",
+        "items": [
+          "First aid kit"
+        ]
+      },
+      {
+        "favorite": "Lots of Fire",
+        "items": [
+          "Firepit"
+        ]
+      },
+      {
+        "favorite": "Sharp Stuff",
+        "items": [
+          "Vending machine"
+        ]
+      },
+      {
+        "favorite": "Hard Stuff",
+        "items": [
+          "Iron stand"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "bleakBeach",
+    "habitatType": "Bright",
+    "number": 24,
+    "title": "The Nature Watchers",
+    "pokemon": [
+      {
+        "number": 98,
+        "numberStr": "#098",
+        "name": "Exeggcute",
+        "favorites": [
+          "Lots of nature",
+          "Strange stuff",
+          "Gatherings",
+          "Watching stuff",
+          "Group activities",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 99,
+        "numberStr": "#099",
+        "name": "Exeggutor",
+        "favorites": [
+          "Lots of nature",
+          "Strange stuff",
+          "Gatherings",
+          "Watching stuff",
+          "Wooden stuff",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 139,
+        "numberStr": "#139",
+        "name": "Charjabug",
+        "favorites": [
+          "Lots of nature",
+          "Electronics",
+          "Watching stuff",
+          "Glass stuff",
+          "Blocky stuff",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 138,
+        "numberStr": "#138",
+        "name": "Grubbin",
+        "favorites": [
+          "Lots of nature",
+          "Electronics",
+          "Watching stuff",
+          "Lots of dirt",
+          "Containers",
+          "Dry flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of nature",
+      "Watching stuff"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Nature",
+        "items": [
+          "Garden bench",
+          "Log table"
+        ]
+      },
+      {
+        "favorite": "Strange Stuff",
+        "items": [
+          "Large Lost Relic"
+        ]
+      },
+      {
+        "favorite": "Gatherings",
+        "items": [
+          "Sandbags"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Television"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Bonfire"
+        ]
+      },
+      {
+        "favorite": "Wooden Stuff",
+        "items": [
+          "Vine wall decoration"
+        ]
+      },
+      {
+        "favorite": "Electronics",
+        "items": [
+          "Security camera"
+        ]
+      },
+      {
+        "favorite": "Glass Stuff",
+        "items": [
+          "Glass window"
+        ]
+      },
+      {
+        "favorite": "Blocky Stuff",
+        "items": [
+          "Polygonal Shelf"
+        ]
+      },
+      {
+        "favorite": "Lots of Dirt",
+        "items": [
+          "Sandbags"
+        ]
+      },
+      {
+        "favorite": "Containers",
+        "items": [
+          "Storage box"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "bleakBeach",
+    "habitatType": "Bright",
+    "number": 25,
+    "title": "The Ball Boys",
+    "pokemon": [
+      {
+        "number": 96,
+        "numberStr": "#096",
+        "name": "Voltorb",
+        "favorites": [
+          "Electronics",
+          "Shiny stuff",
+          "Round stuff",
+          "Colorful stuff",
+          "Spinning stuff",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 97,
+        "numberStr": "#097",
+        "name": "Electrode",
+        "favorites": [
+          "Electronics",
+          "Shiny stuff",
+          "Round stuff",
+          "Play spaces",
+          "Spinning stuff",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 103,
+        "numberStr": "#103",
+        "name": "Elekid",
+        "favorites": [
+          "Electronics",
+          "Glass stuff",
+          "Cute stuff",
+          "Round stuff",
+          "Spinning stuff",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 79,
+        "numberStr": "#079",
+        "name": "Peakychu",
+        "favorites": [
+          "Electronics",
+          "Glass stuff",
+          "Cute stuff",
+          "Healing",
+          "Letters and words",
+          "Sweet Flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Electronics"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Electronics",
+        "items": [
+          "Arcade machine"
+        ]
+      },
+      {
+        "favorite": "Shiny Stuff",
+        "items": [
+          "Crystal fragment"
+        ]
+      },
+      {
+        "favorite": "Round Stuff",
+        "items": [
+          "Balloons",
+          "Berry clock"
+        ]
+      },
+      {
+        "favorite": "Colorful Stuff",
+        "items": [
+          "Paint balloon (yellow)"
+        ]
+      },
+      {
+        "favorite": "Spinning Stuff",
+        "items": [
+          "Pinwheel"
+        ]
+      },
+      {
+        "favorite": "Play Spaces",
+        "items": [
+          "Tire toy"
+        ]
+      },
+      {
+        "favorite": "Glass Stuff",
+        "items": [
+          "Window pane"
+        ]
+      },
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute lamp"
+        ]
+      },
+      {
+        "favorite": "Healing",
+        "items": [
+          "First aid kit"
+        ]
+      },
+      {
+        "favorite": "Letters and Words",
+        "items": [
+          "Notepad"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "bleakBeach",
+    "habitatType": "Bright",
+    "number": 26,
+    "title": "The Odd Couple",
+    "pokemon": [
+      {
+        "number": 126,
+        "numberStr": "#126",
+        "name": "Hariyama",
+        "favorites": [
+          "Exercise",
+          "Construction",
+          "Fabric",
+          "Round stuff",
+          "Rides",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 125,
+        "numberStr": "#125",
+        "name": "Makuhita",
+        "favorites": [
+          "Exercise",
+          "Construction",
+          "Fabric",
+          "Round stuff",
+          "Wooden stuff",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 28,
+        "numberStr": "#028",
+        "name": "Magneton",
+        "favorites": [
+          "Electronics",
+          "Metal stuff",
+          "Shiny stuff",
+          "Gatherings",
+          "Group activities",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 29,
+        "numberStr": "#029",
+        "name": "Magnezone",
+        "favorites": [
+          "Electronics",
+          "Metal stuff",
+          "Luxury",
+          "Gatherings",
+          "Hard stuff",
+          "Bitter flavors"
+        ]
+      }
+    ],
+    "shared": [],
+    "suggestedItems": [
+      {
+        "favorite": "Exercise",
+        "items": [
+          "Punching bag"
+        ]
+      },
+      {
+        "favorite": "Construction",
+        "items": [
+          "Iron scaffold"
+        ]
+      },
+      {
+        "favorite": "Fabric",
+        "items": [
+          "Fluff"
+        ]
+      },
+      {
+        "favorite": "Round Stuff",
+        "items": [
+          "Balloons"
+        ]
+      },
+      {
+        "favorite": "Rides",
+        "items": [
+          "Handcar"
+        ]
+      },
+      {
+        "favorite": "Wooden Stuff",
+        "items": [
+          "Log chair"
+        ]
+      },
+      {
+        "favorite": "Electronics",
+        "items": [
+          "Utility pole"
+        ]
+      },
+      {
+        "favorite": "Metal Stuff",
+        "items": [
+          "Iron pipes"
+        ]
+      },
+      {
+        "favorite": "Shiny Stuff",
+        "items": [
+          "Crystal fragment"
+        ]
+      },
+      {
+        "favorite": "Gatherings",
+        "items": [
+          "Sandbags"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Iron bench"
+        ]
+      },
+      {
+        "favorite": "Luxury",
+        "items": [
+          "Luxury lamp"
+        ]
+      },
+      {
+        "favorite": "Hard Stuff",
+        "items": [
+          "Iron stand"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "bleakBeach",
+    "habitatType": "Cool",
+    "number": 27,
+    "title": "The Cat Duo",
+    "pokemon": [
+      {
+        "number": 84,
+        "numberStr": "#084",
+        "name": "Meowth",
+        "favorites": [
+          "Containers",
+          "Group activities",
+          "Shiny stuff",
+          "Glass stuff",
+          "Luxury",
+          "Spicy Flavors"
+        ]
+      },
+      {
+        "number": 85,
+        "numberStr": "#085",
+        "name": "Persian",
+        "favorites": [
+          "Containers",
+          "Group activities",
+          "Shiny stuff",
+          "Watching stuff",
+          "Luxury",
+          "Sour Flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Containers",
+      "Group activities",
+      "Shiny stuff",
+      "Luxury"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Containers",
+        "items": [
+          "Poké Ball Chest"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Chic sofa"
+        ]
+      },
+      {
+        "favorite": "Shiny Stuff",
+        "items": [
+          "Big Nugget"
+        ]
+      },
+      {
+        "favorite": "Luxury",
+        "items": [
+          "Luxury chair"
+        ]
+      },
+      {
+        "favorite": "Glass Stuff",
+        "items": [
+          "Stained-glass window"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Painting (landscape)"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "bleakBeach",
+    "habitatType": "Dark",
+    "number": 28,
+    "title": "The Ghost Gang",
+    "pokemon": [
+      {
+        "number": 93,
+        "numberStr": "#093",
+        "name": "Gastly",
+        "favorites": [
+          "Spooky stuff",
+          "Strange stuff",
+          "Garbage",
+          "Containers",
+          "Group activities",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 94,
+        "numberStr": "#094",
+        "name": "Haunter",
+        "favorites": [
+          "Spooky stuff",
+          "Strange stuff",
+          "Garbage",
+          "Wobbly stuff",
+          "Group activities",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 95,
+        "numberStr": "#095",
+        "name": "Gengar",
+        "favorites": [
+          "Spooky stuff",
+          "Strange stuff",
+          "Garbage",
+          "Rides",
+          "Group activities",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 141,
+        "numberStr": "#141",
+        "name": "Mimikyu",
+        "favorites": [
+          "Spooky stuff",
+          "Cute stuff",
+          "Electronics",
+          "Fabric",
+          "Group activities",
+          "Bitter flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Spooky stuff",
+      "Group activities"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Spooky Stuff",
+        "items": [
+          "Gravestone",
+          "Boo-in-the-box"
+        ]
+      },
+      {
+        "favorite": "Strange Stuff",
+        "items": [
+          "Repel"
+        ]
+      },
+      {
+        "favorite": "Garbage",
+        "items": [
+          "Garbage bags"
+        ]
+      },
+      {
+        "favorite": "Containers",
+        "items": [
+          "Wall storage box"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Bonfire"
+        ]
+      },
+      {
+        "favorite": "Wobbly Stuff",
+        "items": [
+          "Wobbuffet Wobbler"
+        ]
+      },
+      {
+        "favorite": "Rides",
+        "items": [
+          "Handcar"
+        ]
+      },
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute lamp"
+        ]
+      },
+      {
+        "favorite": "Electronics",
+        "items": [
+          "Television"
+        ]
+      },
+      {
+        "favorite": "Fabric",
+        "items": [
+          "Fluff"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "bleakBeach",
+    "habitatType": "Dark",
+    "number": 29,
+    "title": "The Bat Cave",
+    "pokemon": [
+      {
+        "number": 81,
+        "numberStr": "#081",
+        "name": "Zubat",
+        "favorites": [
+          "Spooky stuff",
+          "Nice breezes",
+          "Wooden stuff",
+          "Noise stuff",
+          "Complicated stuff",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 82,
+        "numberStr": "#082",
+        "name": "Golbat",
+        "favorites": [
+          "Spooky stuff",
+          "Nice breezes",
+          "Wooden stuff",
+          "Noise stuff",
+          "Complicated stuff",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 83,
+        "numberStr": "#083",
+        "name": "Crobat",
+        "favorites": [
+          "Spooky stuff",
+          "Nice breezes",
+          "Wooden stuff",
+          "Garbage",
+          "Watching stuff",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 127,
+        "numberStr": "#127",
+        "name": "Absol",
+        "favorites": [
+          "Soft stuff",
+          "Nice breezes",
+          "Letters and words",
+          "Complicated stuff",
+          "Exercise",
+          "Dry flavors"
+        ]
+      }
+    ],
+    "shared": [],
+    "suggestedItems": [
+      {
+        "favorite": "Spooky Stuff",
+        "items": [
+          "Gravestone"
+        ]
+      },
+      {
+        "favorite": "Nice Breezes",
+        "items": [
+          "Pinwheels"
+        ]
+      },
+      {
+        "favorite": "Wooden Stuff",
+        "items": [
+          "Vine wall decoration"
+        ]
+      },
+      {
+        "favorite": "Noisy Stuff",
+        "items": [
+          "Speaker"
+        ]
+      },
+      {
+        "favorite": "Complicated Stuff",
+        "items": [
+          "CD rack"
+        ]
+      },
+      {
+        "favorite": "Garbage",
+        "items": [
+          "Garbage bags"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Painting (landscape)"
+        ]
+      },
+      {
+        "favorite": "Soft Stuff",
+        "items": [
+          "Plain sofa"
+        ]
+      },
+      {
+        "favorite": "Letters and Words",
+        "items": [
+          "Open Book"
+        ]
+      },
+      {
+        "favorite": "Exercise",
+        "items": [
+          "Punching bag"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "bleakBeach",
+    "habitatType": "Dark",
+    "number": 30,
+    "title": "The Poison Factory",
+    "pokemon": [
+      {
+        "number": 38,
+        "numberStr": "#038",
+        "name": "Koffing",
+        "favorites": [
+          "Garbage",
+          "Gatherings",
+          "Complicated stuff",
+          "Soft stuff",
+          "Wobbly stuff",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 39,
+        "numberStr": "#039",
+        "name": "Weezing",
+        "favorites": [
+          "Garbage",
+          "Gatherings",
+          "Complicated stuff",
+          "Soft stuff",
+          "Wobbly stuff",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 91,
+        "numberStr": "#091",
+        "name": "Grimer",
+        "favorites": [
+          "Garbage",
+          "Spooky stuff",
+          "Gatherings",
+          "Shiny stuff",
+          "Containers",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 92,
+        "numberStr": "#092",
+        "name": "Muk",
+        "favorites": [
+          "Garbage",
+          "Spooky stuff",
+          "Gatherings",
+          "Shiny stuff",
+          "Colorful stuff",
+          "Bitter flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Garbage",
+      "Gatherings"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Garbage",
+        "items": [
+          "Garbage bags",
+          "Garbage bin"
+        ]
+      },
+      {
+        "favorite": "Gatherings",
+        "items": [
+          "Sandbags"
+        ]
+      },
+      {
+        "favorite": "Complicated Stuff",
+        "items": [
+          "Magazine rack"
+        ]
+      },
+      {
+        "favorite": "Soft Stuff",
+        "items": [
+          "Plain sofa"
+        ]
+      },
+      {
+        "favorite": "Wobbly Stuff",
+        "items": [
+          "Wobbuffet Wobbler"
+        ]
+      },
+      {
+        "favorite": "Spooky Stuff",
+        "items": [
+          "Boo-in-the-box"
+        ]
+      },
+      {
+        "favorite": "Shiny Stuff",
+        "items": [
+          "Red meteor lamp"
+        ]
+      },
+      {
+        "favorite": "Containers",
+        "items": [
+          "Plain chest"
+        ]
+      },
+      {
+        "favorite": "Colorful Stuff",
+        "items": [
+          "Paint balloon (purple)"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "bleakBeach",
+    "habitatType": "Humid",
+    "number": 31,
+    "title": "The Coastguard",
+    "pokemon": [
+      {
+        "number": 123,
+        "numberStr": "#123",
+        "name": "Wingull",
+        "favorites": [
+          "Lots of water",
+          "Nice breezes",
+          "Cleanliness",
+          "Ocean vibes",
+          "Watching stuff",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 124,
+        "numberStr": "#124",
+        "name": "Pelipper",
+        "favorites": [
+          "Lots of water",
+          "Nice breezes",
+          "Cleanliness",
+          "Ocean vibes",
+          "Watching stuff",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 128,
+        "numberStr": "#128",
+        "name": "Piplup",
+        "favorites": [
+          "Lots of water",
+          "Ocean vibes",
+          "Nice breezes",
+          "Cleanliness",
+          "Containers",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 129,
+        "numberStr": "#129",
+        "name": "Prinplup",
+        "favorites": [
+          "Lots of water",
+          "Ocean vibes",
+          "Nice breezes",
+          "Cleanliness",
+          "Containers",
+          "Dry flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of water",
+      "Nice breezes",
+      "Cleanliness",
+      "Ocean vibes"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Water",
+        "items": [
+          "Water basin",
+          "Inflatable boat"
+        ]
+      },
+      {
+        "favorite": "Nice Breezes",
+        "items": [
+          "Ceiling fan"
+        ]
+      },
+      {
+        "favorite": "Cleanliness",
+        "items": [
+          "Shower"
+        ]
+      },
+      {
+        "favorite": "Ocean Vibes",
+        "items": [
+          "Beach parasol",
+          "Deck chair"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Painting (landscape)"
+        ]
+      },
+      {
+        "favorite": "Containers",
+        "items": [
+          "Wall storage box"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "bleakBeach",
+    "habitatType": "Humid",
+    "number": 32,
+    "title": "The Deep End",
+    "pokemon": [
+      {
+        "number": 106,
+        "numberStr": "#106",
+        "name": "Lapras",
+        "favorites": [
+          "Lots of water",
+          "Ocean vibes",
+          "Cleanliness",
+          "Watching stuff",
+          "Healing",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 130,
+        "numberStr": "#130",
+        "name": "Empoleon",
+        "favorites": [
+          "Lots of water",
+          "Ocean vibes",
+          "Metal stuff",
+          "Cleanliness",
+          "Letters and words",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 86,
+        "numberStr": "#086",
+        "name": "Psyduck",
+        "favorites": [
+          "Lots of water",
+          "Ocean vibes",
+          "Strange stuff",
+          "Complicated stuff",
+          "Healing",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 87,
+        "numberStr": "#087",
+        "name": "Golduck",
+        "favorites": [
+          "Lots of water",
+          "Ocean vibes",
+          "Strange stuff",
+          "Complicated stuff",
+          "Sharp stuff",
+          "Dry flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of water",
+      "Ocean vibes"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Water",
+        "items": [
+          "Water basin"
+        ]
+      },
+      {
+        "favorite": "Ocean Vibes",
+        "items": [
+          "Deck chair"
+        ]
+      },
+      {
+        "favorite": "Cleanliness",
+        "items": [
+          "Bathtub"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Painting (landscape)"
+        ]
+      },
+      {
+        "favorite": "Healing",
+        "items": [
+          "First aid kit"
+        ]
+      },
+      {
+        "favorite": "Metal Stuff",
+        "items": [
+          "Iron bench"
+        ]
+      },
+      {
+        "favorite": "Letters and Words",
+        "items": [
+          "Information board"
+        ]
+      },
+      {
+        "favorite": "Strange Stuff",
+        "items": [
+          "Large Lost Relic"
+        ]
+      },
+      {
+        "favorite": "Complicated Stuff",
+        "items": [
+          "Magazine rack"
+        ]
+      },
+      {
+        "favorite": "Sharp Stuff",
+        "items": [
+          "Vending machine"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "bleakBeach",
+    "habitatType": "Humid",
+    "number": 33,
+    "title": "The Trash Heap",
+    "pokemon": [
+      {
+        "number": 118,
+        "numberStr": "#118",
+        "name": "Clodsire",
+        "favorites": [
+          "Garbage",
+          "Lots of dirt",
+          "Lots of water",
+          "Cleanliness",
+          "Round stuff",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 117,
+        "numberStr": "#117",
+        "name": "Paldean Wooper",
+        "favorites": [
+          "Garbage",
+          "Lots of dirt",
+          "Stone stuff",
+          "Cleanliness",
+          "Group activities",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 133,
+        "numberStr": "#133",
+        "name": "Garbodor",
+        "favorites": [
+          "Garbage",
+          "Containers",
+          "Complicated stuff",
+          "Shiny stuff",
+          "Gatherings",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 132,
+        "numberStr": "#132",
+        "name": "Trubbish",
+        "favorites": [
+          "Garbage",
+          "Construction",
+          "Complicated stuff",
+          "Shiny stuff",
+          "Gatherings",
+          "Bitter flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Garbage"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Garbage",
+        "items": [
+          "Garbage bags",
+          "Garbage bin"
+        ]
+      },
+      {
+        "favorite": "Lots of Dirt",
+        "items": [
+          "Sandbags"
+        ]
+      },
+      {
+        "favorite": "Lots of Water",
+        "items": [
+          "Water basin"
+        ]
+      },
+      {
+        "favorite": "Cleanliness",
+        "items": [
+          "Cleaning supplies"
+        ]
+      },
+      {
+        "favorite": "Round Stuff",
+        "items": [
+          "Munna bank"
+        ]
+      },
+      {
+        "favorite": "Stone Stuff",
+        "items": [
+          "Stone bench"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Bonfire"
+        ]
+      },
+      {
+        "favorite": "Containers",
+        "items": [
+          "Garbage bin"
+        ]
+      },
+      {
+        "favorite": "Complicated Stuff",
+        "items": [
+          "Magazine rack"
+        ]
+      },
+      {
+        "favorite": "Shiny Stuff",
+        "items": [
+          "Crystal fragment"
+        ]
+      },
+      {
+        "favorite": "Gatherings",
+        "items": [
+          "Sandbags"
+        ]
+      },
+      {
+        "favorite": "Construction",
+        "items": [
+          "Metal drum"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "bleakBeach",
+    "habitatType": "Humid",
+    "number": 34,
+    "title": "The Spiders & Bloom",
+    "pokemon": [
+      {
+        "number": 110,
+        "numberStr": "#110",
+        "name": "Ariados",
+        "favorites": [
+          "Lots of nature",
+          "Wooden stuff",
+          "Garbage",
+          "Rides",
+          "Colorful stuff",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 109,
+        "numberStr": "#109",
+        "name": "Spinarak",
+        "favorites": [
+          "Lots of nature",
+          "Wooden stuff",
+          "Garbage",
+          "Rides",
+          "Colorful stuff",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 14,
+        "numberStr": "#014",
+        "name": "Gloom",
+        "favorites": [
+          "Lots of nature",
+          "Lots of dirt",
+          "Soft stuff",
+          "Pretty flowers",
+          "Garbage",
+          "Dry flavors"
+        ]
+      }
+    ],
+    "shared": [],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Nature",
+        "items": [
+          "Garden bench"
+        ]
+      },
+      {
+        "favorite": "Wooden Stuff",
+        "items": [
+          "Vine wall decoration"
+        ]
+      },
+      {
+        "favorite": "Garbage",
+        "items": [
+          "Garbage bags"
+        ]
+      },
+      {
+        "favorite": "Rides",
+        "items": [
+          "Handcar"
+        ]
+      },
+      {
+        "favorite": "Colorful Stuff",
+        "items": [
+          "Paint balloon (green)"
+        ]
+      },
+      {
+        "favorite": "Lots of Dirt",
+        "items": [
+          "Sandbags"
+        ]
+      },
+      {
+        "favorite": "Soft Stuff",
+        "items": [
+          "Plain sofa"
+        ]
+      },
+      {
+        "favorite": "Pretty Flowers",
+        "items": [
+          "Wildflowers"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "bleakBeach",
+    "habitatType": "Humid",
+    "number": 35,
+    "title": "The Water Mice",
+    "pokemon": [
+      {
+        "number": 114,
+        "numberStr": "#114",
+        "name": "Azurill",
+        "favorites": [
+          "Lots of water",
+          "Cute stuff",
+          "Cleanliness",
+          "Healing",
+          "Rides",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 115,
+        "numberStr": "#115",
+        "name": "Marill",
+        "favorites": [
+          "Lots of water",
+          "Cute stuff",
+          "Cleanliness",
+          "Round stuff",
+          "Symbols",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 116,
+        "numberStr": "#116",
+        "name": "Azumarill",
+        "favorites": [
+          "Lots of water",
+          "Cute stuff",
+          "Construction",
+          "Wobbly stuff",
+          "Symbols",
+          "Sour Flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of water",
+      "Cute stuff",
+      "Sour Flavors"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Water",
+        "items": [
+          "Water basin"
+        ]
+      },
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute lamp"
+        ]
+      },
+      {
+        "favorite": "Cleanliness",
+        "items": [
+          "Bouncy blue bathtub"
+        ]
+      },
+      {
+        "favorite": "Healing",
+        "items": [
+          "First aid kit"
+        ]
+      },
+      {
+        "favorite": "Rides",
+        "items": [
+          "Handcar"
+        ]
+      },
+      {
+        "favorite": "Round Stuff",
+        "items": [
+          "Balloons"
+        ]
+      },
+      {
+        "favorite": "Symbols",
+        "items": [
+          "Signpost"
+        ]
+      },
+      {
+        "favorite": "Construction",
+        "items": [
+          "Toy blocks"
+        ]
+      },
+      {
+        "favorite": "Wobbly Stuff",
+        "items": [
+          "Wobbuffet Wobbler"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "bleakBeach",
+    "habitatType": "Humid",
+    "number": 36,
+    "title": "The Sushi Trio",
+    "pokemon": [
+      {
+        "number": 145,
+        "numberStr": "#145",
+        "name": "Tatsugiri Curly Form",
+        "favorites": [
+          "—",
+          "—",
+          "—",
+          "—",
+          "—",
+          "—"
+        ]
+      },
+      {
+        "number": 145,
+        "numberStr": "#145",
+        "name": "Tatsugiri Droopy Form",
+        "favorites": [
+          "Lots of water",
+          "Ocean vibes",
+          "Group activities",
+          "Spinning stuff",
+          "Blocky stuff",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 145,
+        "numberStr": "#145",
+        "name": "Tatsugiri Stretchy Form",
+        "favorites": [
+          "Lots of water",
+          "Ocean vibes",
+          "Group activities",
+          "Letters and words",
+          "Containers",
+          "Spicy flavors"
+        ]
+      }
+    ],
+    "shared": [],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Water",
+        "items": [
+          "Water basin"
+        ]
+      },
+      {
+        "favorite": "Ocean Vibes",
+        "items": [
+          "Deck chair",
+          "Beach parasol"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Inflatable boat"
+        ]
+      },
+      {
+        "favorite": "Spinning Stuff",
+        "items": [
+          "Pinwheel"
+        ]
+      },
+      {
+        "favorite": "Blocky Stuff",
+        "items": [
+          "Polygonal Shelf"
+        ]
+      },
+      {
+        "favorite": "Letters and Words",
+        "items": [
+          "Letter"
+        ]
+      },
+      {
+        "favorite": "Containers",
+        "items": [
+          "Berry case"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "bleakBeach",
+    "habitatType": "Warm",
+    "number": 37,
+    "title": "The Fire Starters",
+    "pokemon": [
+      {
+        "number": 122,
+        "numberStr": "#122",
+        "name": "Blaziken",
+        "favorites": [
+          "Lots of fire",
+          "Luxury",
+          "Exercise",
+          "Containers",
+          "Construction",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 121,
+        "numberStr": "#121",
+        "name": "Combusken",
+        "favorites": [
+          "Lots of fire",
+          "Stone stuff",
+          "Exercise",
+          "Containers",
+          "Construction",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 88,
+        "numberStr": "#088",
+        "name": "Growlithe",
+        "favorites": [
+          "Lots of fire",
+          "Stone stuff",
+          "Nice breezes",
+          "Letters and words",
+          "Pretty flowers",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 120,
+        "numberStr": "#120",
+        "name": "Torchic",
+        "favorites": [
+          "Lots of fire",
+          "Stone stuff",
+          "Cute stuff",
+          "Containers",
+          "Pretty flowers",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 90,
+        "numberStr": "#090",
+        "name": "Farfetch'd",
+        "favorites": [
+          "Soft stuff",
+          "Nice breezes",
+          "Wooden stuff",
+          "Slender objects",
+          "Exercise",
+          "Spicy flavors"
+        ]
+      }
+    ],
+    "shared": [],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Fire",
+        "items": [
+          "Bonfire",
+          "Firepit"
+        ]
+      },
+      {
+        "favorite": "Luxury",
+        "items": [
+          "Luxury lamp"
+        ]
+      },
+      {
+        "favorite": "Exercise",
+        "items": [
+          "Punching bag"
+        ]
+      },
+      {
+        "favorite": "Containers",
+        "items": [
+          "Plain chest"
+        ]
+      },
+      {
+        "favorite": "Construction",
+        "items": [
+          "Iron scaffold"
+        ]
+      },
+      {
+        "favorite": "Stone Stuff",
+        "items": [
+          "Stone bench"
+        ]
+      },
+      {
+        "favorite": "Nice Breezes",
+        "items": [
+          "Pinwheels"
+        ]
+      },
+      {
+        "favorite": "Letters and Words",
+        "items": [
+          "Open Book"
+        ]
+      },
+      {
+        "favorite": "Pretty Flowers",
+        "items": [
+          "Beautiful flower"
+        ]
+      },
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute lamp"
+        ]
+      },
+      {
+        "favorite": "Soft Stuff",
+        "items": [
+          "Plain sofa"
+        ]
+      },
+      {
+        "favorite": "Wooden Stuff",
+        "items": [
+          "Vine wall decoration"
+        ]
+      },
+      {
+        "favorite": "Slender Objects",
+        "items": [
+          "Fishing rod"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "rockyRidges",
+    "habitatType": "Bright",
+    "number": 38,
+    "title": "The Machop Line",
+    "pokemon": [
+      {
+        "number": 158,
+        "numberStr": "#158",
+        "name": "Machamp",
+        "favorites": [
+          "Exercise",
+          "Construction",
+          "Stone stuff",
+          "Hard stuff",
+          "Group activities",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 157,
+        "numberStr": "#157",
+        "name": "Machoke",
+        "favorites": [
+          "Exercise",
+          "Construction",
+          "Stone stuff",
+          "Hard stuff",
+          "Group activities",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 156,
+        "numberStr": "#156",
+        "name": "Machop",
+        "favorites": [
+          "Exercise",
+          "Construction",
+          "Stone stuff",
+          "Hard stuff",
+          "Group activities",
+          "Spicy Flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Exercise",
+      "Construction",
+      "Stone stuff",
+      "Hard stuff",
+      "Group activities"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Exercise",
+        "items": [
+          "Punching bag"
+        ]
+      },
+      {
+        "favorite": "Construction",
+        "items": [
+          "Iron scaffold"
+        ]
+      },
+      {
+        "favorite": "Stone Stuff",
+        "items": [
+          "Strength rock",
+          "Stone bench"
+        ]
+      },
+      {
+        "favorite": "Hard Stuff",
+        "items": [
+          "Iron stand"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Iron bench"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "rockyRidges",
+    "habitatType": "Bright",
+    "number": 39,
+    "title": "The Puffballs",
+    "pokemon": [
+      {
+        "number": 152,
+        "numberStr": "#152",
+        "name": "Jigglypuff",
+        "favorites": [
+          "Soft stuff",
+          "Cute stuff",
+          "Play spaces",
+          "Healing",
+          "Wobbly stuff",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 153,
+        "numberStr": "#153",
+        "name": "Wigglytuff",
+        "favorites": [
+          "Soft stuff",
+          "Cute stuff",
+          "Play spaces",
+          "Healing",
+          "Group activities",
+          "Sour Flavors"
+        ]
+      }
+    ],
+    "shared": [],
+    "suggestedItems": [
+      {
+        "favorite": "Soft Stuff",
+        "items": [
+          "Plain sofa",
+          "Clefairy doll"
+        ]
+      },
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute lamp"
+        ]
+      },
+      {
+        "favorite": "Play Spaces",
+        "items": [
+          "Slide",
+          "Tire toy"
+        ]
+      },
+      {
+        "favorite": "Healing",
+        "items": [
+          "First aid kit"
+        ]
+      },
+      {
+        "favorite": "Wobbly Stuff",
+        "items": [
+          "Wobbuffet Wobbler"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Garden bench"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "rockyRidges",
+    "habitatType": "Bright",
+    "number": 40,
+    "title": "The Shinies",
+    "pokemon": [
+      {
+        "number": 206,
+        "numberStr": "#206",
+        "name": "Gholdengo",
+        "favorites": [
+          "Spooky stuff",
+          "Metal stuff",
+          "Strange stuff",
+          "Shiny stuff",
+          "Complicated stuff",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 182,
+        "numberStr": "#182",
+        "name": "Stereo Rotom",
+        "favorites": [
+          "Shiny stuff",
+          "Glass stuff",
+          "Noisy stuff",
+          "Group activities",
+          "Blocky stuff",
+          "Bitter flavors"
+        ]
+      }
+    ],
+    "shared": [],
+    "suggestedItems": [
+      {
+        "favorite": "Shiny Stuff",
+        "items": [
+          "Big Nugget",
+          "Crystal fragment"
+        ]
+      },
+      {
+        "favorite": "Spooky Stuff",
+        "items": [
+          "Eerie candle"
+        ]
+      },
+      {
+        "favorite": "Metal Stuff",
+        "items": [
+          "Iron pipes"
+        ]
+      },
+      {
+        "favorite": "Strange Stuff",
+        "items": [
+          "Repel"
+        ]
+      },
+      {
+        "favorite": "Complicated Stuff",
+        "items": [
+          "CD rack"
+        ]
+      },
+      {
+        "favorite": "Glass Stuff",
+        "items": [
+          "Stained-glass window"
+        ]
+      },
+      {
+        "favorite": "Noisy Stuff",
+        "items": [
+          "Speaker"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Chic sofa"
+        ]
+      },
+      {
+        "favorite": "Blocky Stuff",
+        "items": [
+          "Polygonal Shelf"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "rockyRidges",
+    "habitatType": "Cool",
+    "number": 41,
+    "title": "The Frost Trio",
+    "pokemon": [
+      {
+        "number": 278,
+        "numberStr": "#278",
+        "name": "Amaura",
+        "favorites": [
+          "Stone stuff",
+          "Hard stuff",
+          "Shiny stuff",
+          "Group activities",
+          "Containers",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 279,
+        "numberStr": "#279",
+        "name": "Aurorus",
+        "favorites": [
+          "Stone stuff",
+          "Hard stuff",
+          "Shiny stuff",
+          "Noisy stuff",
+          "Symbols",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 287,
+        "numberStr": "#287",
+        "name": "Glaceon",
+        "favorites": [
+          "Lots of water",
+          "Shiny stuff",
+          "Cute stuff",
+          "Glass stuff",
+          "Group activities",
+          "Sweet Flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Shiny stuff"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Shiny Stuff",
+        "items": [
+          "Crystal fragment"
+        ]
+      },
+      {
+        "favorite": "Stone Stuff",
+        "items": [
+          "Stone bench",
+          "Mysterious statue"
+        ]
+      },
+      {
+        "favorite": "Hard Stuff",
+        "items": [
+          "Iron stand"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Iron bench"
+        ]
+      },
+      {
+        "favorite": "Containers",
+        "items": [
+          "Plain chest"
+        ]
+      },
+      {
+        "favorite": "Noisy Stuff",
+        "items": [
+          "Clear Bell"
+        ]
+      },
+      {
+        "favorite": "Symbols",
+        "items": [
+          "Signpost"
+        ]
+      },
+      {
+        "favorite": "Lots of Water",
+        "items": [
+          "Water basin"
+        ]
+      },
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute lamp"
+        ]
+      },
+      {
+        "favorite": "Glass Stuff",
+        "items": [
+          "Stained-glass window"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "rockyRidges",
+    "habitatType": "Dark",
+    "number": 42,
+    "title": "The Underground",
+    "pokemon": [
+      {
+        "number": 146,
+        "numberStr": "#146",
+        "name": "Ekans",
+        "favorites": [
+          "Garbage",
+          "Watching stuff",
+          "Lots of nature",
+          "Slender objects",
+          "Spinning stuff",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 147,
+        "numberStr": "#147",
+        "name": "Arbok",
+        "favorites": [
+          "Garbage",
+          "Watching stuff",
+          "Lots of nature",
+          "Slender objects",
+          "Spinning stuff",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 154,
+        "numberStr": "#154",
+        "name": "Diglett",
+        "favorites": [
+          "Lots of dirt",
+          "Play spaces",
+          "Cute stuff",
+          "Group activities",
+          "Slender objects",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 155,
+        "numberStr": "#155",
+        "name": "Dugtrio",
+        "favorites": [
+          "Lots of dirt",
+          "Play spaces",
+          "Gatherings",
+          "Group activities",
+          "Slender objects",
+          "Spicy flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Slender objects"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Slender Objects",
+        "items": [
+          "Rope"
+        ]
+      },
+      {
+        "favorite": "Garbage",
+        "items": [
+          "Garbage bags"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Pinwheels"
+        ]
+      },
+      {
+        "favorite": "Lots of Nature",
+        "items": [
+          "Log table"
+        ]
+      },
+      {
+        "favorite": "Spinning Stuff",
+        "items": [
+          "Pinwheel"
+        ]
+      },
+      {
+        "favorite": "Lots of Dirt",
+        "items": [
+          "Sandbags"
+        ]
+      },
+      {
+        "favorite": "Play Spaces",
+        "items": [
+          "Sandbox"
+        ]
+      },
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute lamp"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Bonfire"
+        ]
+      },
+      {
+        "favorite": "Gatherings",
+        "items": [
+          "Sandbags"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "rockyRidges",
+    "habitatType": "Dark",
+    "number": 43,
+    "title": "The Moonlight Trio",
+    "pokemon": [
+      {
+        "number": 148,
+        "numberStr": "#148",
+        "name": "Cleffa",
+        "favorites": [
+          "Cute stuff",
+          "Round stuff",
+          "Colorful stuff",
+          "Healing",
+          "Rides",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 149,
+        "numberStr": "#149",
+        "name": "Clefairy",
+        "favorites": [
+          "Cute stuff",
+          "Play spaces",
+          "Pretty flowers",
+          "Healing",
+          "Group activities",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 150,
+        "numberStr": "#150",
+        "name": "Clefable",
+        "favorites": [
+          "Cute stuff",
+          "Play spaces",
+          "Pretty flowers",
+          "Healing",
+          "Group activities",
+          "Sour Flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Cute stuff",
+      "Healing"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute lamp",
+          "Clefairy doll"
+        ]
+      },
+      {
+        "favorite": "Healing",
+        "items": [
+          "First aid kit"
+        ]
+      },
+      {
+        "favorite": "Play Spaces",
+        "items": [
+          "Slide"
+        ]
+      },
+      {
+        "favorite": "Pretty Flowers",
+        "items": [
+          "Beautiful flower",
+          "Wildflowers"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Garden bench"
+        ]
+      },
+      {
+        "favorite": "Round Stuff",
+        "items": [
+          "Crystal ball"
+        ]
+      },
+      {
+        "favorite": "Colorful Stuff",
+        "items": [
+          "Pink paint"
+        ]
+      },
+      {
+        "favorite": "Rides",
+        "items": [
+          "Handcar"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "rockyRidges",
+    "habitatType": "Dark",
+    "number": 44,
+    "title": "The Woodland Band",
+    "pokemon": [
+      {
+        "number": 177,
+        "numberStr": "#177",
+        "name": "Kricketot",
+        "favorites": [
+          "Lots of nature",
+          "Wooden stuff",
+          "Noisy stuff",
+          "Colorful stuff",
+          "Watching stuff",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 178,
+        "numberStr": "#178",
+        "name": "Kricketune",
+        "favorites": [
+          "Lots of nature",
+          "Wooden stuff",
+          "Noisy stuff",
+          "Colorful stuff",
+          "Watching stuff",
+          "Spicy Flavors"
+        ]
+      },
+      {
+        "number": 186,
+        "numberStr": "#186",
+        "name": "Dartrix",
+        "favorites": [
+          "Lots of nature",
+          "Wooden stuff",
+          "Nice breezes",
+          "Slender objects",
+          "Cleanliness",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 187,
+        "numberStr": "#187",
+        "name": "Decidueye",
+        "favorites": [
+          "Lots of nature",
+          "Spooky stuff",
+          "Wooden stuff",
+          "Nice breezes",
+          "Letters and words",
+          "Dry flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of nature",
+      "Wooden stuff"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Nature",
+        "items": [
+          "Garden bench",
+          "Log table"
+        ]
+      },
+      {
+        "favorite": "Wooden Stuff",
+        "items": [
+          "Vine wall decoration",
+          "Mushroom lamp"
+        ]
+      },
+      {
+        "favorite": "Noisy Stuff",
+        "items": [
+          "Speaker"
+        ]
+      },
+      {
+        "favorite": "Colorful Stuff",
+        "items": [
+          "Knitting supplies"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Painting (landscape)"
+        ]
+      },
+      {
+        "favorite": "Nice Breezes",
+        "items": [
+          "Pinwheels"
+        ]
+      },
+      {
+        "favorite": "Slender Objects",
+        "items": [
+          "Rope"
+        ]
+      },
+      {
+        "favorite": "Cleanliness",
+        "items": [
+          "Water basin"
+        ]
+      },
+      {
+        "favorite": "Spooky Stuff",
+        "items": [
+          "Gravestone"
+        ]
+      },
+      {
+        "favorite": "Letters and Words",
+        "items": [
+          "Open Book"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "rockyRidges",
+    "habitatType": "Dark",
+    "number": 45,
+    "title": "The Iron Gym",
+    "pokemon": [
+      {
+        "number": 160,
+        "numberStr": "#160",
+        "name": "Graveler",
+        "favorites": [
+          "Stone stuff",
+          "Hard stuff",
+          "Spinning stuff",
+          "Round stuff",
+          "Exercise",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 161,
+        "numberStr": "#161",
+        "name": "Golem",
+        "favorites": [
+          "Stone stuff",
+          "Hard stuff",
+          "Spinning stuff",
+          "Round stuff",
+          "Exercise",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 180,
+        "numberStr": "#180",
+        "name": "Riolu",
+        "favorites": [
+          "Exercise",
+          "Fabric",
+          "Construction",
+          "Gatherings",
+          "Watching stuff",
+          "Spicy Flavors"
+        ]
+      },
+      {
+        "number": 181,
+        "numberStr": "#181",
+        "name": "Lucario",
+        "favorites": [
+          "Exercise",
+          "Metal stuff",
+          "Construction",
+          "Complicated stuff",
+          "Healing",
+          "Dry flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Exercise"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Exercise",
+        "items": [
+          "Punching bag"
+        ]
+      },
+      {
+        "favorite": "Stone Stuff",
+        "items": [
+          "Strength rock",
+          "Stone bench"
+        ]
+      },
+      {
+        "favorite": "Hard Stuff",
+        "items": [
+          "Iron stand"
+        ]
+      },
+      {
+        "favorite": "Spinning Stuff",
+        "items": [
+          "Pinwheel"
+        ]
+      },
+      {
+        "favorite": "Round Stuff",
+        "items": [
+          "Balloons"
+        ]
+      },
+      {
+        "favorite": "Fabric",
+        "items": [
+          "Fluff"
+        ]
+      },
+      {
+        "favorite": "Construction",
+        "items": [
+          "Iron scaffold"
+        ]
+      },
+      {
+        "favorite": "Gatherings",
+        "items": [
+          "Sandbags"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Television"
+        ]
+      },
+      {
+        "favorite": "Metal Stuff",
+        "items": [
+          "Iron pipes"
+        ]
+      },
+      {
+        "favorite": "Complicated Stuff",
+        "items": [
+          "Magazine rack"
+        ]
+      },
+      {
+        "favorite": "Healing",
+        "items": [
+          "First aid kit"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "rockyRidges",
+    "habitatType": "Dark",
+    "number": 46,
+    "title": "The Shiny Hoarders",
+    "pokemon": [
+      {
+        "number": 167,
+        "numberStr": "#167",
+        "name": "Murkrow",
+        "favorites": [
+          "Shiny stuff",
+          "Nice breezes",
+          "Group activities",
+          "Luxury",
+          "Fabric",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 168,
+        "numberStr": "#168",
+        "name": "Honchkrow",
+        "favorites": [
+          "Shiny stuff",
+          "Nice breezes",
+          "Spooky stuff",
+          "Letters and words",
+          "Glass stuff",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 169,
+        "numberStr": "#169",
+        "name": "Larvitar",
+        "favorites": [
+          "Stone stuff",
+          "Lots of dirt",
+          "Luxury",
+          "Shiny stuff",
+          "Looks like food",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 171,
+        "numberStr": "#171",
+        "name": "Tyranitar",
+        "favorites": [
+          "Stone stuff",
+          "Hard stuff",
+          "Luxury",
+          "Shiny stuff",
+          "Exercise",
+          "Spicy flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Shiny stuff"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Shiny Stuff",
+        "items": [
+          "Big Nugget",
+          "Crystal fragment"
+        ]
+      },
+      {
+        "favorite": "Nice Breezes",
+        "items": [
+          "Pinwheels"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Chic sofa"
+        ]
+      },
+      {
+        "favorite": "Luxury",
+        "items": [
+          "Luxury lamp"
+        ]
+      },
+      {
+        "favorite": "Fabric",
+        "items": [
+          "Fluff"
+        ]
+      },
+      {
+        "favorite": "Spooky Stuff",
+        "items": [
+          "Gravestone"
+        ]
+      },
+      {
+        "favorite": "Letters and Words",
+        "items": [
+          "Information board"
+        ]
+      },
+      {
+        "favorite": "Glass Stuff",
+        "items": [
+          "Stained-glass window"
+        ]
+      },
+      {
+        "favorite": "Stone Stuff",
+        "items": [
+          "Strength rock"
+        ]
+      },
+      {
+        "favorite": "Lots of Dirt",
+        "items": [
+          "Sandbags"
+        ]
+      },
+      {
+        "favorite": "Looks Like Food",
+        "items": [
+          "Berry basket"
+        ]
+      },
+      {
+        "favorite": "Hard Stuff",
+        "items": [
+          "Iron stand"
+        ]
+      },
+      {
+        "favorite": "Exercise",
+        "items": [
+          "Punching bag"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "rockyRidges",
+    "habitatType": "Dark",
+    "number": 47,
+    "title": "The Crystal Cave",
+    "pokemon": [
+      {
+        "number": 203,
+        "numberStr": "#203",
+        "name": "Glimmet",
+        "favorites": [
+          "Stone stuff",
+          "Hard stuff",
+          "Garbage",
+          "Shiny stuff",
+          "Complicated stuff",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 204,
+        "numberStr": "#204",
+        "name": "Glimmora",
+        "favorites": [
+          "Stone stuff",
+          "Hard stuff",
+          "Garbage",
+          "Shiny stuff",
+          "Complicated stuff",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 205,
+        "numberStr": "#205",
+        "name": "Gimmighoul",
+        "favorites": [
+          "Spooky stuff",
+          "Metal stuff",
+          "Strange stuff",
+          "Shiny stuff",
+          "Complicated stuff",
+          "Bitter flavors"
+        ]
+      }
+    ],
+    "shared": [],
+    "suggestedItems": [
+      {
+        "favorite": "Shiny Stuff",
+        "items": [
+          "Crystal fragment",
+          "Violet meteor lamp"
+        ]
+      },
+      {
+        "favorite": "Complicated Stuff",
+        "items": [
+          "Magazine rack"
+        ]
+      },
+      {
+        "favorite": "Stone Stuff",
+        "items": [
+          "Mysterious statue"
+        ]
+      },
+      {
+        "favorite": "Hard Stuff",
+        "items": [
+          "Iron stand"
+        ]
+      },
+      {
+        "favorite": "Garbage",
+        "items": [
+          "Garbage bags"
+        ]
+      },
+      {
+        "favorite": "Spooky Stuff",
+        "items": [
+          "Eerie candle"
+        ]
+      },
+      {
+        "favorite": "Metal Stuff",
+        "items": [
+          "Iron pipes"
+        ]
+      },
+      {
+        "favorite": "Strange Stuff",
+        "items": [
+          "Armor fragment"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "rockyRidges",
+    "habitatType": "Dry",
+    "number": 48,
+    "title": "The Fossil Titans",
+    "pokemon": [
+      {
+        "number": 276,
+        "numberStr": "#276",
+        "name": "Tyrunt",
+        "favorites": [
+          "Stone stuff",
+          "Hard stuff",
+          "Lots of fire",
+          "Luxury",
+          "Exercise",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 277,
+        "numberStr": "#277",
+        "name": "Tyrantrum",
+        "favorites": [
+          "Stone stuff",
+          "Hard stuff",
+          "Lots of fire",
+          "Luxury",
+          "Exercise",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 271,
+        "numberStr": "#271",
+        "name": "Aerodactyl",
+        "favorites": [
+          "Stone stuff",
+          "Nice breezes",
+          "Hard stuff",
+          "Shiny stuff",
+          "Spinning stuff",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 31,
+        "numberStr": "#031",
+        "name": "Steelix",
+        "favorites": [
+          "Metal stuff",
+          "Lots of dirt",
+          "Stone stuff",
+          "Slender objects",
+          "Hard stuff",
+          "Sour Flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Stone stuff",
+      "Hard stuff"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Stone Stuff",
+        "items": [
+          "Strength rock",
+          "Stone bench"
+        ]
+      },
+      {
+        "favorite": "Hard Stuff",
+        "items": [
+          "Iron stand"
+        ]
+      },
+      {
+        "favorite": "Lots of Fire",
+        "items": [
+          "Firepit"
+        ]
+      },
+      {
+        "favorite": "Luxury",
+        "items": [
+          "Luxury lamp"
+        ]
+      },
+      {
+        "favorite": "Exercise",
+        "items": [
+          "Punching bag"
+        ]
+      },
+      {
+        "favorite": "Nice Breezes",
+        "items": [
+          "Pinwheels"
+        ]
+      },
+      {
+        "favorite": "Shiny Stuff",
+        "items": [
+          "Crystal fragment"
+        ]
+      },
+      {
+        "favorite": "Spinning Stuff",
+        "items": [
+          "Pinwheel"
+        ]
+      },
+      {
+        "favorite": "Metal Stuff",
+        "items": [
+          "Iron pipes"
+        ]
+      },
+      {
+        "favorite": "Lots of Dirt",
+        "items": [
+          "Sandbags"
+        ]
+      },
+      {
+        "favorite": "Slender Objects",
+        "items": [
+          "Rope"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "rockyRidges",
+    "habitatType": "Dry",
+    "number": 49,
+    "title": "The Armor Squad",
+    "pokemon": [
+      {
+        "number": 272,
+        "numberStr": "#272",
+        "name": "Cranidos",
+        "favorites": [
+          "Stone stuff",
+          "Hard stuff",
+          "Wobbly stuff",
+          "Group activities",
+          "Exercise",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 273,
+        "numberStr": "#273",
+        "name": "Rampardos",
+        "favorites": [
+          "Stone stuff",
+          "Hard stuff",
+          "Metal stuff",
+          "Luxury",
+          "Exercise",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 274,
+        "numberStr": "#274",
+        "name": "Shieldon",
+        "favorites": [
+          "Stone stuff",
+          "Hard stuff",
+          "Metal stuff",
+          "Luxury",
+          "Round stuff",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 275,
+        "numberStr": "#275",
+        "name": "Bastiodon",
+        "favorites": [
+          "Stone stuff",
+          "Hard stuff",
+          "Metal stuff",
+          "Luxury",
+          "Exercise",
+          "Bitter flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Stone stuff",
+      "Hard stuff"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Stone Stuff",
+        "items": [
+          "Strength rock",
+          "Stone bench"
+        ]
+      },
+      {
+        "favorite": "Hard Stuff",
+        "items": [
+          "Iron stand"
+        ]
+      },
+      {
+        "favorite": "Wobbly Stuff",
+        "items": [
+          "Wobbuffet Wobbler"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Iron bench"
+        ]
+      },
+      {
+        "favorite": "Exercise",
+        "items": [
+          "Punching bag"
+        ]
+      },
+      {
+        "favorite": "Metal Stuff",
+        "items": [
+          "Iron pipes"
+        ]
+      },
+      {
+        "favorite": "Luxury",
+        "items": [
+          "Luxury lamp"
+        ]
+      },
+      {
+        "favorite": "Round Stuff",
+        "items": [
+          "Balloons"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "rockyRidges",
+    "habitatType": "Dry",
+    "number": 50,
+    "title": "The Nature Lodge",
+    "pokemon": [
+      {
+        "number": 165,
+        "numberStr": "#165",
+        "name": "Bonsly",
+        "favorites": [
+          "Stone stuff",
+          "Hard stuff",
+          "Lots of nature",
+          "Wooden stuff",
+          "Round stuff",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 166,
+        "numberStr": "#166",
+        "name": "Sudowoodo",
+        "favorites": [
+          "Stone stuff",
+          "Hard stuff",
+          "Lots of nature",
+          "Wooden stuff",
+          "Watching stuff",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 183,
+        "numberStr": "#183",
+        "name": "Larvesta",
+        "favorites": [
+          "Lots of nature",
+          "Lots of fire",
+          "Sharp stuff",
+          "Wooden stuff",
+          "Symbols",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 184,
+        "numberStr": "#184",
+        "name": "Volcarona",
+        "favorites": [
+          "Lots of nature",
+          "Lots of fire",
+          "Letters and words",
+          "Wooden stuff",
+          "Symbols",
+          "Dry flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of nature",
+      "Wooden stuff"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Nature",
+        "items": [
+          "Garden bench",
+          "Log table"
+        ]
+      },
+      {
+        "favorite": "Wooden Stuff",
+        "items": [
+          "Vine wall decoration"
+        ]
+      },
+      {
+        "favorite": "Stone Stuff",
+        "items": [
+          "Garden ornament"
+        ]
+      },
+      {
+        "favorite": "Hard Stuff",
+        "items": [
+          "Stone fireplace"
+        ]
+      },
+      {
+        "favorite": "Lots of Fire",
+        "items": [
+          "Campfire"
+        ]
+      },
+      {
+        "favorite": "Symbols",
+        "items": [
+          "Signpost"
+        ]
+      },
+      {
+        "favorite": "Round Stuff",
+        "items": [
+          "Berry clock"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Painting (landscape)"
+        ]
+      },
+      {
+        "favorite": "Sharp Stuff",
+        "items": [
+          "Vending machine"
+        ]
+      },
+      {
+        "favorite": "Letters and Words",
+        "items": [
+          "Open Book"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "rockyRidges",
+    "habitatType": "Humid",
+    "number": 51,
+    "title": "The Lily Pad Pond",
+    "pokemon": [
+      {
+        "number": 172,
+        "numberStr": "#172",
+        "name": "Lotad",
+        "favorites": [
+          "Lots of water",
+          "Lots of nature",
+          "Cleanliness",
+          "Containers",
+          "Noisy stuff",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 173,
+        "numberStr": "#173",
+        "name": "Lombre",
+        "favorites": [
+          "Lots of water",
+          "Lots of nature",
+          "Cleanliness",
+          "Containers",
+          "Noisy stuff",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 174,
+        "numberStr": "#174",
+        "name": "Ludicolo",
+        "favorites": [
+          "Lots of water",
+          "Lots of nature",
+          "Play spaces",
+          "Containers",
+          "Noisy stuff",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 54,
+        "numberStr": "#054",
+        "name": "Swalot",
+        "favorites": [
+          "Garbage",
+          "Looks like food",
+          "Round stuff",
+          "Containers",
+          "Colorful stuff",
+          "Bitter flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Containers"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Containers",
+        "items": [
+          "Berry case",
+          "Wall storage box"
+        ]
+      },
+      {
+        "favorite": "Lots of Water",
+        "items": [
+          "Water basin"
+        ]
+      },
+      {
+        "favorite": "Lots of Nature",
+        "items": [
+          "Garden bench"
+        ]
+      },
+      {
+        "favorite": "Cleanliness",
+        "items": [
+          "Bouncy blue bathtub"
+        ]
+      },
+      {
+        "favorite": "Noisy Stuff",
+        "items": [
+          "Speaker"
+        ]
+      },
+      {
+        "favorite": "Play Spaces",
+        "items": [
+          "Tire toy"
+        ]
+      },
+      {
+        "favorite": "Garbage",
+        "items": [
+          "Garbage bags"
+        ]
+      },
+      {
+        "favorite": "Looks Like Food",
+        "items": [
+          "Berry basket"
+        ]
+      },
+      {
+        "favorite": "Round Stuff",
+        "items": [
+          "Balloons"
+        ]
+      },
+      {
+        "favorite": "Colorful Stuff",
+        "items": [
+          "Paint balloon (green)"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "rockyRidges",
+    "habitatType": "Humid",
+    "number": 52,
+    "title": "The Noise Brigade",
+    "pokemon": [
+      {
+        "number": 212,
+        "numberStr": "#212",
+        "name": "Politoed",
+        "favorites": [
+          "Lots of water",
+          "Play spaces",
+          "Noisy stuff",
+          "Gatherings",
+          "Group activities",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 196,
+        "numberStr": "#196",
+        "name": "Toxel",
+        "favorites": [
+          "Electronics",
+          "Shiny stuff",
+          "Noisy stuff",
+          "Glass stuff",
+          "Garbage",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 197,
+        "numberStr": "#197",
+        "name": "Toxtricity Amped Form",
+        "favorites": [
+          "Electronics",
+          "Play spaces",
+          "Noisy stuff",
+          "Slender objects",
+          "Sharp stuff",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 0,
+        "numberStr": "#000",
+        "name": "Toxtricity Low Key Form",
+        "favorites": [
+          "Electronics",
+          "Play spaces",
+          "Noisy stuff",
+          "Slender objects",
+          "Sharp stuff",
+          "Bitter flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Noisy stuff"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Noisy Stuff",
+        "items": [
+          "Speaker",
+          "Cool electric guitar"
+        ]
+      },
+      {
+        "favorite": "Electronics",
+        "items": [
+          "Audio mixer",
+          "Standing mic"
+        ]
+      },
+      {
+        "favorite": "Play Spaces",
+        "items": [
+          "Slide"
+        ]
+      },
+      {
+        "favorite": "Slender Objects",
+        "items": [
+          "Rope"
+        ]
+      },
+      {
+        "favorite": "Sharp Stuff",
+        "items": [
+          "Vending machine"
+        ]
+      },
+      {
+        "favorite": "Lots of Water",
+        "items": [
+          "Water basin"
+        ]
+      },
+      {
+        "favorite": "Gatherings",
+        "items": [
+          "Sandbags"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Bonfire"
+        ]
+      },
+      {
+        "favorite": "Shiny Stuff",
+        "items": [
+          "Red meteor lamp"
+        ]
+      },
+      {
+        "favorite": "Glass Stuff",
+        "items": [
+          "Glass window"
+        ]
+      },
+      {
+        "favorite": "Garbage",
+        "items": [
+          "Garbage bin"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "rockyRidges",
+    "habitatType": "Warm",
+    "number": 53,
+    "title": "The Coal Trio",
+    "pokemon": [
+      {
+        "number": 193,
+        "numberStr": "#193",
+        "name": "Rolycoly",
+        "favorites": [
+          "Stone stuff",
+          "Lots of fire",
+          "Hard stuff",
+          "Metal stuff",
+          "Rides",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 194,
+        "numberStr": "#194",
+        "name": "Carkol",
+        "favorites": [
+          "Stone stuff",
+          "Lots of fire",
+          "Hard stuff",
+          "Metal stuff",
+          "Rides",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 195,
+        "numberStr": "#195",
+        "name": "Coalossal",
+        "favorites": [
+          "Stone stuff",
+          "Lots of fire",
+          "Hard stuff",
+          "Metal stuff",
+          "Rides",
+          "Spicy flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Stone stuff",
+      "Lots of fire",
+      "Hard stuff",
+      "Metal stuff",
+      "Rides"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Stone Stuff",
+        "items": [
+          "Stone bench",
+          "Strength rock"
+        ]
+      },
+      {
+        "favorite": "Lots of Fire",
+        "items": [
+          "Firepit"
+        ]
+      },
+      {
+        "favorite": "Hard Stuff",
+        "items": [
+          "Iron stand"
+        ]
+      },
+      {
+        "favorite": "Metal Stuff",
+        "items": [
+          "Iron pipes"
+        ]
+      },
+      {
+        "favorite": "Rides",
+        "items": [
+          "Handcar"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "rockyRidges",
+    "habitatType": "Warm",
+    "number": 54,
+    "title": "The Forge Masters",
+    "pokemon": [
+      {
+        "number": 163,
+        "numberStr": "#163",
+        "name": "Magmar",
+        "favorites": [
+          "Lots of fire",
+          "Stone stuff",
+          "Electronics",
+          "Hard stuff",
+          "Exercise",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 164,
+        "numberStr": "#164",
+        "name": "Magmortar",
+        "favorites": [
+          "Lots of fire",
+          "Stone stuff",
+          "Electronics",
+          "Hard stuff",
+          "Exercise",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 176,
+        "numberStr": "#176",
+        "name": "Torkoal",
+        "favorites": [
+          "Lots of fire",
+          "Stone stuff",
+          "Metal stuff",
+          "Hard stuff",
+          "Watching stuff",
+          "Dry flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of fire",
+      "Stone stuff",
+      "Hard stuff"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Fire",
+        "items": [
+          "Firepit",
+          "Bonfire"
+        ]
+      },
+      {
+        "favorite": "Stone Stuff",
+        "items": [
+          "Fiery Magby statue"
+        ]
+      },
+      {
+        "favorite": "Electronics",
+        "items": [
+          "Utility pole"
+        ]
+      },
+      {
+        "favorite": "Hard Stuff",
+        "items": [
+          "Iron stand"
+        ]
+      },
+      {
+        "favorite": "Exercise",
+        "items": [
+          "Punching bag"
+        ]
+      },
+      {
+        "favorite": "Metal Stuff",
+        "items": [
+          "Iron pipes"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Television"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "rockyRidges",
+    "habitatType": "Warm",
+    "number": 55,
+    "title": "The Flame Blades",
+    "pokemon": [
+      {
+        "number": 200,
+        "numberStr": "#200",
+        "name": "Charcadet",
+        "favorites": [
+          "Lots of fire",
+          "Stone stuff",
+          "Strange stuff",
+          "Exercise",
+          "Luxury",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 201,
+        "numberStr": "#201",
+        "name": "Armarouge",
+        "favorites": [
+          "Lots of fire",
+          "Stone stuff",
+          "Strange stuff",
+          "Exercise",
+          "Luxury",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 202,
+        "numberStr": "#202",
+        "name": "Ceruledge",
+        "favorites": [
+          "Lots of fire",
+          "Stone stuff",
+          "Spooky stuff",
+          "Strange stuff",
+          "Luxury",
+          "Bitter flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of fire",
+      "Stone stuff",
+      "Strange stuff",
+      "Luxury"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Fire",
+        "items": [
+          "Firepit"
+        ]
+      },
+      {
+        "favorite": "Stone Stuff",
+        "items": [
+          "Stone bench"
+        ]
+      },
+      {
+        "favorite": "Strange Stuff",
+        "items": [
+          "Armor fragment"
+        ]
+      },
+      {
+        "favorite": "Exercise",
+        "items": [
+          "Punching bag"
+        ]
+      },
+      {
+        "favorite": "Luxury",
+        "items": [
+          "Luxury lamp"
+        ]
+      },
+      {
+        "favorite": "Spooky Stuff",
+        "items": [
+          "Eerie candle"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "rockyRidges",
+    "habitatType": "Warm",
+    "number": 56,
+    "title": "The Kick Starters",
+    "pokemon": [
+      {
+        "number": 188,
+        "numberStr": "#188",
+        "name": "Scorbunny",
+        "favorites": [
+          "Lots of fire",
+          "Stone stuff",
+          "Soft stuff",
+          "Group activities",
+          "Sharp stuff",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 189,
+        "numberStr": "#189",
+        "name": "Raboot",
+        "favorites": [
+          "Lots of fire",
+          "Stone stuff",
+          "Play spaces",
+          "Group activities",
+          "Containers",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 190,
+        "numberStr": "#190",
+        "name": "Cinderace",
+        "favorites": [
+          "Lots of fire",
+          "Stone stuff",
+          "Play spaces",
+          "Group activities",
+          "Round stuff",
+          "Spicy flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of fire",
+      "Stone stuff",
+      "Group activities"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Fire",
+        "items": [
+          "Bonfire"
+        ]
+      },
+      {
+        "favorite": "Stone Stuff",
+        "items": [
+          "Stone bench"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Industrial bench"
+        ]
+      },
+      {
+        "favorite": "Play Spaces",
+        "items": [
+          "Tire toy",
+          "Slide"
+        ]
+      },
+      {
+        "favorite": "Soft Stuff",
+        "items": [
+          "Plain sofa"
+        ]
+      },
+      {
+        "favorite": "Sharp Stuff",
+        "items": [
+          "Vending machine"
+        ]
+      },
+      {
+        "favorite": "Containers",
+        "items": [
+          "Storage box"
+        ]
+      },
+      {
+        "favorite": "Round Stuff",
+        "items": [
+          "Balloons"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "rockyRidges",
+    "habitatType": "Warm",
+    "number": 57,
+    "title": "The Fire Dogs",
+    "pokemon": [
+      {
+        "number": 198,
+        "numberStr": "#198",
+        "name": "Fidough",
+        "favorites": [
+          "Cute stuff",
+          "Watching stuff",
+          "Soft stuff",
+          "Lots of fire",
+          "Letters and words",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 199,
+        "numberStr": "#199",
+        "name": "Dachsbun",
+        "favorites": [
+          "Cute stuff",
+          "Watching stuff",
+          "Group activities",
+          "Lots of fire",
+          "Looks like food",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 89,
+        "numberStr": "#089",
+        "name": "Arcanine",
+        "favorites": [
+          "Lots of fire",
+          "Stone stuff",
+          "Nice breezes",
+          "Watching stuff",
+          "Symbols",
+          "Spicy Flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of fire",
+      "Watching stuff"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Fire",
+        "items": [
+          "Firepit"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Painting (landscape)"
+        ]
+      },
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute lamp"
+        ]
+      },
+      {
+        "favorite": "Soft Stuff",
+        "items": [
+          "Plain sofa"
+        ]
+      },
+      {
+        "favorite": "Letters and Words",
+        "items": [
+          "Open Book"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Picnic basket"
+        ]
+      },
+      {
+        "favorite": "Looks Like Food",
+        "items": [
+          "Berry basket"
+        ]
+      },
+      {
+        "favorite": "Stone Stuff",
+        "items": [
+          "Stone bench"
+        ]
+      },
+      {
+        "favorite": "Nice Breezes",
+        "items": [
+          "Pinwheels"
+        ]
+      },
+      {
+        "favorite": "Symbols",
+        "items": [
+          "Signpost"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "rockyRidges",
+    "habitatType": "Warm",
+    "number": 58,
+    "title": "The Sweet Suite",
+    "pokemon": [
+      {
+        "number": 151,
+        "numberStr": "#151",
+        "name": "Igglybuff",
+        "favorites": [
+          "Soft stuff",
+          "Cute stuff",
+          "Play spaces",
+          "Healing",
+          "Noisy stuff",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 179,
+        "numberStr": "#179",
+        "name": "Chatot",
+        "favorites": [
+          "Nice breezes",
+          "Fabric",
+          "Slender objects",
+          "Play spaces",
+          "Noisy stuff",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 192,
+        "numberStr": "#192",
+        "name": "Greedent",
+        "favorites": [
+          "Soft stuff",
+          "Metal stuff",
+          "Group activities",
+          "Looks like food",
+          "Luxury",
+          "Sweet Flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Sweet Flavors"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Soft Stuff",
+        "items": [
+          "Plain sofa"
+        ]
+      },
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute lamp"
+        ]
+      },
+      {
+        "favorite": "Play Spaces",
+        "items": [
+          "Slide"
+        ]
+      },
+      {
+        "favorite": "Healing",
+        "items": [
+          "First aid kit"
+        ]
+      },
+      {
+        "favorite": "Noisy Stuff",
+        "items": [
+          "Speaker"
+        ]
+      },
+      {
+        "favorite": "Nice Breezes",
+        "items": [
+          "Pinwheels"
+        ]
+      },
+      {
+        "favorite": "Fabric",
+        "items": [
+          "Fluff"
+        ]
+      },
+      {
+        "favorite": "Slender Objects",
+        "items": [
+          "Rope"
+        ]
+      },
+      {
+        "favorite": "Metal Stuff",
+        "items": [
+          "Iron bench"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Chic sofa"
+        ]
+      },
+      {
+        "favorite": "Looks Like Food",
+        "items": [
+          "Berry basket"
+        ]
+      },
+      {
+        "favorite": "Luxury",
+        "items": [
+          "Luxury lamp"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "sparklingSkylands",
+    "habitatType": "Bright",
+    "number": 59,
+    "title": "The Cheering Pair",
+    "pokemon": [
+      {
+        "number": 235,
+        "numberStr": "#235",
+        "name": "Plusle",
+        "favorites": [
+          "Electronics",
+          "Glass stuff",
+          "Soft stuff",
+          "Cute stuff",
+          "Group activities",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 236,
+        "numberStr": "#236",
+        "name": "Minun",
+        "favorites": [
+          "Electronics",
+          "Glass stuff",
+          "Soft stuff",
+          "Cute stuff",
+          "Group activities",
+          "Spicy flavors"
+        ]
+      }
+    ],
+    "shared": [],
+    "suggestedItems": [
+      {
+        "favorite": "Electronics",
+        "items": [
+          "Arcade machine",
+          "Wall monitor"
+        ]
+      },
+      {
+        "favorite": "Glass Stuff",
+        "items": [
+          "Glass window"
+        ]
+      },
+      {
+        "favorite": "Soft Stuff",
+        "items": [
+          "Plain sofa"
+        ]
+      },
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute lamp"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Pikachu sofa"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "sparklingSkylands",
+    "habitatType": "Bright",
+    "number": 60,
+    "title": "The Sky Quartet",
+    "pokemon": [
+      {
+        "number": 266,
+        "numberStr": "#266",
+        "name": "Wattrel",
+        "favorites": [
+          "Electronics",
+          "Nice breezes",
+          "Ocean vibes",
+          "Gatherings",
+          "Complicated stuff",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 267,
+        "numberStr": "#267",
+        "name": "Kilowattrel",
+        "favorites": [
+          "Electronics",
+          "Nice breezes",
+          "Ocean vibes",
+          "Gatherings",
+          "Slender objects",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 240,
+        "numberStr": "#240",
+        "name": "Swablu",
+        "favorites": [
+          "Soft stuff",
+          "Nice breezes",
+          "Cute stuff",
+          "Watching stuff",
+          "Cleanliness",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 241,
+        "numberStr": "#241",
+        "name": "Altaria",
+        "favorites": [
+          "Soft stuff",
+          "Nice breezes",
+          "Cute stuff",
+          "Watching stuff",
+          "Noisy stuff",
+          "Sour Flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Nice breezes"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Nice Breezes",
+        "items": [
+          "Ceiling fan",
+          "Pinwheels"
+        ]
+      },
+      {
+        "favorite": "Electronics",
+        "items": [
+          "Utility pole"
+        ]
+      },
+      {
+        "favorite": "Ocean Vibes",
+        "items": [
+          "Deck chair",
+          "Beach parasol"
+        ]
+      },
+      {
+        "favorite": "Gatherings",
+        "items": [
+          "Sandbags"
+        ]
+      },
+      {
+        "favorite": "Complicated Stuff",
+        "items": [
+          "Magazine rack"
+        ]
+      },
+      {
+        "favorite": "Slender Objects",
+        "items": [
+          "Rope"
+        ]
+      },
+      {
+        "favorite": "Soft Stuff",
+        "items": [
+          "Plain sofa"
+        ]
+      },
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute lamp"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Painting (landscape)"
+        ]
+      },
+      {
+        "favorite": "Cleanliness",
+        "items": [
+          "Water basin"
+        ]
+      },
+      {
+        "favorite": "Noisy Stuff",
+        "items": [
+          "Speaker"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "sparklingSkylands",
+    "habitatType": "Bright",
+    "number": 61,
+    "title": "The Corvid Roost",
+    "pokemon": [
+      {
+        "number": 257,
+        "numberStr": "#257",
+        "name": "Rookidee",
+        "favorites": [
+          "Nice breezes",
+          "Shiny stuff",
+          "Containers",
+          "Slender objects",
+          "Wooden stuff",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 258,
+        "numberStr": "#258",
+        "name": "Corvisquire",
+        "favorites": [
+          "Nice breezes",
+          "Shiny stuff",
+          "Containers",
+          "Slender objects",
+          "Wooden stuff",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 259,
+        "numberStr": "#259",
+        "name": "Corviknight",
+        "favorites": [
+          "Nice breezes",
+          "Metal stuff",
+          "Shiny stuff",
+          "Containers",
+          "Wooden stuff",
+          "Bitter flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Nice breezes",
+      "Shiny stuff",
+      "Containers",
+      "Wooden stuff"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Nice Breezes",
+        "items": [
+          "Pinwheels"
+        ]
+      },
+      {
+        "favorite": "Shiny Stuff",
+        "items": [
+          "Crystal fragment"
+        ]
+      },
+      {
+        "favorite": "Containers",
+        "items": [
+          "Wall storage box"
+        ]
+      },
+      {
+        "favorite": "Slender Objects",
+        "items": [
+          "Rope"
+        ]
+      },
+      {
+        "favorite": "Wooden Stuff",
+        "items": [
+          "Log chair",
+          "Vine wall decoration"
+        ]
+      },
+      {
+        "favorite": "Metal Stuff",
+        "items": [
+          "Iron bench"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "sparklingSkylands",
+    "habitatType": "Bright",
+    "number": 62,
+    "title": "The Cat Garden",
+    "pokemon": [
+      {
+        "number": 263,
+        "numberStr": "#263",
+        "name": "Sprigatito",
+        "favorites": [
+          "Lots of nature",
+          "Pretty flowers",
+          "Containers",
+          "Colorful stuff",
+          "Cute stuff",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 264,
+        "numberStr": "#264",
+        "name": "Floragato",
+        "favorites": [
+          "Lots of nature",
+          "Pretty flowers",
+          "Sharp stuff",
+          "Colorful stuff",
+          "Cute stuff",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 265,
+        "numberStr": "#265",
+        "name": "Meowscarada",
+        "favorites": [
+          "Lots of nature",
+          "Pretty flowers",
+          "Shiny stuff",
+          "Luxury",
+          "Cute stuff",
+          "Dry flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of nature",
+      "Pretty flowers",
+      "Cute stuff"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Nature",
+        "items": [
+          "Garden table",
+          "Garden bench"
+        ]
+      },
+      {
+        "favorite": "Pretty Flowers",
+        "items": [
+          "Beautiful flower",
+          "Wildflowers"
+        ]
+      },
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute lamp"
+        ]
+      },
+      {
+        "favorite": "Containers",
+        "items": [
+          "Berry case"
+        ]
+      },
+      {
+        "favorite": "Colorful Stuff",
+        "items": [
+          "Pink paint"
+        ]
+      },
+      {
+        "favorite": "Sharp Stuff",
+        "items": [
+          "Vending machine"
+        ]
+      },
+      {
+        "favorite": "Shiny Stuff",
+        "items": [
+          "Crystal fragment"
+        ]
+      },
+      {
+        "favorite": "Luxury",
+        "items": [
+          "Luxury lamp"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "sparklingSkylands",
+    "habitatType": "Bright",
+    "number": 63,
+    "title": "The Digital Den",
+    "pokemon": [
+      {
+        "number": 218,
+        "numberStr": "#218",
+        "name": "Porygon",
+        "favorites": [
+          "Soft stuff",
+          "Strange stuff",
+          "Blocky stuff",
+          "Construction",
+          "Colorful stuff",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 219,
+        "numberStr": "#219",
+        "name": "Porygon2",
+        "favorites": [
+          "Soft stuff",
+          "Strange stuff",
+          "Round stuff",
+          "Construction",
+          "Colorful stuff",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 220,
+        "numberStr": "#220",
+        "name": "Porygon-Z",
+        "favorites": [
+          "Soft stuff",
+          "Strange stuff",
+          "Fabric",
+          "Watching stuff",
+          "Colorful stuff",
+          "Dry flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Soft stuff",
+      "Strange stuff",
+      "Colorful stuff"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Soft Stuff",
+        "items": [
+          "Plain sofa"
+        ]
+      },
+      {
+        "favorite": "Strange Stuff",
+        "items": [
+          "Polygonal Shelf"
+        ]
+      },
+      {
+        "favorite": "Colorful Stuff",
+        "items": [
+          "Gaming light",
+          "Pink paint"
+        ]
+      },
+      {
+        "favorite": "Construction",
+        "items": [
+          "Iron scaffold"
+        ]
+      },
+      {
+        "favorite": "Blocky Stuff",
+        "items": [
+          "Polygonal Shelf"
+        ]
+      },
+      {
+        "favorite": "Round Stuff",
+        "items": [
+          "Crystal ball"
+        ]
+      },
+      {
+        "favorite": "Fabric",
+        "items": [
+          "Fluff"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Blank canvas"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "sparklingSkylands",
+    "habitatType": "Bright",
+    "number": 64,
+    "title": "The Psychic Family",
+    "pokemon": [
+      {
+        "number": 231,
+        "numberStr": "#231",
+        "name": "Ralts",
+        "favorites": [
+          "Strange stuff",
+          "Cute stuff",
+          "Healing",
+          "Watching stuff",
+          "Symbols",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 232,
+        "numberStr": "#232",
+        "name": "Kirlia",
+        "favorites": [
+          "Strange stuff",
+          "Cute stuff",
+          "Healing",
+          "Watching stuff",
+          "Symbols",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 233,
+        "numberStr": "#233",
+        "name": "Gardevoir",
+        "favorites": [
+          "Strange stuff",
+          "Luxury",
+          "Healing",
+          "Watching stuff",
+          "Symbols",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 234,
+        "numberStr": "#234",
+        "name": "Gallade",
+        "favorites": [
+          "Strange stuff",
+          "Exercise",
+          "Healing",
+          "Construction",
+          "Fabric",
+          "Spicy flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Strange stuff",
+      "Healing"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Strange Stuff",
+        "items": [
+          "Large Lost Relic"
+        ]
+      },
+      {
+        "favorite": "Healing",
+        "items": [
+          "First aid kit"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Painting (portrait)"
+        ]
+      },
+      {
+        "favorite": "Symbols",
+        "items": [
+          "Signpost"
+        ]
+      },
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute lamp"
+        ]
+      },
+      {
+        "favorite": "Luxury",
+        "items": [
+          "Luxury lamp"
+        ]
+      },
+      {
+        "favorite": "Exercise",
+        "items": [
+          "Punching bag"
+        ]
+      },
+      {
+        "favorite": "Construction",
+        "items": [
+          "Iron scaffold"
+        ]
+      },
+      {
+        "favorite": "Fabric",
+        "items": [
+          "Fluff"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "sparklingSkylands",
+    "habitatType": "Bright",
+    "number": 65,
+    "title": "The Tinkaton Line",
+    "pokemon": [
+      {
+        "number": 268,
+        "numberStr": "#268",
+        "name": "Tinkatink",
+        "favorites": [
+          "Cute stuff",
+          "Metal stuff",
+          "Construction",
+          "Looks like food",
+          "Exercise",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 269,
+        "numberStr": "#269",
+        "name": "Tinkatuff",
+        "favorites": [
+          "Cute stuff",
+          "Metal stuff",
+          "Construction",
+          "Group activities",
+          "Exercise",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 270,
+        "numberStr": "#270",
+        "name": "Tinkaton",
+        "favorites": [
+          "Cute stuff",
+          "Metal stuff",
+          "Construction",
+          "Blocky stuff",
+          "Exercise",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 175,
+        "numberStr": "#175",
+        "name": "Mawile",
+        "favorites": [
+          "Metal stuff",
+          "Cute stuff",
+          "Colorful stuff",
+          "Looks like food",
+          "Group activities",
+          "Dry flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Cute stuff",
+      "Metal stuff"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute lamp"
+        ]
+      },
+      {
+        "favorite": "Metal Stuff",
+        "items": [
+          "Iron pipes"
+        ]
+      },
+      {
+        "favorite": "Construction",
+        "items": [
+          "Iron scaffold"
+        ]
+      },
+      {
+        "favorite": "Exercise",
+        "items": [
+          "Punching bag"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Iron bench"
+        ]
+      },
+      {
+        "favorite": "Looks Like Food",
+        "items": [
+          "Berry basket"
+        ]
+      },
+      {
+        "favorite": "Blocky Stuff",
+        "items": [
+          "Wooden crate"
+        ]
+      },
+      {
+        "favorite": "Colorful Stuff",
+        "items": [
+          "Pink paint"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "sparklingSkylands",
+    "habitatType": "Bright",
+    "number": 87,
+    "title": "The Mime Duo",
+    "pokemon": [
+      {
+        "number": 216,
+        "numberStr": "#216",
+        "name": "Mime Jr.",
+        "favorites": [
+          "Strange stuff",
+          "Cute stuff",
+          "Rides",
+          "Play spaces",
+          "Colorful stuff",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 217,
+        "numberStr": "#217",
+        "name": "Mr. Mime",
+        "favorites": [
+          "Strange stuff",
+          "Cute stuff",
+          "Rides",
+          "Wobbly stuff",
+          "Watching stuff",
+          "Bitter flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Strange stuff",
+      "Cute stuff",
+      "Rides"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Strange Stuff",
+        "items": [
+          "Music mat (low do)"
+        ]
+      },
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Pop art lamp"
+        ]
+      },
+      {
+        "favorite": "Rides",
+        "items": [
+          "Handcar"
+        ]
+      },
+      {
+        "favorite": "Play Spaces",
+        "items": [
+          "Slide"
+        ]
+      },
+      {
+        "favorite": "Colorful Stuff",
+        "items": [
+          "Paint balloon (blue)"
+        ]
+      },
+      {
+        "favorite": "Wobbly Stuff",
+        "items": [
+          "Wobbuffet Wobbler"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Blank canvas"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "sparklingSkylands",
+    "habitatType": "Cool",
+    "number": 66,
+    "title": "The Beldum Line",
+    "pokemon": [
+      {
+        "number": 245,
+        "numberStr": "#245",
+        "name": "Beldum",
+        "favorites": [
+          "Metal stuff",
+          "Strange stuff",
+          "Hard stuff",
+          "Complicated stuff",
+          "Stone stuff",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 246,
+        "numberStr": "#246",
+        "name": "Metang",
+        "favorites": [
+          "Metal stuff",
+          "Strange stuff",
+          "Hard stuff",
+          "Complicated stuff",
+          "Stone stuff",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 247,
+        "numberStr": "#247",
+        "name": "Metagross",
+        "favorites": [
+          "Metal stuff",
+          "Strange stuff",
+          "Hard stuff",
+          "Exercise",
+          "Luxury",
+          "Dry flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Metal stuff",
+      "Strange stuff",
+      "Hard stuff"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Metal Stuff",
+        "items": [
+          "Iron pipes",
+          "Iron bench"
+        ]
+      },
+      {
+        "favorite": "Strange Stuff",
+        "items": [
+          "Large Lost Relic"
+        ]
+      },
+      {
+        "favorite": "Hard Stuff",
+        "items": [
+          "Iron stand"
+        ]
+      },
+      {
+        "favorite": "Complicated Stuff",
+        "items": [
+          "Magazine rack"
+        ]
+      },
+      {
+        "favorite": "Stone Stuff",
+        "items": [
+          "Mysterious statue"
+        ]
+      },
+      {
+        "favorite": "Exercise",
+        "items": [
+          "Punching bag"
+        ]
+      },
+      {
+        "favorite": "Luxury",
+        "items": [
+          "Luxury lamp"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "sparklingSkylands",
+    "habitatType": "Dark",
+    "number": 67,
+    "title": "The Ghost House",
+    "pokemon": [
+      {
+        "number": 242,
+        "numberStr": "#242",
+        "name": "Duskull",
+        "favorites": [
+          "Spooky stuff",
+          "Strange stuff",
+          "Rides",
+          "Glass stuff",
+          "Fabric",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 243,
+        "numberStr": "#243",
+        "name": "Dusclops",
+        "favorites": [
+          "Spooky stuff",
+          "Strange stuff",
+          "Rides",
+          "Soft stuff",
+          "Containers",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 244,
+        "numberStr": "#244",
+        "name": "Dusknoir",
+        "favorites": [
+          "Spooky stuff",
+          "Strange stuff",
+          "Rides",
+          "Group activities",
+          "Containers",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 228,
+        "numberStr": "#228",
+        "name": "Mismagius",
+        "favorites": [
+          "Spooky stuff",
+          "Strange stuff",
+          "Noisy stuff",
+          "Wobbly stuff",
+          "Group activities",
+          "Bitter flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Spooky stuff",
+      "Strange stuff"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Spooky Stuff",
+        "items": [
+          "Gravestone",
+          "Eerie candle"
+        ]
+      },
+      {
+        "favorite": "Strange Stuff",
+        "items": [
+          "Repel"
+        ]
+      },
+      {
+        "favorite": "Rides",
+        "items": [
+          "Handcar"
+        ]
+      },
+      {
+        "favorite": "Glass Stuff",
+        "items": [
+          "Glass window"
+        ]
+      },
+      {
+        "favorite": "Fabric",
+        "items": [
+          "Fluff"
+        ]
+      },
+      {
+        "favorite": "Soft Stuff",
+        "items": [
+          "Plain sofa"
+        ]
+      },
+      {
+        "favorite": "Containers",
+        "items": [
+          "Wall storage box"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Bonfire"
+        ]
+      },
+      {
+        "favorite": "Noisy Stuff",
+        "items": [
+          "Clear Bell"
+        ]
+      },
+      {
+        "favorite": "Wobbly Stuff",
+        "items": [
+          "Wobbuffet Wobbler"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "sparklingSkylands",
+    "habitatType": "Dark",
+    "number": 68,
+    "title": "The Night Watch",
+    "pokemon": [
+      {
+        "number": 227,
+        "numberStr": "#227",
+        "name": "Misdreavus",
+        "favorites": [
+          "Spooky stuff",
+          "Strange stuff",
+          "Shiny stuff",
+          "Colorful stuff",
+          "Watching stuff",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 255,
+        "numberStr": "#255",
+        "name": "Noibat",
+        "favorites": [
+          "Nice breezes",
+          "Lots of fire",
+          "Watching stuff",
+          "Luxury",
+          "Looks like food",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 256,
+        "numberStr": "#256",
+        "name": "Noivern",
+        "favorites": [
+          "Nice breezes",
+          "Lots of fire",
+          "Watching stuff",
+          "Play spaces",
+          "Looks like food",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 170,
+        "numberStr": "#170",
+        "name": "Pupitar",
+        "favorites": [
+          "Stone stuff",
+          "Hard stuff",
+          "Luxury",
+          "Shiny stuff",
+          "Watching stuff",
+          "Dry flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Watching stuff"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Painting (landscape)",
+          "Television"
+        ]
+      },
+      {
+        "favorite": "Nice Breezes",
+        "items": [
+          "Pinwheels"
+        ]
+      },
+      {
+        "favorite": "Lots of Fire",
+        "items": [
+          "Firepit"
+        ]
+      },
+      {
+        "favorite": "Looks Like Food",
+        "items": [
+          "Berry basket"
+        ]
+      },
+      {
+        "favorite": "Spooky Stuff",
+        "items": [
+          "Gravestone"
+        ]
+      },
+      {
+        "favorite": "Strange Stuff",
+        "items": [
+          "Repel"
+        ]
+      },
+      {
+        "favorite": "Shiny Stuff",
+        "items": [
+          "Crystal fragment"
+        ]
+      },
+      {
+        "favorite": "Colorful Stuff",
+        "items": [
+          "Paint balloon (purple)"
+        ]
+      },
+      {
+        "favorite": "Luxury",
+        "items": [
+          "Luxury lamp"
+        ]
+      },
+      {
+        "favorite": "Play Spaces",
+        "items": [
+          "Slide"
+        ]
+      },
+      {
+        "favorite": "Stone Stuff",
+        "items": [
+          "Strength rock"
+        ]
+      },
+      {
+        "favorite": "Hard Stuff",
+        "items": [
+          "Iron stand"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "sparklingSkylands",
+    "habitatType": "Dark",
+    "number": 69,
+    "title": "The Spoon Benders",
+    "pokemon": [
+      {
+        "number": 213,
+        "numberStr": "#213",
+        "name": "Abra",
+        "favorites": [
+          "Strange stuff",
+          "Wobbly stuff",
+          "Metal stuff",
+          "Soft stuff",
+          "Watching stuff",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 214,
+        "numberStr": "#214",
+        "name": "Kadabra",
+        "favorites": [
+          "Strange stuff",
+          "Wobbly stuff",
+          "Metal stuff",
+          "Containers",
+          "Watching stuff",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 215,
+        "numberStr": "#215",
+        "name": "Alakazam",
+        "favorites": [
+          "Strange stuff",
+          "Wobbly stuff",
+          "Metal stuff",
+          "Letters and words",
+          "Watching stuff",
+          "Bitter flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Strange stuff",
+      "Wobbly stuff",
+      "Metal stuff",
+      "Watching stuff"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Strange Stuff",
+        "items": [
+          "Large Lost Relic"
+        ]
+      },
+      {
+        "favorite": "Wobbly Stuff",
+        "items": [
+          "Wobbuffet Wobbler"
+        ]
+      },
+      {
+        "favorite": "Metal Stuff",
+        "items": [
+          "Iron bench"
+        ]
+      },
+      {
+        "favorite": "Soft Stuff",
+        "items": [
+          "Plain sofa"
+        ]
+      },
+      {
+        "favorite": "Containers",
+        "items": [
+          "Plain chest"
+        ]
+      },
+      {
+        "favorite": "Letters and Words",
+        "items": [
+          "Open Book"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Painting (portrait)"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "sparklingSkylands",
+    "habitatType": "Dry",
+    "number": 70,
+    "title": "The Sand Pit",
+    "pokemon": [
+      {
+        "number": 237,
+        "numberStr": "#237",
+        "name": "Trapinch",
+        "favorites": [
+          "Lots of dirt",
+          "Hard stuff",
+          "Strange stuff",
+          "Watching stuff",
+          "Exercise",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 238,
+        "numberStr": "#238",
+        "name": "Vibrava",
+        "favorites": [
+          "Lots of dirt",
+          "Lots of fire",
+          "Lots of nature",
+          "Luxury",
+          "Noisy stuff",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 239,
+        "numberStr": "#239",
+        "name": "Flygon",
+        "favorites": [
+          "Lots of dirt",
+          "Lots of fire",
+          "Lots of nature",
+          "Stone stuff",
+          "Wooden stuff",
+          "Sour Flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of dirt"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Dirt",
+        "items": [
+          "Sandbags"
+        ]
+      },
+      {
+        "favorite": "Lots of Fire",
+        "items": [
+          "Campfire"
+        ]
+      },
+      {
+        "favorite": "Lots of Nature",
+        "items": [
+          "Log table"
+        ]
+      },
+      {
+        "favorite": "Hard Stuff",
+        "items": [
+          "Iron stand"
+        ]
+      },
+      {
+        "favorite": "Strange Stuff",
+        "items": [
+          "Repel"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Painting (landscape)"
+        ]
+      },
+      {
+        "favorite": "Exercise",
+        "items": [
+          "Punching bag"
+        ]
+      },
+      {
+        "favorite": "Luxury",
+        "items": [
+          "Luxury lamp"
+        ]
+      },
+      {
+        "favorite": "Noisy Stuff",
+        "items": [
+          "Speaker"
+        ]
+      },
+      {
+        "favorite": "Stone Stuff",
+        "items": [
+          "Stone bench"
+        ]
+      },
+      {
+        "favorite": "Wooden Stuff",
+        "items": [
+          "Vine wall decoration"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "sparklingSkylands",
+    "habitatType": "Humid",
+    "number": 71,
+    "title": "The Phantom Dragons",
+    "pokemon": [
+      {
+        "number": 260,
+        "numberStr": "#260",
+        "name": "Dreepy",
+        "favorites": [
+          "Lots of fire",
+          "Spooky stuff",
+          "Rides",
+          "Strange stuff",
+          "Group activities",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 261,
+        "numberStr": "#261",
+        "name": "Drakloak",
+        "favorites": [
+          "Lots of fire",
+          "Spooky stuff",
+          "Rides",
+          "Strange stuff",
+          "Group activities",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 262,
+        "numberStr": "#262",
+        "name": "Dragapult",
+        "favorites": [
+          "Lots of fire",
+          "Spooky stuff",
+          "Rides",
+          "Strange stuff",
+          "Group activities",
+          "Spicy flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of fire",
+      "Spooky stuff",
+      "Rides",
+      "Strange stuff",
+      "Group activities"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Fire",
+        "items": [
+          "Firepit",
+          "Bonfire"
+        ]
+      },
+      {
+        "favorite": "Spooky Stuff",
+        "items": [
+          "Gravestone"
+        ]
+      },
+      {
+        "favorite": "Rides",
+        "items": [
+          "Handcar"
+        ]
+      },
+      {
+        "favorite": "Strange Stuff",
+        "items": [
+          "Repel"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Industrial bench"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "sparklingSkylands",
+    "habitatType": "Humid",
+    "number": 72,
+    "title": "The Vine Trio",
+    "pokemon": [
+      {
+        "number": 248,
+        "numberStr": "#248",
+        "name": "Snivy",
+        "favorites": [
+          "Lots of nature",
+          "Wooden stuff",
+          "Lots of water",
+          "Wobbly stuff",
+          "Shiny stuff",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 249,
+        "numberStr": "#249",
+        "name": "Servine",
+        "favorites": [
+          "Lots of nature",
+          "Wooden stuff",
+          "Lots of water",
+          "Cleanliness",
+          "Shiny stuff",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 250,
+        "numberStr": "#250",
+        "name": "Serperior",
+        "favorites": [
+          "Lots of nature",
+          "Wooden stuff",
+          "Lots of water",
+          "Containers",
+          "Slender objects",
+          "Dry flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of nature",
+      "Wooden stuff",
+      "Lots of water"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Nature",
+        "items": [
+          "Garden bench",
+          "Log table"
+        ]
+      },
+      {
+        "favorite": "Wooden Stuff",
+        "items": [
+          "Vine wall decoration"
+        ]
+      },
+      {
+        "favorite": "Lots of Water",
+        "items": [
+          "Water basin"
+        ]
+      },
+      {
+        "favorite": "Wobbly Stuff",
+        "items": [
+          "Resort hammock"
+        ]
+      },
+      {
+        "favorite": "Shiny Stuff",
+        "items": [
+          "Crystal fragment"
+        ]
+      },
+      {
+        "favorite": "Cleanliness",
+        "items": [
+          "Water basin"
+        ]
+      },
+      {
+        "favorite": "Containers",
+        "items": [
+          "Wall storage box"
+        ]
+      },
+      {
+        "favorite": "Slender Objects",
+        "items": [
+          "Rope"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "sparklingSkylands",
+    "habitatType": "Humid",
+    "number": 73,
+    "title": "The Tidal Force",
+    "pokemon": [
+      {
+        "number": 251,
+        "numberStr": "#251",
+        "name": "Froakie",
+        "favorites": [
+          "Lots of water",
+          "Ocean vibes",
+          "Cleanliness",
+          "Watching stuff",
+          "Containers",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 252,
+        "numberStr": "#252",
+        "name": "Frogadier",
+        "favorites": [
+          "Lots of water",
+          "Ocean vibes",
+          "Cleanliness",
+          "Watching stuff",
+          "Exercise",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 253,
+        "numberStr": "#253",
+        "name": "Greninja",
+        "favorites": [
+          "Lots of water",
+          "Ocean vibes",
+          "Cleanliness",
+          "Shiny stuff",
+          "Exercise",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 46,
+        "numberStr": "#046",
+        "name": "Gyarados",
+        "favorites": [
+          "Lots of water",
+          "Ocean vibes",
+          "Nice breezes",
+          "Cleanliness",
+          "Slender objects",
+          "Spicy flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of water",
+      "Ocean vibes",
+      "Cleanliness"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Water",
+        "items": [
+          "Water basin",
+          "Horsea fountain"
+        ]
+      },
+      {
+        "favorite": "Ocean Vibes",
+        "items": [
+          "Deck chair"
+        ]
+      },
+      {
+        "favorite": "Cleanliness",
+        "items": [
+          "Shower"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Painting (landscape)"
+        ]
+      },
+      {
+        "favorite": "Containers",
+        "items": [
+          "Plain chest"
+        ]
+      },
+      {
+        "favorite": "Exercise",
+        "items": [
+          "Punching bag"
+        ]
+      },
+      {
+        "favorite": "Shiny Stuff",
+        "items": [
+          "Crystal fragment"
+        ]
+      },
+      {
+        "favorite": "Nice Breezes",
+        "items": [
+          "Ceiling fan"
+        ]
+      },
+      {
+        "favorite": "Slender Objects",
+        "items": [
+          "Fishing rod"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "sparklingSkylands",
+    "habitatType": "Humid",
+    "number": 74,
+    "title": "The Dragon Spire",
+    "pokemon": [
+      {
+        "number": 221,
+        "numberStr": "#221",
+        "name": "Dratini",
+        "favorites": [
+          "Lots of water",
+          "Lots of fire",
+          "Cleanliness",
+          "Cute stuff",
+          "Slender objects",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 222,
+        "numberStr": "#222",
+        "name": "Dragonair",
+        "favorites": [
+          "Lots of water",
+          "Lots of fire",
+          "Cleanliness",
+          "Glass stuff",
+          "Slender objects",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 223,
+        "numberStr": "#223",
+        "name": "Dragonite",
+        "favorites": [
+          "Lots of fire",
+          "Nice breezes",
+          "Cleanliness",
+          "Symbols",
+          "Pretty flowers",
+          "Dry flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of fire",
+      "Cleanliness"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Fire",
+        "items": [
+          "Firepit"
+        ]
+      },
+      {
+        "favorite": "Cleanliness",
+        "items": [
+          "Shower"
+        ]
+      },
+      {
+        "favorite": "Lots of Water",
+        "items": [
+          "Water basin"
+        ]
+      },
+      {
+        "favorite": "Slender Objects",
+        "items": [
+          "Rope"
+        ]
+      },
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute lamp"
+        ]
+      },
+      {
+        "favorite": "Glass Stuff",
+        "items": [
+          "Glass window"
+        ]
+      },
+      {
+        "favorite": "Nice Breezes",
+        "items": [
+          "Pinwheels"
+        ]
+      },
+      {
+        "favorite": "Symbols",
+        "items": [
+          "Signpost"
+        ]
+      },
+      {
+        "favorite": "Pretty Flowers",
+        "items": [
+          "Beautiful flower"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "sparklingSkylands",
+    "habitatType": "Humid",
+    "number": 75,
+    "title": "The Whirlpool",
+    "pokemon": [
+      {
+        "number": 209,
+        "numberStr": "#209",
+        "name": "Poliwag",
+        "favorites": [
+          "Lots of water",
+          "Cleanliness",
+          "Round stuff",
+          "Rides",
+          "Spinning stuff",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 210,
+        "numberStr": "#210",
+        "name": "Poliwhirl",
+        "favorites": [
+          "Lots of water",
+          "Cleanliness",
+          "Lots of nature",
+          "Exercise",
+          "Spinning stuff",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 211,
+        "numberStr": "#211",
+        "name": "Poliwrath",
+        "favorites": [
+          "Lots of water",
+          "Cleanliness",
+          "Construction",
+          "Exercise",
+          "Group activities",
+          "Spicy flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of water",
+      "Cleanliness"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Water",
+        "items": [
+          "Water basin"
+        ]
+      },
+      {
+        "favorite": "Cleanliness",
+        "items": [
+          "Shower"
+        ]
+      },
+      {
+        "favorite": "Round Stuff",
+        "items": [
+          "Balloons"
+        ]
+      },
+      {
+        "favorite": "Rides",
+        "items": [
+          "Handcar"
+        ]
+      },
+      {
+        "favorite": "Lots of Nature",
+        "items": [
+          "Garden bench"
+        ]
+      },
+      {
+        "favorite": "Exercise",
+        "items": [
+          "Punching bag"
+        ]
+      },
+      {
+        "favorite": "Construction",
+        "items": [
+          "Iron scaffold"
+        ]
+      },
+      {
+        "favorite": "Spinning Stuff",
+        "items": [
+          "Pinwheel"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Iron bench"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "sparklingSkylands",
+    "habitatType": "Warm",
+    "number": 76,
+    "title": "The Fire Mice",
+    "pokemon": [
+      {
+        "number": 224,
+        "numberStr": "#224",
+        "name": "Cyndaquil",
+        "favorites": [
+          "Lots of fire",
+          "Fabric",
+          "Slender objects",
+          "Metal stuff",
+          "Rides",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 225,
+        "numberStr": "#225",
+        "name": "Quilava",
+        "favorites": [
+          "Lots of fire",
+          "Fabric",
+          "Slender objects",
+          "Metal stuff",
+          "Rides",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 226,
+        "numberStr": "#226",
+        "name": "Typhlosion",
+        "favorites": [
+          "Lots of fire",
+          "Fabric",
+          "Slender objects",
+          "Metal stuff",
+          "Rides",
+          "Dry flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of fire",
+      "Fabric",
+      "Slender objects",
+      "Metal stuff",
+      "Rides"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Fire",
+        "items": [
+          "Firepit"
+        ]
+      },
+      {
+        "favorite": "Fabric",
+        "items": [
+          "Fluff"
+        ]
+      },
+      {
+        "favorite": "Slender Objects",
+        "items": [
+          "Rope"
+        ]
+      },
+      {
+        "favorite": "Metal Stuff",
+        "items": [
+          "Iron pipes"
+        ]
+      },
+      {
+        "favorite": "Rides",
+        "items": [
+          "Handcar"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "sparklingSkylands",
+    "habitatType": "Warm",
+    "number": 77,
+    "title": "The Odd Psychics",
+    "pokemon": [
+      {
+        "number": 229,
+        "numberStr": "#229",
+        "name": "Girafarig",
+        "favorites": [
+          "Soft stuff",
+          "Strange stuff",
+          "Rides",
+          "Watching stuff",
+          "Slender objects",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 230,
+        "numberStr": "#230",
+        "name": "Farigiraf",
+        "favorites": [
+          "Soft stuff",
+          "Strange stuff",
+          "Rides",
+          "Watching stuff",
+          "Slender objects",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 62,
+        "numberStr": "#062",
+        "name": "Drifblim",
+        "favorites": [
+          "Spooky stuff",
+          "Strange stuff",
+          "Nice breezes",
+          "Wobbly stuff",
+          "Spinning stuff",
+          "Bitter flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Strange stuff"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Strange Stuff",
+        "items": [
+          "Large Lost Relic",
+          "Repel"
+        ]
+      },
+      {
+        "favorite": "Soft Stuff",
+        "items": [
+          "Plain sofa"
+        ]
+      },
+      {
+        "favorite": "Rides",
+        "items": [
+          "Handcar"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Painting (portrait)"
+        ]
+      },
+      {
+        "favorite": "Slender Objects",
+        "items": [
+          "Rope"
+        ]
+      },
+      {
+        "favorite": "Spooky Stuff",
+        "items": [
+          "Gravestone"
+        ]
+      },
+      {
+        "favorite": "Nice Breezes",
+        "items": [
+          "Pinwheels"
+        ]
+      },
+      {
+        "favorite": "Spinning Stuff",
+        "items": [
+          "Pinwheel"
+        ]
+      },
+      {
+        "favorite": "Wobbly Stuff",
+        "items": [
+          "Resort hammock"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "sparklingSkylands",
+    "habitatType": "Warm",
+    "number": 78,
+    "title": "The Fox Den",
+    "pokemon": [
+      {
+        "number": 207,
+        "numberStr": "#207",
+        "name": "Vulpix",
+        "favorites": [
+          "Lots of fire",
+          "Soft stuff",
+          "Cute stuff",
+          "Round stuff",
+          "Pretty flowers",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 208,
+        "numberStr": "#208",
+        "name": "Ninetales",
+        "favorites": [
+          "Lots of fire",
+          "Soft stuff",
+          "Watching stuff",
+          "Luxury",
+          "Pretty flowers",
+          "Dry flavors"
+        ]
+      }
+    ],
+    "shared": [],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Fire",
+        "items": [
+          "Bonfire"
+        ]
+      },
+      {
+        "favorite": "Soft Stuff",
+        "items": [
+          "Plain sofa"
+        ]
+      },
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute lamp"
+        ]
+      },
+      {
+        "favorite": "Round Stuff",
+        "items": [
+          "Crystal ball"
+        ]
+      },
+      {
+        "favorite": "Pretty Flowers",
+        "items": [
+          "Beautiful flower"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Painting (portrait)"
+        ]
+      },
+      {
+        "favorite": "Luxury",
+        "items": [
+          "Luxury lamp"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "paletteTown",
+    "habitatType": "Bright",
+    "number": 79,
+    "title": "The Electric Family",
+    "pokemon": [
+      {
+        "number": 79,
+        "numberStr": "#079",
+        "name": "Pikachu",
+        "favorites": [
+          "Electronics",
+          "Glass stuff",
+          "Group activities",
+          "Round stuff",
+          "Rides",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 78,
+        "numberStr": "#078",
+        "name": "Pichu",
+        "favorites": [
+          "Electronics",
+          "Glass stuff",
+          "Cute stuff",
+          "Pretty flowers",
+          "Fabric",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 80,
+        "numberStr": "#080",
+        "name": "Raichu",
+        "favorites": [
+          "Electronics",
+          "Glass stuff",
+          "Group activities",
+          "Round stuff",
+          "Play spaces",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 254,
+        "numberStr": "#254",
+        "name": "Dedenne",
+        "favorites": [
+          "Electronics",
+          "Cute stuff",
+          "Watching stuff",
+          "Group activities",
+          "Looks like food",
+          "Sweet Flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Electronics"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Electronics",
+        "items": [
+          "Arcade machine"
+        ]
+      },
+      {
+        "favorite": "Glass Stuff",
+        "items": [
+          "Glass window"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Pikachu sofa"
+        ]
+      },
+      {
+        "favorite": "Round Stuff",
+        "items": [
+          "Balloons"
+        ]
+      },
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute lamp"
+        ]
+      },
+      {
+        "favorite": "Rides",
+        "items": [
+          "Handcar"
+        ]
+      },
+      {
+        "favorite": "Pretty Flowers",
+        "items": [
+          "Small vase"
+        ]
+      },
+      {
+        "favorite": "Fabric",
+        "items": [
+          "Fluff"
+        ]
+      },
+      {
+        "favorite": "Play Spaces",
+        "items": [
+          "Tire toy"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Painting (landscape)"
+        ]
+      },
+      {
+        "favorite": "Looks Like Food",
+        "items": [
+          "Berry basket"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "paletteTown",
+    "habitatType": "Bright",
+    "number": 80,
+    "title": "The Nature Trail",
+    "pokemon": [
+      {
+        "number": 43,
+        "numberStr": "#043",
+        "name": "Scizor",
+        "favorites": [
+          "Lots of nature",
+          "Metal stuff",
+          "Wooden stuff",
+          "Hard stuff",
+          "Exercise",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 40,
+        "numberStr": "#040",
+        "name": "Tangela",
+        "favorites": [
+          "Lots of nature",
+          "Lots of water",
+          "Gatherings",
+          "Pretty flowers",
+          "Slender objects",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 286,
+        "numberStr": "#286",
+        "name": "Leafeon",
+        "favorites": [
+          "Lots of nature",
+          "Pretty flowers",
+          "Cute stuff",
+          "Fabric",
+          "Healing",
+          "Sour Flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Lots of nature"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Nature",
+        "items": [
+          "Garden bench",
+          "Log table"
+        ]
+      },
+      {
+        "favorite": "Pretty Flowers",
+        "items": [
+          "Beautiful flower",
+          "Wildflowers"
+        ]
+      },
+      {
+        "favorite": "Metal Stuff",
+        "items": [
+          "Iron bench"
+        ]
+      },
+      {
+        "favorite": "Wooden Stuff",
+        "items": [
+          "Log chair"
+        ]
+      },
+      {
+        "favorite": "Hard Stuff",
+        "items": [
+          "Iron stand"
+        ]
+      },
+      {
+        "favorite": "Exercise",
+        "items": [
+          "Punching bag"
+        ]
+      },
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute lamp"
+        ]
+      },
+      {
+        "favorite": "Fabric",
+        "items": [
+          "Fluff"
+        ]
+      },
+      {
+        "favorite": "Healing",
+        "items": [
+          "First aid kit"
+        ]
+      },
+      {
+        "favorite": "Gatherings",
+        "items": [
+          "Sandbags"
+        ]
+      },
+      {
+        "favorite": "Slender Objects",
+        "items": [
+          "Rope"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "paletteTown",
+    "habitatType": "Bright",
+    "number": 81,
+    "title": "The Eevee Pair",
+    "pokemon": [
+      {
+        "number": 284,
+        "numberStr": "#284",
+        "name": "Espeon",
+        "favorites": [
+          "Strange stuff",
+          "Nice breezes",
+          "Cute stuff",
+          "Complicated stuff",
+          "Watching stuff",
+          "Sweet flavors"
+        ]
+      },
+      {
+        "number": 282,
+        "numberStr": "#282",
+        "name": "Jolteon",
+        "favorites": [
+          "Electronics",
+          "Shiny stuff",
+          "Cute stuff",
+          "Glass stuff",
+          "Sharp stuff",
+          "Spicy flavors"
+        ]
+      }
+    ],
+    "shared": [],
+    "suggestedItems": [
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute lamp"
+        ]
+      },
+      {
+        "favorite": "Strange Stuff",
+        "items": [
+          "Repel"
+        ]
+      },
+      {
+        "favorite": "Nice Breezes",
+        "items": [
+          "Pinwheels"
+        ]
+      },
+      {
+        "favorite": "Complicated Stuff",
+        "items": [
+          "Magazine rack"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Painting (landscape)"
+        ]
+      },
+      {
+        "favorite": "Electronics",
+        "items": [
+          "Arcade machine"
+        ]
+      },
+      {
+        "favorite": "Shiny Stuff",
+        "items": [
+          "Crystal fragment"
+        ]
+      },
+      {
+        "favorite": "Glass Stuff",
+        "items": [
+          "Glass window"
+        ]
+      },
+      {
+        "favorite": "Sharp Stuff",
+        "items": [
+          "Vending machine"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "paletteTown",
+    "habitatType": "Dark",
+    "number": 82,
+    "title": "The Shadow Trio",
+    "pokemon": [
+      {
+        "number": 285,
+        "numberStr": "#285",
+        "name": "Umbreon",
+        "favorites": [
+          "Shiny stuff",
+          "Luxury",
+          "Cute stuff",
+          "Letters and words",
+          "Watching stuff",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 134,
+        "numberStr": "#134",
+        "name": "Zorua",
+        "favorites": [
+          "Shiny stuff",
+          "Luxury",
+          "Glass stuff",
+          "Cute stuff",
+          "Group activities",
+          "Sour Flavors"
+        ]
+      },
+      {
+        "number": 135,
+        "numberStr": "#135",
+        "name": "Zoroark",
+        "favorites": [
+          "Shiny stuff",
+          "Luxury",
+          "Glass stuff",
+          "Strange stuff",
+          "Group activities",
+          "Spicy Flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Shiny stuff",
+      "Luxury"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Shiny Stuff",
+        "items": [
+          "Big Nugget"
+        ]
+      },
+      {
+        "favorite": "Luxury",
+        "items": [
+          "Luxury lamp"
+        ]
+      },
+      {
+        "favorite": "Glass Stuff",
+        "items": [
+          "Stained-glass window"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Chic sofa"
+        ]
+      },
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute lamp"
+        ]
+      },
+      {
+        "favorite": "Letters and Words",
+        "items": [
+          "Open book"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Television"
+        ]
+      },
+      {
+        "favorite": "Strange Stuff",
+        "items": [
+          "Repel"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "paletteTown",
+    "habitatType": "Dark",
+    "number": 83,
+    "title": "The Tumblers",
+    "pokemon": [
+      {
+        "number": 159,
+        "numberStr": "#159",
+        "name": "Geodude",
+        "favorites": [
+          "Stone stuff",
+          "Hard stuff",
+          "Spinning stuff",
+          "Round stuff",
+          "Exercise",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 185,
+        "numberStr": "#185",
+        "name": "Rowlet",
+        "favorites": [
+          "Lots of nature",
+          "Wooden stuff",
+          "Nice breezes",
+          "Containers",
+          "Spinning stuff",
+          "Dry flavors"
+        ]
+      }
+    ],
+    "shared": [],
+    "suggestedItems": [
+      {
+        "favorite": "Stone Stuff",
+        "items": [
+          "Strength rock"
+        ]
+      },
+      {
+        "favorite": "Hard Stuff",
+        "items": [
+          "Iron stand"
+        ]
+      },
+      {
+        "favorite": "Round Stuff",
+        "items": [
+          "Crystal ball"
+        ]
+      },
+      {
+        "favorite": "Exercise",
+        "items": [
+          "Punching bag"
+        ]
+      },
+      {
+        "favorite": "Lots of Nature",
+        "items": [
+          "Log table"
+        ]
+      },
+      {
+        "favorite": "Wooden Stuff",
+        "items": [
+          "Log chair"
+        ]
+      },
+      {
+        "favorite": "Nice Breezes",
+        "items": [
+          "Pinwheels"
+        ]
+      },
+      {
+        "favorite": "Spinning Stuff",
+        "items": [
+          "Pinwheel"
+        ]
+      },
+      {
+        "favorite": "Containers",
+        "items": [
+          "Wall storage box"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "paletteTown",
+    "habitatType": "Humid",
+    "number": 84,
+    "title": "The Shore Pair",
+    "pokemon": [
+      {
+        "number": 77,
+        "numberStr": "#077",
+        "name": "Cramorant",
+        "favorites": [
+          "Nice breezes",
+          "Lots of water",
+          "Ocean vibes",
+          "Slender objects",
+          "Looks like food",
+          "Bitter flavors"
+        ]
+      },
+      {
+        "number": 281,
+        "numberStr": "#281",
+        "name": "Vaporeon",
+        "favorites": [
+          "Lots of water",
+          "Cleanliness",
+          "Cute stuff",
+          "Pretty flowers",
+          "Watching stuff",
+          "Sweet Flavors"
+        ]
+      }
+    ],
+    "shared": [],
+    "suggestedItems": [
+      {
+        "favorite": "Lots of Water",
+        "items": [
+          "Water basin",
+          "Horsea fountain"
+        ]
+      },
+      {
+        "favorite": "Nice Breezes",
+        "items": [
+          "Ceiling fan"
+        ]
+      },
+      {
+        "favorite": "Ocean Vibes",
+        "items": [
+          "Deck chair"
+        ]
+      },
+      {
+        "favorite": "Slender Objects",
+        "items": [
+          "Fishing rod"
+        ]
+      },
+      {
+        "favorite": "Looks Like Food",
+        "items": [
+          "Berry basket"
+        ]
+      },
+      {
+        "favorite": "Cleanliness",
+        "items": [
+          "Shower"
+        ]
+      },
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute lamp"
+        ]
+      },
+      {
+        "favorite": "Pretty Flowers",
+        "items": [
+          "Beautiful flower"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Painting (landscape)"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "paletteTown",
+    "habitatType": "Warm",
+    "number": 85,
+    "title": "The Snack Shack",
+    "pokemon": [
+      {
+        "number": 107,
+        "numberStr": "#107",
+        "name": "Munchlax",
+        "favorites": [
+          "Soft stuff",
+          "Lots of nature",
+          "Looks like food",
+          "Wobbly stuff",
+          "Group activities",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 191,
+        "numberStr": "#191",
+        "name": "Skwovet",
+        "favorites": [
+          "Soft stuff",
+          "Wooden stuff",
+          "Watching stuff",
+          "Looks like food",
+          "Round stuff",
+          "Dry flavors"
+        ]
+      },
+      {
+        "number": 109,
+        "numberStr": "#109",
+        "name": "Snorlax",
+        "favorites": [
+          "Soft stuff",
+          "Fabric",
+          "Looks like food",
+          "Wobbly stuff",
+          "Rides",
+          "Dry flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Soft stuff",
+      "Looks like food",
+      "Dry flavors"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Soft Stuff",
+        "items": [
+          "Plain sofa",
+          "Resort hammock"
+        ]
+      },
+      {
+        "favorite": "Looks Like Food",
+        "items": [
+          "Berry basket"
+        ]
+      },
+      {
+        "favorite": "Wobbly Stuff",
+        "items": [
+          "Wobbuffet Wobbler"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Garden bench"
+        ]
+      },
+      {
+        "favorite": "Lots of Nature",
+        "items": [
+          "Log table"
+        ]
+      },
+      {
+        "favorite": "Wooden Stuff",
+        "items": [
+          "Log chair"
+        ]
+      },
+      {
+        "favorite": "Watching Stuff",
+        "items": [
+          "Painting (landscape)"
+        ]
+      },
+      {
+        "favorite": "Round Stuff",
+        "items": [
+          "Balloons"
+        ]
+      },
+      {
+        "favorite": "Fabric",
+        "items": [
+          "Fluff"
+        ]
+      },
+      {
+        "favorite": "Rides",
+        "items": [
+          "Handcar"
+        ]
+      }
+    ]
+  },
+  {
+    "region": "paletteTown",
+    "habitatType": "Warm",
+    "number": 86,
+    "title": "The Eeveelution House",
+    "pokemon": [
+      {
+        "number": 280,
+        "numberStr": "#280",
+        "name": "Eevee",
+        "favorites": [
+          "Soft stuff",
+          "Stone stuff",
+          "Cute stuff",
+          "Letters and words",
+          "Group activities",
+          "Sweet Flavors"
+        ]
+      },
+      {
+        "number": 283,
+        "numberStr": "#283",
+        "name": "Flareon",
+        "favorites": [
+          "Lots of fire",
+          "Wooden stuff",
+          "Cute stuff",
+          "Metal stuff",
+          "Rides",
+          "Spicy flavors"
+        ]
+      },
+      {
+        "number": 288,
+        "numberStr": "#288",
+        "name": "Sylveon",
+        "favorites": [
+          "Cute stuff",
+          "Lots of nature",
+          "Fabric",
+          "Noisy stuff",
+          "Round stuff",
+          "Sweet Flavors"
+        ]
+      }
+    ],
+    "shared": [
+      "Cute stuff"
+    ],
+    "suggestedItems": [
+      {
+        "favorite": "Cute Stuff",
+        "items": [
+          "Cute lamp"
+        ]
+      },
+      {
+        "favorite": "Soft Stuff",
+        "items": [
+          "Plain sofa"
+        ]
+      },
+      {
+        "favorite": "Stone Stuff",
+        "items": [
+          "Stone bench"
+        ]
+      },
+      {
+        "favorite": "Letters and Words",
+        "items": [
+          "Open book"
+        ]
+      },
+      {
+        "favorite": "Group Activities",
+        "items": [
+          "Garden bench"
+        ]
+      },
+      {
+        "favorite": "Lots of Fire",
+        "items": [
+          "Firepit"
+        ]
+      },
+      {
+        "favorite": "Wooden Stuff",
+        "items": [
+          "Log chair"
+        ]
+      },
+      {
+        "favorite": "Metal Stuff",
+        "items": [
+          "Iron bench"
+        ]
+      },
+      {
+        "favorite": "Rides",
+        "items": [
+          "Handcar"
+        ]
+      },
+      {
+        "favorite": "Lots of Nature",
+        "items": [
+          "Garden bench"
+        ]
+      },
+      {
+        "favorite": "Fabric",
+        "items": [
+          "Fluff"
+        ]
+      },
+      {
+        "favorite": "Noisy Stuff",
+        "items": [
+          "Speaker"
+        ]
+      },
+      {
+        "favorite": "Round Stuff",
+        "items": [
+          "Crystal ball"
+        ]
+      }
+    ]
+  }
+]

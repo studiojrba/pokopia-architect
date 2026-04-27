@@ -1,0 +1,126 @@
+[
+  {
+    "name": "Appraise",
+    "description": "You can show lost relics you've found to Professor Tangrowth, who will appraise them for you"
+  },
+  {
+    "name": "Build",
+    "description": "Pokemon with the Build specialty will lead your building projects"
+  },
+  {
+    "name": "Bulldoze",
+    "description": "Pokemon with the Bulldoze specialty can lead your demolition, rebuilding or relocation projects"
+  },
+  {
+    "name": "Burn",
+    "description": "Pokemon with the Burn specialty can set fire to Flammable objects"
+  },
+  {
+    "name": "Chop",
+    "description": "Pokemon with the Chop specialty can process small logs into lumber"
+  },
+  {
+    "name": "Collect",
+    "description": "Pokemon with the Collect specialty will trade you rare things for certain items"
+  },
+  {
+    "name": "Crush",
+    "description": "Pokemon with the Crush specialty can mash materials into different things"
+  },
+  {
+    "name": "DJ",
+    "description": "DJ Rotom can use the DJ specialty to play music CDs for you"
+  },
+  {
+    "name": "Dream Island",
+    "description": "Pokemon with the Dream Island specialty can transport you to a Dream Island"
+  },
+  {
+    "name": "Eat",
+    "description": "Mosslax has the Eat specialty. Something good may happen if you offer them food"
+  },
+  {
+    "name": "Engineer",
+    "description": "Tinkaton has the Engineer specialty and can lead huge building projects"
+  },
+  {
+    "name": "Explode",
+    "description": "Pokemon with the Explode specialty can be fired out of a cannon, destroying everything around them on impact"
+  },
+  {
+    "name": "Fly",
+    "description": "Pokemon with the Fly specialty can fly you to a Pokemon you're searching for"
+  },
+  {
+    "name": "Gather",
+    "description": "Pokemon with the Gather specialty will pick up items on the ground and put them inside a community box"
+  },
+  {
+    "name": "Gather Honey",
+    "description": "Pokemon with the Gather Honey specialty will give you special furniture if you bring them honey"
+  },
+  {
+    "name": "Generate",
+    "description": "Pokemon with the Generate specialty can power machines with electricity"
+  },
+  {
+    "name": "Grow",
+    "description": "Pokemon with the Grow specialty can make plants grow faster"
+  },
+  {
+    "name": "Hype",
+    "description": "Pokemon with the Hype specialty will start dancing when they hear music, improving the mood"
+  },
+  {
+    "name": "Illuminate",
+    "description": "Peakychu can use the Illuminate specialty to light up the whole town for you"
+  },
+  {
+    "name": "Litter",
+    "description": "Pokemon with the Litter specialty will drop useful materials near their homes"
+  },
+  {
+    "name": "Paint",
+    "description": "Smearguru has the Paint specialty and can recolor certain items, such as furniture"
+  },
+  {
+    "name": "Party",
+    "description": "Chef Dente can use the Party specialty to help you prepare food for parties"
+  },
+  {
+    "name": "Rarify",
+    "description": "Pokemon with the Rarify specialty can turn Star Pieces into rare Pokemetal"
+  },
+  {
+    "name": "Recycle",
+    "description": "Pokemon with the Recycle specialty can process nonburnable garbage into iron ore and wastepaper into paper"
+  },
+  {
+    "name": "Search",
+    "description": "Pokemon with the Search specialty can help you find buried items"
+  },
+  {
+    "name": "Storage",
+    "description": "Pokemon with the Storage specialty can hold on to your items for you"
+  },
+  {
+    "name": "Teleport",
+    "description": "Pokemon with the Teleport specialty can instantly take you to a Pokemon you're searching for"
+  },
+  {
+    "name": "Trade",
+    "description": "Pokemon with the Trade specialty can exchange items with you at a cash register"
+  },
+  {
+    "name": "Transform",
+    "description": "Ditto can improve its moves by using Transform"
+  },
+  {
+    "name": "Water",
+    "description": "Pokemon with the Water specialty can use a full water basin to spray water on nearby fields and plants"
+  },
+  {
+    "name": "Yawn",
+    "description": "Pokemon with the Yawn specialty can tell you how humid it is"
+  }
+]

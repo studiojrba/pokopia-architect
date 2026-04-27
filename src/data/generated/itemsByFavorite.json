@@ -1,0 +1,3224 @@
+[
+  {
+    "category": "Blocky Stuff",
+    "items": [
+      {
+        "name": "Storage box",
+        "description": "A convenient box you can store items in. It's made of wood and easy to move things in and out of."
+      },
+      {
+        "name": "Wall storage box",
+        "description": "It may be small, but it can store lots of stuff. Try mounting it on a wall."
+      },
+      {
+        "name": "Big storage box",
+        "description": "Roughly three times bigger than your standard storage box. You can put a lot of things inside."
+      },
+      {
+        "name": "Polygonal Shelf",
+        "description": "A stylish, eye-catching shelf. Looks hard to use but still functions as a shelf just fine."
+      },
+      {
+        "name": "Cardboard boxes",
+        "description": "Light cardboard boxes. It doesn't look like they have anything inside."
+      },
+      {
+        "name": "Worn wooden crate",
+        "description": "A sturdy but somewhat shabby box. Stack a bunch of them to create a warehouse vibe."
+      },
+      {
+        "name": "Wooden crate",
+        "description": "You have absolutely no idea how to open this box...But you can put stuff on top of it at least!"
+      }
+    ]
+  },
+  {
+    "category": "Cleanliness",
+    "items": [
+      {
+        "name": "Bathtime set",
+        "description": "Shampoo, towels and a toy — everything you need to make bath time a blast!"
+      },
+      {
+        "name": "Cleaning supplies",
+        "description": "Detergent, a dust cloth, and a Mareep sponge are all you need to become a cleaning master!"
+      },
+      {
+        "name": "Shower",
+        "description": "A shower with a simple design. Place it next to a bathtub to make your bathroom complete."
+      },
+      {
+        "name": "Bathtub",
+        "description": "A bathtub with a simple design. Fill it up with water to enjoy a nice soak."
+      },
+      {
+        "name": "Bouncy blue bathtub",
+        "description": "A bathtub that lets you experience waves and bubbles, even without a single drop of water inside."
+      },
+      {
+        "name": "Water basin",
+        "description": "Fill this with water so Pokémon can do some watering for you."
+      }
+    ]
+  },
+  {
+    "category": "Colorful Stuff",
+    "items": [
+      {
+        "name": "Pokémetal",
+        "description": "Made from smelted Pokémetal fragmants, these can be used to make various items."
+      },
+      {
+        "name": "Red paint",
+        "description": "Colorful paint made from crushed berries. A must-have when painting."
+      },
+      {
+        "name": "Blue paint",
+        "description": "Colorful paint made from crushed berries. A must-have when painting."
+      },
+      {
+        "name": "Green paint",
+        "description": "Colorful paint made from crushed berries. A must-have when painting."
+      },
+      {
+        "name": "Yellow paint",
+        "description": "Colorful paint made from crushed berries. A must-have when painting."
+      },
+      {
+        "name": "Pink paint",
+        "description": "Colorful paint made from crushed berries. A must-have when painting."
+      },
+      {
+        "name": "Cyan paint",
+        "description": "Colorful paint made from crushed berries. A must-have when painting."
+      },
+      {
+        "name": "White paint",
+        "description": "Colorful paint made from crushed berries. A must-have when painting."
+      },
+      {
+        "name": "Black paint",
+        "description": "Colorful paint made from crushed berries. A must-have when painting."
+      },
+      {
+        "name": "Gaming fridge",
+        "description": "A chest that's slightly cold to the touch. Ice-type Pokémon will probably enjoy this."
+      },
+      {
+        "name": "Gaming chair",
+        "description": "With its large backrest and cushions, you could sit comfortable in this chair for a long time."
+      },
+      {
+        "name": "Gaming bed",
+        "description": "A cool, stylish bed. Flip on the power switch to get a cyberspace vibe going"
+      },
+      {
+        "name": "Gaming PC",
+        "description": "A PC rig that even includes a headset. The monitor can display photos when powered on"
+      },
+      {
+        "name": "Knitting supplies",
+        "description": "Tools for knitting hats, sweaters and the like. Pokémon are captivated by the round balls of yarn"
+      },
+      {
+        "name": "Gaming light",
+        "description": "Emits rainbow light when mounted to a wall and powered on."
+      },
+      {
+        "name": "Paint balloon (white)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (red)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (yellow)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (green)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (rose)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (pink)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (orange)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (purple)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (brown)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (beige)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (black)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (lime)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (plum)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (navy)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (blue)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (cyan)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (gray)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (aquamarine)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      }
+    ]
+  },
+  {
+    "category": "Complicated Stuff",
+    "items": [
+      {
+        "name": "CD rack",
+        "description": "A rack with CDs on it. Sure to appeal to music lovers"
+      },
+      {
+        "name": "Magazine rack",
+        "description": "This stand has a great selection of weekly magazines and photo books."
+      }
+    ]
+  },
+  {
+    "category": "Construction",
+    "items": [
+      {
+        "name": "Toy blocks",
+        "description": "Stacking toys that are fun to play with. Discover all the different combinations you can make!"
+      },
+      {
+        "name": "Sandbags",
+        "description": "A cloth sack filled with dirt and sand. It's pretty bulky and looks heavy"
+      },
+      {
+        "name": "Metal drum",
+        "description": "A smooth, clean canister. It's empty, so it's actually quite light"
+      },
+      {
+        "name": "Construction supplies",
+        "description": "Construction tools stored in a meta drum. Great for factories or warehouses."
+      },
+      {
+        "name": "Iron pipes",
+        "description": "A pile of iron pipes that looks like it belongs at a construction site"
+      },
+      {
+        "name": "Wheelbarrow",
+        "description": "A wheelbarrow carrying a large mound of dirt. A lot of construction sites probably have these!"
+      },
+      {
+        "name": "Iron-scaffold plank",
+        "description": "A plank that rests atop an iron scaffold. Try using it to extend the length of your scaffolding!"
+      },
+      {
+        "name": "Iron scaffold",
+        "description": "A sturdy scaffold used for constructing buildings. The plank's bumpy surface provides great tractions."
+      }
+    ]
+  },
+  {
+    "category": "Containers",
+    "items": [
+      {
+        "name": "Storage box",
+        "description": "A convenient box you can store items in. It's made of wood and easy to move things in and out of."
+      },
+      {
+        "name": "Wall storage box",
+        "description": "It may be small, but it can store lots of stuff. Try mounting it on a wall"
+      },
+      {
+        "name": "Big storage box",
+        "description": "Roughly three times bigger than your standard storage box. You can put a lot of things inside."
+      },
+      {
+        "name": "Plain chest",
+        "description": "A chest with a simple design. It can be used to store items."
+      },
+      {
+        "name": "Office cabinet",
+        "description": "Compacy furniture that's surprisingly spacious. Open the sliding door to put items inside"
+      },
+      {
+        "name": "Gaming fridge",
+        "description": "A chest that's slightly cold to the touch. Ice-type Pokémon will probably enjoy this."
+      },
+      {
+        "name": "Poké Ball Chest",
+        "description": "This looks like a giant Poké Ball. It opens wide for you to store things inside"
+      },
+      {
+        "name": "Berry case",
+        "description": "At a glance, this looks just like a glossy Cheri Berry. It opens wide for you to store things inside"
+      },
+      {
+        "name": "Antique chest",
+        "description": "Its four curvy legs are adorable. Try putting lots of different things in the draw"
+      },
+      {
+        "name": "Plain closet",
+        "description": "Open the curtains and store your stuff! You don't actually need the hangers-but they're there anyway!"
+      },
+      {
+        "name": "Office locker",
+        "description": "A large locker that can even hold clothing. Try storing lots of different things in it!"
+      },
+      {
+        "name": "Antique closet",
+        "description": "A large bulky closet. Try storing different things in it!"
+      },
+      {
+        "name": "Office shelf",
+        "description": "This is jam-packed with so many files that it can't hold anything else"
+      },
+      {
+        "name": "Mug",
+        "description": "A simple, easy-to-use mug. You could change up the colors, and it would still look great."
+      },
+      {
+        "name": "Munna bank",
+        "description": "An especially heavy money box. It feels like it's full of coins"
+      },
+      {
+        "name": "Garbage bin",
+        "description": "This trash can is big enough that a Pokémon could probably fit inside!"
+      },
+      {
+        "name": "Metal drum",
+        "description": "A smooth, clean canister. It's empty, so it's actually quite light"
+      }
+    ]
+  },
+  {
+    "category": "Cute Stuff",
+    "items": [
+      {
+        "name": "Cute table",
+        "description": "A table with cute lace and frills. It somehow reminds you of Fairy types"
+      },
+      {
+        "name": "Pop art table",
+        "description": "A shiny, round table. It's as smooth as a Porygon2"
+      },
+      {
+        "name": "Stylish stool",
+        "description": "A small, round stool with a stylish three-color cushion."
+      },
+      {
+        "name": "Cute chair",
+        "description": "The ruffle skirt is exceptionally cute and lovely"
+      },
+      {
+        "name": "Pop art chair",
+        "description": "A chair with a soft design and rounded corners. The colors of the backrest and cushion can be changed"
+      },
+      {
+        "name": "Cute sofa",
+        "description": "A cute, slightly elegant sofa. The backrest is shaped like a Pokémon's wings."
+      },
+      {
+        "name": "Pop art sofa",
+        "description": "A soft-looking sofa with cute, rounded edges."
+      },
+      {
+        "name": "Pop art bed",
+        "description": "lying on tthis bed feels like being inside of a pod. It's soft, fluffy, and easy to sleep on."
+      },
+      {
+        "name": "Berry bed",
+        "description": "A large Pecha Berry-themed bed. It's springy texture provides ultimate comfort at bedtime."
+      },
+      {
+        "name": "Cute bed",
+        "description": "You'll feel like royalty sleeping on this cute canopy bed."
+      },
+      {
+        "name": "Cute dresser",
+        "description": "Look into the mirror to change your transformation and perfect your look!"
+      },
+      {
+        "name": "Eevee doll",
+        "description": "If you set this down and inspect it, Drifloon may fly over and whisk you away to a Dream Island"
+      },
+      {
+        "name": "Pikachu doll",
+        "description": "If you set this down and inspect it, Drifloon may fly over and whisk you away to a Dream Island"
+      },
+      {
+        "name": "Clefairy doll",
+        "description": "If you set this down and inspect it, Drifloon may fly over and whisk you away to a Dream Island"
+      },
+      {
+        "name": "Arcanine doll",
+        "description": "If you set this down and inspect it, Drifloon may fly over and whisk you away to a Dream Island"
+      },
+      {
+        "name": "Dragonite doll",
+        "description": "If you set this down and inspect it, Drifloon may fly over and whisk you away to a Dream Island"
+      },
+      {
+        "name": "Ditto doll",
+        "description": "If you set this down and inspect it, Drifloon may fly over and whisk you away to a Dream Island"
+      },
+      {
+        "name": "Substitute doll",
+        "description": "If you set this down and inspect it, Drifloon may fly over and whisk you away to a Dream Island"
+      },
+      {
+        "name": "Cute lamp",
+        "description": "A cute decorative lamp, even when it's turned off. Power it on to make the central heart glow."
+      },
+      {
+        "name": "Pop art lamp",
+        "description": "The bright bulb bounces off a shiny lampshade. Looking at it seems to improve your mood!"
+      },
+      {
+        "name": "Cute flower",
+        "description": "Cute flowers that bloom in port towns. They would surely be a delisghtful gift to any Pokémon"
+      }
+    ]
+  },
+  {
+    "category": "Electronics",
+    "items": [
+      {
+        "name": "Gaming fridge",
+        "description": "A chest that's slightly cold to the touch. Ice-type Pokémon will probably enjoy this."
+      },
+      {
+        "name": "Gaming chair",
+        "description": "With its large backrest and cushions, you could sit comfortable in this chair for a long time."
+      },
+      {
+        "name": "Gaming bed",
+        "description": "A cool, stylish bed. Flip on the power switch to get a cyberspace vibe going"
+      },
+      {
+        "name": "Microwave oven",
+        "description": "This lights up when powered on, but it doesn't seem like it can heat anything..."
+      },
+      {
+        "name": "Refrigerator",
+        "description": "It emits a slight chill, but it doesn't seem like it can keep anything cold"
+      },
+      {
+        "name": "Fan",
+        "description": "Power on this fan to make it swivel. Pokémon might stop by to watch it move"
+      },
+      {
+        "name": "Air conditioner",
+        "description": "A state-of-the-art air conditioner. Press once for cold air, or press twice for hot"
+      },
+      {
+        "name": "Printer",
+        "description": "A large printer used by businesses. Perfect for an office or other workspaces!"
+      },
+      {
+        "name": "Washing machine",
+        "description": "While this does make noise when powered on, it doesn't seem to actually wash clothes..."
+      },
+      {
+        "name": "Toilet",
+        "description": "Lift the cover and sit on the toilet for as long as you like"
+      },
+      {
+        "name": "Tablet",
+        "description": "A convenient, easy-to-carry computer. It's got a hard case so no worries if you drop it!"
+      },
+      {
+        "name": "Cell phone",
+        "description": "A device carefully protected inside a hard case. It can't make calls, even when powered on"
+      },
+      {
+        "name": "Laptop",
+        "description": "A sleek, easy-to-carry laptop. Try displaying some photos on the monitor."
+      },
+      {
+        "name": "Computer",
+        "description": "A computer that looks like it belongs in a laboratory. Some notes have been stuck to it here and there"
+      },
+      {
+        "name": "Gaming PC",
+        "description": "A PC rig that even includes a headset. The monitor can display photos when powered on"
+      },
+      {
+        "name": "Television",
+        "description": "A large television that can be easily viewed from far away. It's a flatscreen, so carrying it is easy-peasy."
+      },
+      {
+        "name": "Wall monitor",
+        "description": "A monitor that emits blue light when powered on. Try displaying your photographs on it"
+      },
+      {
+        "name": "Arcade machine",
+        "description": "A game machine from a facility somewhere. It looks brand-new, so it probably can still be turned on"
+      },
+      {
+        "name": "Game Boy system",
+        "description": "A very sturdy-looking game console. It's old but it still seems to start up"
+      },
+      {
+        "name": "Humidifier",
+        "description": "A humidifier with a distinct round shape. Turn it on to increase the humidity level nearby."
+      },
+      {
+        "name": "Jumbled cords",
+        "description": "These cords are all tangled up and cannot be separated"
+      },
+      {
+        "name": "CD player",
+        "description": "A device that plays music. If you find a CD, try putting it inside"
+      },
+      {
+        "name": "Tabletop mic",
+        "description": "A microphone like those used at recording studios or public speeches. Try putting it on a desk!"
+      },
+      {
+        "name": "Standing mic",
+        "description": "A microphone meant for the stage. Standing before it makes you want to burst into song"
+      },
+      {
+        "name": "Cool electric guitar",
+        "description": "A snazzy guitat strung with strange strings. Holding it would make you feel pretty amped..."
+      },
+      {
+        "name": "Cool bass guitar",
+        "description": "A snazzy bass guitar strung with strange strings. Holding it would make you feel pretty low-key..."
+      },
+      {
+        "name": "Audio mixer",
+        "description": "Plug it in and switch on the screen. DJ Ditto is in the house!"
+      },
+      {
+        "name": "Speaker",
+        "description": "Putting this next to a stage or an audio mixer ought to create an electrifying atmosphere!"
+      },
+      {
+        "name": "Ceiling fan",
+        "description": "Its blades spin round and round when powered on. Great for when you want to circulate air!"
+      },
+      {
+        "name": "Utility pole",
+        "description": "Use these to connect electrical generators to machines and send electricity over long distances."
+      },
+      {
+        "name": "Wireless power-transmitter switch",
+        "description": "Connect these to electrical generators to use them. Put a switch nearby to quickly turn things on or off"
+      },
+      {
+        "name": "Wireless power transmitter",
+        "description": "Use these to connect electrical generators to machines and send electricity over long distances."
+      },
+      {
+        "name": "Mini generator",
+        "description": "Place this anywhere, and it will generate electricity all on its own. What a remarkable machine!"
+      },
+      {
+        "name": "Floor switch",
+        "description": "A ground-mounted switch that activates nearby machinery when it detects weight"
+      },
+      {
+        "name": "Wall switch",
+        "description": "A switch that would look perfect installed on a house wall. Press it to activate nearby devices"
+      },
+      {
+        "name": "Card reader",
+        "description": "A machine that reads key cards or Pokédexes. Mount it to a wall."
+      },
+      {
+        "name": "Laser sensor",
+        "description": "When this sensor detects movement, it activates devices nearby"
+      },
+      {
+        "name": "Security camera",
+        "description": "A camera that watches over its surroundings. Place one anywhere you want to keep an eye on"
+      },
+      {
+        "name": "Town streetlight",
+        "description": "Power this with electricity to illuminate the area with gentle light"
+      },
+      {
+        "name": "Harbor streetlight",
+        "description": "A streetlight that invokes harbor vibes. The life buoy stands out as the main highlight."
+      },
+      {
+        "name": "Chic streetlight",
+        "description": "When powered on, this light emits a gentle glow that faintly illuminates its surroundings"
+      },
+      {
+        "name": "Double streetlight",
+        "description": "When pwoered on, both lamps shine brightly to illuminate their surroundings"
+      },
+      {
+        "name": "Mushroom lamp",
+        "description": "The mushroom emits a gentle glow, illuminating the surroundings with soft light"
+      },
+      {
+        "name": "Plain lamp",
+        "description": "Powering this on illuminates the surroundings with warm light"
+      },
+      {
+        "name": "Desk light",
+        "description": "A light with a simple design. Perfect for brightening up your desk when you need to focus on work."
+      },
+      {
+        "name": "Poké Ball light",
+        "description": "A neon light that glows red and white when powered on. It would look great on top of a table"
+      },
+      {
+        "name": "Berry table lamp",
+        "description": "A Rawst Berry made of glass. Power it on to illuminate the area with pale blue light"
+      },
+      {
+        "name": "Cute lamp",
+        "description": "A cute decorative lamp, even when it's turned off. Power it on to make the central heart glow."
+      },
+      {
+        "name": "Poké Ball lamp",
+        "description": "Emits a brilliant light when powered on. This would look great on a shelf"
+      },
+      {
+        "name": "Model planet",
+        "description": "A model of some unexplored faraway planet. It looks jut like a piece of yummy candy"
+      },
+      {
+        "name": "Red meteor lamp",
+        "description": "When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe."
+      },
+      {
+        "name": "Orange meteor lamp",
+        "description": "When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe."
+      },
+      {
+        "name": "Yellow meteor lamp",
+        "description": "When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe."
+      },
+      {
+        "name": "Green meteor lamp",
+        "description": "When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe."
+      },
+      {
+        "name": "Blue meteor lamp",
+        "description": "When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe."
+      },
+      {
+        "name": "Indigo meteor lamp",
+        "description": "When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe."
+      },
+      {
+        "name": "Violet meteor lamp",
+        "description": "When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe."
+      },
+      {
+        "name": "Luxury lamp",
+        "description": "When this lamp is powered on, it emits a gentle light, illuminating its surroundings"
+      },
+      {
+        "name": "Garden light",
+        "description": "A light that's perfect for a garden. Beautifully illuminates flowers-even at night"
+      },
+      {
+        "name": "Lantern",
+        "description": "This emits bright light when powered on. You'll feel safe if you have this, even in a dark cave"
+      },
+      {
+        "name": "Seedot Lamp",
+        "description": "When mounted to a wall, this looks just like a Seedot hanging from a branch!"
+      },
+      {
+        "name": "Mirror ball",
+        "description": "Sparkles and twinkles when powered on. Quickly turns the whole area into a party zone"
+      },
+      {
+        "name": "Wall light",
+        "description": "A light that can be fixed to a wall. Power it on and it'll light the area with a warm glow"
+      },
+      {
+        "name": "Shell lamp",
+        "description": "It looks like a simple seashell at first glance, but hang it up and power it on, and it emits a gentle light"
+      },
+      {
+        "name": "Fluorescent light",
+        "description": "Shines brilliantly when powered on. Even nighttime feels like noon when this light is on"
+      },
+      {
+        "name": "Gaming light",
+        "description": "Emits rainbow light when mounted to a wall and powered on."
+      },
+      {
+        "name": "Resort light",
+        "description": "A light that resembles a ball of tangled string. Its gentle glow creates a fancy atmosphere"
+      },
+      {
+        "name": "String lights",
+        "description": "Hang these lights on the wall and power them on to create a lively atmosphere"
+      },
+      {
+        "name": "Pop art lamp",
+        "description": "The bright bulb bounces off a shiny lampshade. Looking at it seems to improve your mood!"
+      },
+      {
+        "name": "Berry hanging lamp",
+        "description": "When hung from the ceiling and powered on, the tip of the Chesto Berry emits a gentle light"
+      },
+      {
+        "name": "Surface light",
+        "description": "Simple inconspicuous lights. You can embed them in ceilings and walls."
+      },
+      {
+        "name": "Spotlight",
+        "description": "When powered on, this light shines brightly on whatever is in front of it"
+      },
+      {
+        "name": "Antique chandelier",
+        "description": "Hang this from the ceiling to illuminate a room with gentle light. Perfeect for a mansion aesthetic!"
+      }
+    ]
+  },
+  {
+    "category": "Exercise",
+    "items": [
+      {
+        "name": "Punching bag",
+        "description": "Heavy and packed full of sand. Perfect for practicing punches and kicks"
+      }
+    ]
+  },
+  {
+    "category": "Fabric",
+    "items": [
+      {
+        "name": "Fluff",
+        "description": "An irresistibly soft tuft of fluff. Pokémon with the Litter specialty may scatter this"
+      },
+      {
+        "name": "Resort stool",
+        "description": "While this stool looks stiff, the cotton padding inside makes it surprisingly soft"
+      },
+      {
+        "name": "Plain chair",
+        "description": "This chair is just the right height for eating meals in the dining room"
+      },
+      {
+        "name": "Resort chair",
+        "description": "A chair perfect for relaxing. Kick back on this to taste a bit of the resort life"
+      },
+      {
+        "name": "Pop art chair",
+        "description": "A chair with a soft design and rounded corners. The colors of the backrest and cushion can be changed"
+      },
+      {
+        "name": "Plain sofa",
+        "description": "If you see small Pokémon on this sofa, try sitting down next to them"
+      },
+      {
+        "name": "Resort sofa",
+        "description": "Sitting on this makes you feel like you're in the tropics! Feel free to just laze the day away..."
+      },
+      {
+        "name": "Pop art sofa",
+        "description": "A soft-looking sofa with cute, rounded edges."
+      },
+      {
+        "name": "Resort bed",
+        "description": "A refreshingly cool bed made of woven vines. Lying down on this makes you feel like you're at a resort"
+      },
+      {
+        "name": "Pop art bed",
+        "description": "lying on tthis bed feels like being inside of a pod. It's soft, fluffy, and easy to sleep on."
+      },
+      {
+        "name": "Resort hammock",
+        "description": "The breeze feels so nice when you're lying on this hammock. It's perfect for dozing off!"
+      },
+      {
+        "name": "Eevee doll",
+        "description": "If you set this down and inspect it, Drifloon may fly over and whisk you away to a Dream Island"
+      },
+      {
+        "name": "Pikachu doll",
+        "description": "If you set this down and inspect it, Drifloon may fly over and whisk you away to a Dream Island"
+      },
+      {
+        "name": "Clefairy doll",
+        "description": "If you set this down and inspect it, Drifloon may fly over and whisk you away to a Dream Island"
+      },
+      {
+        "name": "Arcanine doll",
+        "description": "If you set this down and inspect it, Drifloon may fly over and whisk you away to a Dream Island"
+      },
+      {
+        "name": "Dragonite doll",
+        "description": "If you set this down and inspect it, Drifloon may fly over and whisk you away to a Dream Island"
+      },
+      {
+        "name": "Ditto doll",
+        "description": "If you set this down and inspect it, Drifloon may fly over and whisk you away to a Dream Island"
+      },
+      {
+        "name": "Substitute doll",
+        "description": "If you set this down and inspect it, Drifloon may fly over and whisk you away to a Dream Island"
+      }
+    ]
+  },
+  {
+    "category": "Garbage",
+    "items": [
+      {
+        "name": "Nonburnable garbage",
+        "description": "Trash discared here and there. Apparently some Pokémon are big fans of garbage"
+      },
+      {
+        "name": "Wastepaper",
+        "description": "These look tough to craft in their current state. Try recycling them into regular paper"
+      },
+      {
+        "name": "Munna bank",
+        "description": "An especially heavy money box. It feels like it's full of coins"
+      },
+      {
+        "name": "Garbage bags",
+        "description": "Trash bags found most anywhere. Certain Pokémon find their odor irresistible"
+      },
+      {
+        "name": "Garbage bin",
+        "description": "This trash can is big enough that a Pokémon could probably fit inside!"
+      },
+      {
+        "name": "Nonburnable garbage (outdoor)",
+        "description": "Obtained through a special method, thwese can be placed just as they are now"
+      }
+    ]
+  },
+  {
+    "category": "Gatherings",
+    "items": [
+      {
+        "name": "Toy blocks",
+        "description": "Stacking toys that are fun to play with. Discover all the different combinations you can make!"
+      },
+      {
+        "name": "Sandbags",
+        "description": "A cloth sack filled with dirt and sand. It's pretty bulky and looks heavy"
+      }
+    ]
+  },
+  {
+    "category": "Glass Stuff",
+    "items": [
+      {
+        "name": "Crystal ball",
+        "description": "A large crystal ball used for fortune-telling. Give it to a Psychic-type Pokémon and see what happens"
+      },
+      {
+        "name": "Mirror ball",
+        "description": "Sparkles and twinkles when powered on. Quickly turns the whole area into a party zone"
+      },
+      {
+        "name": "Modern door",
+        "description": "A simple yet sturdy door that would make the perfect entrance to a house"
+      },
+      {
+        "name": "Glass window",
+        "description": "A simple window that fits in any space. Arrange multiple vertically orhorizontally-your call."
+      },
+      {
+        "name": "Window pane",
+        "description": "A framed glass pane. It makes a great window or partition"
+      },
+      {
+        "name": "Stained-glass window (upper)",
+        "description": "A fancy stained-glass window. It's got a slightly retro vibe."
+      },
+      {
+        "name": "Stained-glass window (middle)",
+        "description": "A fancy stained-glass window. It's got a slightly retro vibe."
+      },
+      {
+        "name": "Stained-glass window (lower)",
+        "description": "A fancy stained-glass window. It's got a slightly retro vibe."
+      },
+      {
+        "name": "Sash window",
+        "description": "A long, vertical window with a cute cross trim. Try opening up the bottom half"
+      }
+    ]
+  },
+  {
+    "category": "Group Activities",
+    "items": [
+      {
+        "name": "Chic sofa",
+        "description": "A luxurious high-class sofa. It looks exactly like the ones on the S.S. Anne"
+      },
+      {
+        "name": "Antique sofa",
+        "description": "A retro sofa with Poké Ball designs here and there"
+      },
+      {
+        "name": "Iron bench",
+        "description": "A seat made of solid hardened iron. It's sturdy enough to support even the heaviest Pokémon"
+      },
+      {
+        "name": "Industrial bench",
+        "description": "A simple bench made of wood and iron. The kind you'd expect to find at parks and walking paths."
+      },
+      {
+        "name": "Luxury sofa",
+        "description": "This sofa is sooo fluffy. It's like sitting on a cloud"
+      },
+      {
+        "name": "Garden bench",
+        "description": "A stylish bench with a vine pattern. Put one down to instantly add some flair to an area"
+      },
+      {
+        "name": "Cute sofa",
+        "description": "A cute, slightly elegant sofa. The backrest is shaped like a Pokémon's wings."
+      },
+      {
+        "name": "Pop art sofa",
+        "description": "A soft-looking sofa with cute, rounded edges."
+      },
+      {
+        "name": "Pikachu sofa",
+        "description": "Pikachu's face is front and center. On the back, you can find a little tail sticking out."
+      },
+      {
+        "name": "Pop art bed",
+        "description": "lying on tthis bed feels like being inside of a pod. It's soft, fluffy, and easy to sleep on."
+      },
+      {
+        "name": "Wooden Bed",
+        "description": "This bed gives any room a mountain lodge aesthetic. You'll sleep soudnly surrounded by the woodsy scent"
+      },
+      {
+        "name": "Guest-room bed",
+        "description": "A bed with a rather high-class vibe. It looks like it belongs on a luxury ship or in a fancy hotel."
+      },
+      {
+        "name": "Antique bed",
+        "description": "This bed has a relaxing, nostalgic atmosphere. The blanket is smooth to the touch"
+      },
+      {
+        "name": "Industrial bed",
+        "description": "A nice, wide bed that works in any type of room. Even a large Pokémon could sleep in it"
+      },
+      {
+        "name": "Luxury bed",
+        "description": "An extravagantly crafted bed. It somehow reminds you of a Luxury Ball!"
+      },
+      {
+        "name": "Gaming bed",
+        "description": "A cool, stylish bed. Flip on the power switch to get a cyberspace vibe going"
+      },
+      {
+        "name": "Picnic basket",
+        "description": "Try putting some food inside, and hungry Pokémon might stop by for a bite"
+      },
+      {
+        "name": "Tea set",
+        "description": "Enjoy an elegant teatime with this gorgeous set that includes a teapot and teacups"
+      },
+      {
+        "name": "Table setting",
+        "description": "This cutlery immediately makes any table look like it belongs in a high-class restaurant"
+      },
+      {
+        "name": "Afternoon tea set",
+        "description": "Food loved by one of Eevee's friends. Be sure to prepare a table and chair too!"
+      },
+      {
+        "name": "Game Boy system",
+        "description": "A very sturdy-looking game console. It's old but it still seems to start up"
+      },
+      {
+        "name": "Bonfire",
+        "description": "When the wood in the center catches fire, this provides warmth and light to a large nearby area"
+      },
+      {
+        "name": "Inflatable boat",
+        "description": "Feels great whether you lie down on it like a bed, or float it on the water like a boat."
+      }
+    ]
+  },
+  {
+    "category": "Hard Stuff",
+    "items": [
+      {
+        "name": "Stone",
+        "description": "Just a normal stone you can find anywhere. It can be used as a material for a lot of things"
+      },
+      {
+        "name": "Iron stand",
+        "description": "An impressively stury iron stand. Effortlessly supports even heavy items"
+      },
+      {
+        "name": "Iron table",
+        "description": "Iron-crafted with a simple design. This would work well in any sleekly stylish room"
+      },
+      {
+        "name": "Iron rack",
+        "description": "Decorate your space by putting your favorite things on these stackable shelves!"
+      },
+      {
+        "name": "Stone table",
+        "description": "A table made from stones. It's as hard as an Onix!"
+      },
+      {
+        "name": "Stone bench",
+        "description": "A wide, rock-solid seat. This would make a great park bench"
+      },
+      {
+        "name": "Stone fireplace",
+        "description": "A huge fireplace. Light this up to make a space feel warm and cozy"
+      },
+      {
+        "name": "Strength rock",
+        "description": "Though this boulder is incredibly big, it looks like you could use Strength to push it."
+      },
+      {
+        "name": "Stone tiling (wallpaper)",
+        "description": "Wallpaper that can be used in larger houses. You can appliy it to walls, floors and even ceilings"
+      },
+      {
+        "name": "Stone flooring (wallpaper)",
+        "description": "Wallpaper that can be used in larger houses. You can appliy it to walls, floors and even ceilings"
+      },
+      {
+        "name": "Stone brick wall (wallpaper)",
+        "description": "Wallpaper that can be used in larger houses. You can appliy it to walls, floors and even ceilings"
+      },
+      {
+        "name": "Skull Fossil",
+        "description": "An ancient Pokémon fossil. It looks like a hard, sturdy skill"
+      },
+      {
+        "name": "Armor Fossil",
+        "description": "An ancient Pokémon fossil. It looks like a smooth shield"
+      },
+      {
+        "name": "Jaw Fossil",
+        "description": "An ancient Pokémon fossil. It looks like a large jaw"
+      },
+      {
+        "name": "Sail Fossil",
+        "description": "An ancient Pokémon fossil. It looks like a thin sail from a Pokémon's body"
+      },
+      {
+        "name": "Wing Fossil (head)",
+        "description": "A fossil of an ancient Pokémon's head. Its jagged fangs look just likea saw"
+      },
+      {
+        "name": "Wing Fossil (right wing)",
+        "description": "A fossil of an ancient Pokémon's right wing. Its finger bones have become part of the wing"
+      },
+      {
+        "name": "Wing Fossil (left wing)",
+        "description": "A fossil of an ancient Pokémon's left wing. By joining its bones together, you can tell the size of the wing"
+      },
+      {
+        "name": "Wing fossil (body)",
+        "description": "A fossil of an ancient Pokémon's body. A hump juts out from the middle of its rickety spine"
+      },
+      {
+        "name": "Wing Fossil (tail)",
+        "description": "A fossil of an ancient Pokémon's tail. Long and slend, it looks like it could bend gracefully"
+      },
+      {
+        "name": "Headbutt Fossil (head)",
+        "description": "A fossil of an ancient Pokémon's head. Its skull is dense and bulbous"
+      },
+      {
+        "name": "Headbutt Fossil (body)",
+        "description": "A fossil of an ancient Pokémon's body. Its torso is big, but its arms are quite small"
+      },
+      {
+        "name": "Headbutt Fossil (tail)",
+        "description": "A fossil of an ancient Pokémon's tail. Its base is thick and sturdy"
+      },
+      {
+        "name": "Shield Fossil (Head)",
+        "description": "A fossil of an ancient Pokémon's head. Its sturdy, like a giant shield"
+      },
+      {
+        "name": "Shield Fossil (body)",
+        "description": "A fossil of an ancient Pokémon's body. Its thick bones supported a heavy head."
+      },
+      {
+        "name": "Shield Fossil (tail)",
+        "description": "A fossil of an ancient Pokémon's tail. Its hind hooves are particularly large."
+      },
+      {
+        "name": "Despot Fossil (head)",
+        "description": "A fossil of an ancient Pokémon's headf. Its large fangs are as sharp as knives"
+      },
+      {
+        "name": "Despot Fossil (body)",
+        "description": "A fossil of an ancient Pokémon's body. Its sharp claws look like they could slice through anything"
+      },
+      {
+        "name": "Despot Fossil (legs)",
+        "description": "A fossil of an ancient Pokémon's legs. Two stocky legs support the rest of its body."
+      },
+      {
+        "name": "Despot Fossil (tail)",
+        "description": "A fossil of an ancient Pokémon's tail. Even the very tip is spiky like its frill"
+      },
+      {
+        "name": "Tundra Fossil (head)",
+        "description": "A fossil of an ancient Pokémon's head. It has sails that resemble an aurora"
+      },
+      {
+        "name": "Tundra Fossil (body)",
+        "description": "A fossil of an ancient Pokémon's body. It must have been pretty tall with a spin like this"
+      },
+      {
+        "name": "Tundra Fossil (tail)",
+        "description": "A fossil of an ancient Pokémon's tail. The tip is curled up and looks like a spring"
+      },
+      {
+        "name": "Stone brick wall",
+        "description": "Stone bricks that exude calmness. They're perfect for making buildings, flower beds, and such."
+      },
+      {
+        "name": "Stone pillar (upper)",
+        "description": "A heavy stone pillar with a design that would pair nicely with a fancy brick wall"
+      },
+      {
+        "name": "Stone pillar (middle)",
+        "description": "A heavy stone pillar with a design that would pair nicely with a fancy brick wall"
+      },
+      {
+        "name": "Stone pillar (lower)",
+        "description": "A heavy stone pillar with a design that would pair nicely with a fancy brick wall"
+      },
+      {
+        "name": "Stone flooring",
+        "description": "Place these to create an entryway. Most folks won't notice if it gets a little dirty."
+      },
+      {
+        "name": "Stone tiling",
+        "description": "Even rough, ordinary stones can be polished and stacked to make shiny tiles"
+      },
+      {
+        "name": "Stone steps",
+        "description": "Steps made of stacked stones. Place several of these for a stately atmosphere"
+      },
+      {
+        "name": "Stone hipped roof",
+        "description": "You can arrange these vertically or horizontally to make a roof"
+      },
+      {
+        "name": "Stone roof valley",
+        "description": "When you're planning out the shape of your roof, putting in some valleys adds a really nice touch"
+      },
+      {
+        "name": "Stone roof decoration",
+        "description": "Try putting this on a roof! It looks great whether you install one or a whole bunch"
+      },
+      {
+        "name": "Stone fencing",
+        "description": "Looks great on its own or arranged in a row."
+      },
+      {
+        "name": "Stone debris",
+        "description": "Sometimes found blocking the road. Break them to obtain stones."
+      },
+      {
+        "name": "Metal Debris",
+        "description": "It's hard to tell what these warn out objects were originally. They look difficult to process as is."
+      }
+    ]
+  },
+  {
+    "category": "Healing",
+    "items": [
+      {
+        "name": "First aid kit",
+        "description": "A box with lots of medicines and supplies for treating injuries"
+      }
+    ]
+  },
+  {
+    "category": "Letters and Words",
+    "items": [
+      {
+        "name": "Letter",
+        "description": "A simple sealed letter. It has a Poké Ball stamp on it"
+      },
+      {
+        "name": "Notepad",
+        "description": "It's full of important-looking notes, so there's no space to write anything else!"
+      },
+      {
+        "name": "Open Book",
+        "description": "A classic hardcover book. It's probably got a lot of difficult words inside"
+      },
+      {
+        "name": "Papers",
+        "description": "Lots of tiny words are written on the white pages along with drawings of colorful shapes"
+      },
+      {
+        "name": "Newspaper",
+        "description": "Its pages are filled with small, tightly-packed letters. What could be written here?"
+      },
+      {
+        "name": "Information board",
+        "description": "A sign with information about the town written on it. Nobody knows what town it's for, though."
+      }
+    ]
+  },
+  {
+    "category": "Looks Like Food",
+    "items": [
+      {
+        "name": "Berry case",
+        "description": "At a glance, this looks just like a glossy Cheri Berry. It opens wide for you to store things inside"
+      },
+      {
+        "name": "Berry table",
+        "description": "A large Aspear Berry table. It looks real enough to make you want to bite into it."
+      },
+      {
+        "name": "Berry chair",
+        "description": "When placed on the ground, it looks just like a buried Leppa Berry. The steam and leaves are a backrest."
+      },
+      {
+        "name": "Berry bed",
+        "description": "A large Pecha Berry-themed bed. It's springy texture provides ultimate comfort at bedtime."
+      },
+      {
+        "name": "Berry basket",
+        "description": "A basket packed with berries. Line up a few to make your very own fruit stand!"
+      },
+      {
+        "name": "Berry clock",
+        "description": "A clock that resembles an Oran Berry cross section. Try mounting it on a wall"
+      },
+      {
+        "name": "Berry wall decoration",
+        "description": "The six swaying berries look incredibly tasty. Alas, they're inedible"
+      },
+      {
+        "name": "Berry table lamp",
+        "description": "A Rawst Berry made of glass. Power it on to illuminate the area with pale blue light"
+      },
+      {
+        "name": "Berry hanging lamp",
+        "description": "When hung from the ceiling and powered on, the tip of the Chesto Berry emits a gentle light"
+      },
+      {
+        "name": "Berry print (wallpaper)",
+        "description": "Wallpaper that can be used in larger houses. You can appliy it to walls, floors and even ceilings"
+      },
+      {
+        "name": "Berry print",
+        "description": "Sweeyt berries, spicy berries, bitter berries... This pattern has berry flavors for everyone"
+      }
+    ]
+  },
+  {
+    "category": "Lots of Dirt",
+    "items": [
+      {
+        "name": "Sandbags",
+        "description": "A cloth sack filled with dirt and sand. It's pretty bulky and looks heavy"
+      },
+      {
+        "name": "Paint balloon (white)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (red)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (yellow)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (green)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (rose)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (pink)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (orange)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (purple)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (brown)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (beige)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (black)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (lime)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (plum)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (navy)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (blue)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (cyan)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (gray)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Paint balloon (aquamarine)",
+        "description": "A colorful balloon filled with paint. You can use it to paint items or buildings"
+      },
+      {
+        "name": "Mud",
+        "description": "A mass of muddy debris. Spray it with Bubble to clean it up!"
+      }
+    ]
+  },
+  {
+    "category": "Lots of Fire",
+    "items": [
+      {
+        "name": "Campfire",
+        "description": "A campfire made from gathered sticks. When lit, it illuminates the area with a warm light."
+      },
+      {
+        "name": "Torch",
+        "description": "If you light this, it'll burn slowly, filling the area with bright light"
+      },
+      {
+        "name": "Slender candle",
+        "description": "Light this up to get a flickering bright-red flame. It's small enough to fit on a desk"
+      },
+      {
+        "name": "Eerie candle",
+        "description": "Fwoosh! This candle glows with a bluish flame when lit. It's small enough to fit on top of a desk."
+      },
+      {
+        "name": "Wall torch",
+        "description": "A simple light that looks appropriate even on rugged surfaces such as caves and rock walls"
+      },
+      {
+        "name": "Firepit",
+        "description": "Set this ablaze to illuminate the surroundings with bright light. Fwoosh!"
+      },
+      {
+        "name": "Bonfire",
+        "description": "When the wood in the center catches fire, this provides warmth and light to a large nearby area"
+      }
+    ]
+  },
+  {
+    "category": "Lots of Nature",
+    "items": [
+      {
+        "name": "Berry case",
+        "description": "At a glance, this looks just like a glossy Cheri Berry. It opens wide for you to store things inside"
+      },
+      {
+        "name": "Straw table",
+        "description": "Table may be an overly generous description of this big slab of stone atop a pile of hay"
+      },
+      {
+        "name": "Log table",
+        "description": "With just some cutting and sanding, you can turn logs into a proper table"
+      },
+      {
+        "name": "Garden table",
+        "description": "A stylish table that would look nice with a garden chair or two"
+      },
+      {
+        "name": "Berry table",
+        "description": "A large Aspear Berry table. It looks real enough to make you want to bite into it."
+      },
+      {
+        "name": "Berry chair",
+        "description": "When placed on the ground, it looks just like a buried Leppa Berry. The steam and leaves are a backrest."
+      },
+      {
+        "name": "Log chair",
+        "description": "You can sit on this log to take a quick breather. Other Pokémon might stop by to take a break too."
+      },
+      {
+        "name": "Garden chair",
+        "description": "A chair that would be perfect in a nice garden. Take a seat and enjoy an elegant afternoon."
+      },
+      {
+        "name": "Garden bench",
+        "description": "A stylish bench with a vine pattern. Put one down to instantly add some flair to an area"
+      },
+      {
+        "name": "Log Bed",
+        "description": "A bed made from small logs. You'll sleep soundly enveloped by a woodsy aroma"
+      },
+      {
+        "name": "Straw bed",
+        "description": "It's a little itchy, but that doesn't bother Pokémon. They'll snooze away just fine on this."
+      },
+      {
+        "name": "Berry bed",
+        "description": "A large Pecha Berry-themed bed. It's springy texture provides ultimate comfort at bedtime."
+      },
+      {
+        "name": "Wooden Bed",
+        "description": "This bed gives any room a mountain lodge aesthetic. You'll sleep soudnly surrounded by the woodsy scent"
+      },
+      {
+        "name": "Berry basket",
+        "description": "A basket packed with berries. Line up a few to make your very own fruit stand!"
+      },
+      {
+        "name": "Berry clock",
+        "description": "A clock that resembles an Oran Berry cross section. Try mounting it on a wall"
+      },
+      {
+        "name": "Berry wall decoration",
+        "description": "The six swaying berries look incredibly tasty. Alas, they're inedible"
+      },
+      {
+        "name": "Berry table lamp",
+        "description": "A Rawst Berry made of glass. Power it on to illuminate the area with pale blue light"
+      },
+      {
+        "name": "Berry hanging lamp",
+        "description": "When hung from the ceiling and powered on, the tip of the Chesto Berry emits a gentle light"
+      },
+      {
+        "name": "Berry print (wallpaper)",
+        "description": "Wallpaper that can be used in larger houses. You can appliy it to walls, floors and even ceilings"
+      },
+      {
+        "name": "Berry print",
+        "description": "Sweeyt berries, spicy berries, bitter berries... This pattern has berry flavors for everyone"
+      }
+    ]
+  },
+  {
+    "category": "Lots of Water",
+    "items": [
+      {
+        "name": "Resort hammock",
+        "description": "The breeze feels so nice when you're lying on this hammock. It's perfect for dozing off!"
+      },
+      {
+        "name": "Modern sink",
+        "description": "A state-of-the-art sink that even has a drain. Turn the handle to make water flow out"
+      },
+      {
+        "name": "Sink",
+        "description": "A stylish sink on a wooden stand. Turn on the faucet to make water pour out."
+      },
+      {
+        "name": "Shower",
+        "description": "A shower with a simple design. Place it next to a bathtub to make your bathroom complete"
+      },
+      {
+        "name": "Bathtub",
+        "description": "A bathtub with a simple design. Fill it up with water to enjoy a nice soak"
+      },
+      {
+        "name": "Bouncy blue bathtub",
+        "description": "A bathtub that lets you experience waves and bubbles, even without a single drop of water inside."
+      },
+      {
+        "name": "Water basin",
+        "description": "Fill this with water so Pokémon can do some watering for you"
+      },
+      {
+        "name": "Inflatable boat",
+        "description": "Feels great whether you lie down on it like a bed, or float it on the water like a boat."
+      },
+      {
+        "name": "Beach parasol",
+        "description": "Place one of these on the beach for protection from scorching sunbeams"
+      },
+      {
+        "name": "Horsea fountain",
+        "description": "Installing this near water should raise the humidity of its surroundings"
+      },
+      {
+        "name": "Fishing rod",
+        "description": "A must-have item for fishing up Pokémon. Set one by the water and wait patiently for a bite!"
+      },
+      {
+        "name": "Mystic Water",
+        "description": "A teardrop-shaped gem. Try hanging it up in a frame!"
+      }
+    ]
+  },
+  {
+    "category": "Luxury",
+    "items": [
+      {
+        "name": "Antique chest",
+        "description": "Its four curvy legs are adorable. Try putting lots of different things in the draw"
+      },
+      {
+        "name": "Antique closet",
+        "description": "A large bulky closet. Try storing different things in it!"
+      },
+      {
+        "name": "Antique table",
+        "description": "Its lumpy legs are cute. You can make a large table by arranging several of these together"
+      },
+      {
+        "name": "Chic table",
+        "description": "A table that would look right at home in a facny restaurant. Perfect for a decadent dinner"
+      },
+      {
+        "name": "Luxury table",
+        "description": "An extravagant marble table. Setting one down brings elegance to any room."
+      },
+      {
+        "name": "Chic chair",
+        "description": "A luxurious loung chair. Sitting on its soft cushions is absolutely beyond compare!"
+      },
+      {
+        "name": "Antique Chair",
+        "description": "A chair with a charming retro design. Its cushions are soft and fluffy"
+      },
+      {
+        "name": "Luxury chair",
+        "description": "A classy-looking seat with a gemstone embedded in it. Just sitting on it makes you feel rich."
+      },
+      {
+        "name": "Chic sofa",
+        "description": "A luxurious high-class sofa. It looks exactly like the ones on the S.S. Anne"
+      },
+      {
+        "name": "Antique sofa",
+        "description": "A retro sofa with Poké Ball designs here and there"
+      },
+      {
+        "name": "Luxury sofa",
+        "description": "This sofa is sooo fluffy. It's like sitting on a cloud"
+      },
+      {
+        "name": "Antique bed",
+        "description": "This bed has a relaxing, nostalgic atmosphere. The blanket is smooth to the touch"
+      },
+      {
+        "name": "Luxury bed",
+        "description": "An extravagantly crafted bed. It somehow reminds you of a Luxury Ball!"
+      },
+      {
+        "name": "Antique dresser",
+        "description": "Look into the mirror to change your transformation and perfect your look!"
+      },
+      {
+        "name": "Luxury dresser",
+        "description": "Look into the mirror to change your transformation and perfect your look!"
+      },
+      {
+        "name": "Fancy pen",
+        "description": "A high-class ballpoint pen that exudes luxury. A very important person could have used this"
+      },
+      {
+        "name": "Chic streetlight",
+        "description": "When powered on, this light emits a gentle glow that faintly illuminates its surroundings"
+      },
+      {
+        "name": "Luxury lamp",
+        "description": "When this lamp is powered on, it emits a gentle light, illuminating its surroundings"
+      },
+      {
+        "name": "Antique chandelier",
+        "description": "Hang this from the ceiling to illuminate a room with gentle light. Perfeect for a mansion aesthetic!"
+      }
+    ]
+  },
+  {
+    "category": "Metal Stuff",
+    "items": [
+      {
+        "name": "Copper ore",
+        "description": "Raw mineral copper. When processed into ingots, it can be used as a crafting material"
+      },
+      {
+        "name": "Iron ore",
+        "description": "Metal that can be obtained from iron deposis. It can also be found among metal debris"
+      },
+      {
+        "name": "Gold ore",
+        "description": "Metal extracted from gold deposits. It glitters with a luxurious sheen"
+      },
+      {
+        "name": "Pokémetal fragment",
+        "description": "Colorful, sparkling metal extracted from Pokémetal deposits."
+      },
+      {
+        "name": "Rare Pokémetal fragment",
+        "description": "This can sometimes be found in Pokémetal deposits. If you find one, consider yourself extremely lucky!"
+      },
+      {
+        "name": "Copper ingot",
+        "description": "Copper that has been processed in a smelting furnace. It kinda looks like chocolate..."
+      },
+      {
+        "name": "Iron ingot",
+        "description": "Iron that has been procesed in a smelting furnace. It's really hard and super heavy."
+      },
+      {
+        "name": "Gold ingot",
+        "description": "Gold that has been processed in a smelting furnace. Just looking at it makes you feel fancy"
+      },
+      {
+        "name": "Pokémetal",
+        "description": "Made from smelted Pokémetal fragmants, these can be used to make various items."
+      },
+      {
+        "name": "Office locker",
+        "description": "A large locker that can even hold clothing. Try storing lots of different things in it!"
+      },
+      {
+        "name": "Office shelf",
+        "description": "This is jam-packed with so many files that it can't hold anything else"
+      },
+      {
+        "name": "Iron stand",
+        "description": "An impressively stury iron stand. Effortlessly supports even heavy items"
+      },
+      {
+        "name": "Industrial desk",
+        "description": "A desk with a beautifuly wood grain texture. This would even look great outside the house."
+      },
+      {
+        "name": "Iron table",
+        "description": "Iron-crafted with a simple design. This would work well in any sleekly stylish room"
+      },
+      {
+        "name": "Office desk",
+        "description": "A desk often used in offices. The pull-out drawer is locked and won't open."
+      },
+      {
+        "name": "Iron chair",
+        "description": "Though small, this seat is very sturdy. It doesn't look like it would break easily."
+      },
+      {
+        "name": "Iron bench",
+        "description": "A seat made of solid hardened iron. It's sturdy enough to support even the heaviest Pokémon"
+      },
+      {
+        "name": "Iron bed",
+        "description": "A slightly narrow bed. It's sturdy enough for a good night's sleep!"
+      },
+      {
+        "name": "Munna bank",
+        "description": "An especially heavy money box. It feels like it's full of coins"
+      },
+      {
+        "name": "Funky diffuser",
+        "description": "The symbol on it looks dangerous, but it doesn't seem like this will actually spew out poison gas..."
+      },
+      {
+        "name": "Garbage bin",
+        "description": "This trash can is big enough that a Pokémon could probably fit inside!"
+      },
+      {
+        "name": "Fire hydrant",
+        "description": "This device spews water for putting out fires, but you're not really sure how to use it,..."
+      },
+      {
+        "name": "Metal drum",
+        "description": "A smooth, clean canister. It's empty, so it's actually quite light"
+      },
+      {
+        "name": "Iron pipes",
+        "description": "A pile of iron pipes that looks like it belongs at a construction site"
+      },
+      {
+        "name": "Iron-plate flooring (wallpaper)",
+        "description": "Wallpaper that can be used in larger houses. You can appliy it to walls, floors and even ceilings"
+      },
+      {
+        "name": "Iron wall",
+        "description": "A solid iron wlal. It gives off a slight sheen when it's exposed to light."
+      },
+      {
+        "name": "Iron-plate flooring",
+        "description": "Iron-plate flooring that looks like it belongs in a factory. Steel-type Pokémon might enjoy this."
+      },
+      {
+        "name": "Iron deposit",
+        "description": "A rock that looks like a chocolate cookie! Break it open to obtain iron ore."
+      },
+      {
+        "name": "Iron steps",
+        "description": "Steps that wouldn't look out of place in a factory. They're a bit bumpy, which helps prevent slipping"
+      },
+      {
+        "name": "Iron ladder",
+        "description": "Great for reaching high places. Connect them vertically, then climb straight up"
+      },
+      {
+        "name": "Metal chain",
+        "description": "A thin, sturdy chain. Link a few pieces together and you can use them to climb up to high places"
+      },
+      {
+        "name": "Iron door",
+        "description": "A door with an antique pattern carved onto it. Would pair well with gorgeous furniture"
+      },
+      {
+        "name": "Iron gate",
+        "description": "Fancy double doors with a whirling patten. It would pair nicely with some metal fencing"
+      },
+      {
+        "name": "Iron enclosure",
+        "description": "A single post may be thin and flimsy, but these make a splendid fence when lined up together"
+      },
+      {
+        "name": "Metal fencing",
+        "description": "Looks great on its own or arranged in a row."
+      },
+      {
+        "name": "Iron-scaffold plank",
+        "description": "A plank that rests atop an iron scaffold. Try using it to extend the length of your scaffolding!"
+      },
+      {
+        "name": "Iron scaffold",
+        "description": "A sturdy scaffold used for constructing buildings. The plank's bumpy surface provides great tractions."
+      },
+      {
+        "name": "Iron beam",
+        "description": "These solid, sturdy beams can be used to support floors and roofs."
+      },
+      {
+        "name": "Iron column",
+        "description": "Stack these up to form a proper iron pillar!"
+      },
+      {
+        "name": "Iron pillar",
+        "description": "Stack as many as you'd like for a taller pillar. The top platform looks like it can display small items"
+      },
+      {
+        "name": "Iron pipe (horizontal)",
+        "description": "Iron pipes come in all sorts of shapes and sizes. Use them to create looong pipe systems"
+      },
+      {
+        "name": "Iron pipe (downward curve)",
+        "description": "Iron pipes come in all sorts of shapes and sizes. Use them to create looong pipe systems"
+      },
+      {
+        "name": "Iron pipe (vertical cross)",
+        "description": "Iron pipes come in all sorts of shapes and sizes. Use them to create looong pipe systems"
+      },
+      {
+        "name": "Iron pipe (vertical T)",
+        "description": "Iron pipes come in all sorts of shapes and sizes. Use them to create looong pipe systems"
+      },
+      {
+        "name": "Iron pipe (vertical)",
+        "description": "Iron pipes come in all sorts of shapes and sizes. Use them to create looong pipe systems"
+      },
+      {
+        "name": "Iron pipe (upward curve)",
+        "description": "Iron pipes come in all sorts of shapes and sizes. Use them to create looong pipe systems"
+      },
+      {
+        "name": "Iron pipe (upward T)",
+        "description": "Iron pipes come in all sorts of shapes and sizes. Use them to create looong pipe systems"
+      },
+      {
+        "name": "Iron pipe (downward T)",
+        "description": "Iron pipes come in all sorts of shapes and sizes. Use them to create looong pipe systems"
+      },
+      {
+        "name": "Iron pipe (horizontal curve)",
+        "description": "Iron pipes come in all sorts of shapes and sizes. Use them to create looong pipe systems"
+      },
+      {
+        "name": "Iron pipe (horizontal T)",
+        "description": "Iron pipes come in all sorts of shapes and sizes. Use them to create looong pipe systems"
+      },
+      {
+        "name": "Iron pipe (horizontal cross)",
+        "description": "Iron pipes come in all sorts of shapes and sizes. Use them to create looong pipe systems"
+      },
+      {
+        "name": "Metal Debris",
+        "description": "It's hard to tell what these warn out objects were originally. They look difficult to process as is."
+      },
+      {
+        "name": "Metal fragments",
+        "description": "Metal fragments found on the ground. They look difficult to process into anything"
+      }
+    ]
+  },
+  {
+    "category": "Nice Breezes",
+    "items": [
+      {
+        "name": "Fan",
+        "description": "Power on this fan to make it swivel. Pokémon might stop by to watch it move"
+      },
+      {
+        "name": "Pinwheels",
+        "description": "Pokémon like to spin these round and round. Wind-producing Pokémon especially like them!"
+      },
+      {
+        "name": "Ceiling fan",
+        "description": "Its blades spin round and round when powered on. Great for when you want to circulate air!"
+      },
+      {
+        "name": "Large ventilation fan",
+        "description": "A huge, flat ventilation fan-the kind you'd find on top of a building or a house."
+      }
+    ]
+  },
+  {
+    "category": "Noisy Stuff",
+    "items": [
+      {
+        "name": "Alarm Clock",
+        "description": "A loud noise rings out when you press this. Be careful! You might accidentally wake someone up"
+      },
+      {
+        "name": "Cool electric guitar",
+        "description": "A snazzy guitat strung with strange strings. Holding it would make you feel pretty amped..."
+      },
+      {
+        "name": "Cool bass guitar",
+        "description": "A snazzy bass guitar strung with strange strings. Holding it would make you feel pretty low-key..."
+      },
+      {
+        "name": "Speaker",
+        "description": "Putting this next to a stage or an audio mixer ought to create an electrifying atmosphere!"
+      },
+      {
+        "name": "Clear Bell",
+        "description": "A very-old fashioned bell that makes a gentle ringing sound. Ring it in an open space to call Ho-Oh"
+      },
+      {
+        "name": "Tidal Bell",
+        "description": "A very-old fashioned bell that makes a gentle ringing sound. Ring it in an open space to call Lugia"
+      },
+      {
+        "name": "Music mat (low do)",
+        "description": "A strange mat that makes different sounds when you step on it depending on the direction it's facing"
+      },
+      {
+        "name": "Music mat (Re)",
+        "description": "A strange mat that makes different sounds when you step on it depending on the direction it's facing"
+      },
+      {
+        "name": "Music mat (Mi)",
+        "description": "A strange mat that makes different sounds when you step on it depending on the direction it's facing"
+      },
+      {
+        "name": "Music mat (Fa)",
+        "description": "A strange mat that makes different sounds when you step on it depending on the direction it's facing"
+      },
+      {
+        "name": "Music mat (Sol)",
+        "description": "A strange mat that makes different sounds when you step on it depending on the direction it's facing"
+      },
+      {
+        "name": "Music mat (La)",
+        "description": "A strange mat that makes different sounds when you step on it depending on the direction it's facing"
+      },
+      {
+        "name": "Music mat (Ti)",
+        "description": "A strange mat that makes different sounds when you step on it depending on the direction it's facing"
+      },
+      {
+        "name": "Music mat (High do)",
+        "description": "A strange mat that makes different sounds when you step on it depending on the direction it's facing"
+      }
+    ]
+  },
+  {
+    "category": "Ocean Vibes",
+    "items": [
+      {
+        "name": "Deck chair",
+        "description": "Lean this chair backa nd relax for a bit. It looks great for sunbating."
+      },
+      {
+        "name": "Beach chair",
+        "description": "Lean back and relax in this chair. It pairs perfectly with a beach parasol"
+      },
+      {
+        "name": "Beach parasol",
+        "description": "Place one of these on the beach for protection from scorching sunbeams"
+      }
+    ]
+  },
+  {
+    "category": "Play Spaces",
+    "items": [
+      {
+        "name": "Sandbox",
+        "description": "Place this to set up a fun space for playing with sand. Discover what you can create here!"
+      },
+      {
+        "name": "Tire toy",
+        "description": "Tires used in parks as playground equipment. Put them on the ground and have fun hopping over them!"
+      },
+      {
+        "name": "Slide",
+        "description": "An essential part of any playground. Its imposing size leaves a real impression"
+      }
+    ]
+  },
+  {
+    "category": "Pretty Flowers",
+    "items": [
+      {
+        "name": "Small vase",
+        "description": "A vase with a single cute flower inside. Put it anywhere to add a splash of color to your life"
+      },
+      {
+        "name": "Leafy plant",
+        "description": "A plant with glossy leaves. It's actually related to the taro root"
+      },
+      {
+        "name": "Extravagant flowers",
+        "description": "With robust orange flowers in full bloom, using this decoration is sure to add some color to an area"
+      },
+      {
+        "name": "Tall potted plant",
+        "description": "A small, thin palm tree. It comes in a planter so it won't make a mess even if it's placed indoors"
+      },
+      {
+        "name": "Flat-leaf plant",
+        "description": "A plant with flat leaves that look like planks. It's actually a type of succulent"
+      },
+      {
+        "name": "Twisted potted plant",
+        "description": "A plant with a winding, twisted trunk. It doesn't look like it will get any bigger than it already is."
+      },
+      {
+        "name": "Tire toy",
+        "description": "Tires used in parks as playground equipment. Put them on the ground and have fun hopping over them!"
+      },
+      {
+        "name": "Garden flowers",
+        "description": "A styish flower pot with cute flowers in full bloom. It would look great as a desk ornament"
+      },
+      {
+        "name": "Wildflowers",
+        "description": "Beautiful flowers blooming on fresh dirt. Looking at them seems to soothe the mind"
+      },
+      {
+        "name": "Seashore flowers",
+        "description": "The symbol of a port town. Looking at these seems to refresh you."
+      },
+      {
+        "name": "Mountain flowers",
+        "description": "Flowers that bloom elegantly, even in rugged, rocky environments. They are sublimely beautiful."
+      },
+      {
+        "name": "Skyland flowers",
+        "description": "Puffy flowers often found at the skylands. Their blossoms are cute and ethereal."
+      },
+      {
+        "name": "Beautiful flower",
+        "description": "Gorgeous and extravagant flowers in full bloom. Be wary of the thorns on their stems"
+      },
+      {
+        "name": "Cute flower",
+        "description": "Cute flowers that bloom in port towns. They would surely be a delisghtful gift to any Pokémon"
+      },
+      {
+        "name": "Elegant flower",
+        "description": "Flowers that stand tall, even in rugged mountains. Their majestic elegance fills your heart with resolve"
+      },
+      {
+        "name": "Robust flower",
+        "description": "Flowers resolutely blooming toward the sky. Looking at them seems to fill you with energy."
+      },
+      {
+        "name": "Wildflowers (orange)",
+        "description": "Beautiful flowers blooming on fresh dirt. Looking at them seems to soothe the mind"
+      },
+      {
+        "name": "Wildflowers (purple)",
+        "description": "Beautiful flowers blooming on fresh dirt. Looking at them seems to soothe the mind"
+      },
+      {
+        "name": "Wildflowers (red)",
+        "description": "Beautiful flowers blooming on fresh dirt. Looking at them seems to soothe the mind"
+      },
+      {
+        "name": "Wildflowers (blue)",
+        "description": "Beautiful flowers blooming on fresh dirt. Looking at them seems to soothe the mind"
+      },
+      {
+        "name": "Seashore flowers (blue)",
+        "description": "The symbol of a port town. Looking at these seems to refresh you."
+      },
+      {
+        "name": "Seashore flowers (orange)",
+        "description": "The symbol of a port town. Looking at these seems to refresh you."
+      },
+      {
+        "name": "Seashore flowers (white)",
+        "description": "The symbol of a port town. Looking at these seems to refresh you."
+      },
+      {
+        "name": "Seashore flowers (yellow)",
+        "description": "The symbol of a port town. Looking at these seems to refresh you."
+      },
+      {
+        "name": "Mountain flowers (pink)",
+        "description": "Flowers that bloom elegantly, even in rugged, rocky environments. They are sublimely beautiful."
+      },
+      {
+        "name": "Mountain flowers (purple)",
+        "description": "Flowers that bloom elegantly, even in rugged, rocky environments. They are sublimely beautiful."
+      },
+      {
+        "name": "Mountain flowers (red)",
+        "description": "Flowers that bloom elegantly, even in rugged, rocky environments. They are sublimely beautiful."
+      },
+      {
+        "name": "Mountain flowers (white)",
+        "description": "Flowers that bloom elegantly, even in rugged, rocky environments. They are sublimely beautiful."
+      },
+      {
+        "name": "Skyland flowers (blue)",
+        "description": "Puffy flowers often found at the skylands. Their blossoms are cute and ethereal."
+      },
+      {
+        "name": "Skyland flowers (orange)",
+        "description": "Puffy flowers often found at the skylands. Their blossoms are cute and ethereal."
+      },
+      {
+        "name": "Skyland flowers (pink)",
+        "description": "Puffy flowers often found at the skylands. Their blossoms are cute and ethereal."
+      },
+      {
+        "name": "Skyland flowers (yellow)",
+        "description": "Puffy flowers often found at the skylands. Their blossoms are cute and ethereal."
+      },
+      {
+        "name": "Beautiful flower (pink)",
+        "description": "Gorgeous and extravagant flowers in full bloom. Be wary of the thorns on their stems"
+      },
+      {
+        "name": "Beautiful flower (purple)",
+        "description": "Gorgeous and extravagant flowers in full bloom. Be wary of the thorns on their stems"
+      },
+      {
+        "name": "Beautiful flower (white)",
+        "description": "Gorgeous and extravagant flowers in full bloom. Be wary of the thorns on their stems"
+      },
+      {
+        "name": "Beautiful flower (yellow)",
+        "description": "Gorgeous and extravagant flowers in full bloom. Be wary of the thorns on their stems"
+      },
+      {
+        "name": "Cute flower (blue)",
+        "description": "Cute flowers that bloom in port towns. They would surely be a delightful gift to any Pokémon"
+      },
+      {
+        "name": "Cute flower (pink)",
+        "description": "Cute flowers that bloom in port towns. They would surely be a delightful gift to any Pokémon"
+      },
+      {
+        "name": "Cute flower (white)",
+        "description": "Cute flowers that bloom in port towns. They would surely be a delightful gift to any Pokémon"
+      },
+      {
+        "name": "Cute flower (yellow)",
+        "description": "Cute flowers that bloom in port towns. They would surely be a delightful gift to any Pokémon"
+      },
+      {
+        "name": "Elegant flower (orange)",
+        "description": "Flowers that stand tall, even in rugged mountains. Their majestic elegance fills your heart with resolve"
+      },
+      {
+        "name": "Elegant flower (pink)",
+        "description": "Flowers that stand tall, even in rugged mountains. Their majestic elegance fills your heart with resolve"
+      },
+      {
+        "name": "Elegant flower (red)",
+        "description": "Flowers that stand tall, even in rugged mountains. Their majestic elegance fills your heart with resolve"
+      },
+      {
+        "name": "Elegant flower (yellow)",
+        "description": "Flowers that stand tall, even in rugged mountains. Their majestic elegance fills your heart with resolve"
+      },
+      {
+        "name": "Robust flower (blue)",
+        "description": "Flowers resolutely blooming toward the sky. Looking at them seems to fill you with energy."
+      },
+      {
+        "name": "Robust flower (orange)",
+        "description": "Flowers resolutely blooming toward the sky. Looking at them seems to fill you with energy."
+      },
+      {
+        "name": "Robust flower (purple)",
+        "description": "Flowers resolutely blooming toward the sky. Looking at them seems to fill you with energy."
+      },
+      {
+        "name": "Robust flower (white)",
+        "description": "Flowers resolutely blooming toward the sky. Looking at them seems to fill you with energy."
+      }
+    ]
+  },
+  {
+    "category": "Rides",
+    "items": [
+      {
+        "name": "Model space shuttle",
+        "description": "A realistic model that looks like it could blast off at any second. Could it have been in some museum?"
+      },
+      {
+        "name": "Spaceship",
+        "description": "a vehicle meant for traveling to outerspace. Hermetically sealed so air doesn't escape."
+      },
+      {
+        "name": "Handcar",
+        "description": "These carts clang along atop railway tracks. You can even link a bunch of carts together"
+      }
+    ]
+  },
+  {
+    "category": "Round Stuff",
+    "items": [
+      {
+        "name": "Fluff",
+        "description": "An irresistibly soft tuft of fluff. Pokémon with the Litter specialty may scatter this"
+      },
+      {
+        "name": "Poké Ball Chest",
+        "description": "This looks like a giant Poké Ball. It opens wide for you to store things inside"
+      },
+      {
+        "name": "Munna bank",
+        "description": "An especially heavy money box. It feels like it's full of coins"
+      },
+      {
+        "name": "Alarm Clock",
+        "description": "A loud noise rings out when you press this. Be careful! You might accidentally wake someone up"
+      },
+      {
+        "name": "Crystal ball",
+        "description": "A large crystal ball used for fortune-telling. Give it to a Psychic-type Pokémon and see what happens"
+      },
+      {
+        "name": "Big Nugget",
+        "description": "It's made of pure gold that gives off a lustrous gleam. It seems like it was popular among enthusiasts."
+      },
+      {
+        "name": "Balloons",
+        "description": "Balloons of many vibrant colors. They sway back and forth even in the most gentle of breezes"
+      },
+      {
+        "name": "Wobbuffet Wobbler",
+        "description": "An exceptionally durable Wobbuffet doll. It gets back up no matter how many times you knock it over."
+      },
+      {
+        "name": "Clear Bell",
+        "description": "A very-old fashioned bell that makes a gentle ringing sound. Ring it in an open space to call Ho-Oh"
+      },
+      {
+        "name": "Tidal Bell",
+        "description": "A very-old fashioned bell that makes a gentle ringing sound. Ring it in an open space to call Lugia"
+      },
+      {
+        "name": "Spaceship",
+        "description": "a vehicle meant for traveling to outerspace. Hermetically sealed so air doesn't escape."
+      },
+      {
+        "name": "Wreath",
+        "description": "A simple wreath crafted from branches and leaves. It'd look nice and elegant on a wall"
+      },
+      {
+        "name": "Berry clock",
+        "description": "A clock that resembles an Oran Berry cross section. Try mounting it on a wall"
+      },
+      {
+        "name": "Firework (white)",
+        "description": "Load this into a cannon, light the fuse, and watch it go flying with a huge BOOM!"
+      },
+      {
+        "name": "Firework (red)",
+        "description": "Load this into a cannon, light the fuse, and watch it go flying with a huge BOOM!"
+      },
+      {
+        "name": "Firework (green)",
+        "description": "Load this into a cannon, light the fuse, and watch it go flying with a huge BOOM!"
+      },
+      {
+        "name": "Firework (yellow)",
+        "description": "Load this into a cannon, light the fuse, and watch it go flying with a huge BOOM!"
+      },
+      {
+        "name": "Firework (blue)",
+        "description": "Load this into a cannon, light the fuse, and watch it go flying with a huge BOOM!"
+      },
+      {
+        "name": "Title Screen",
+        "description": "Music CD #1 If you have a music player, you can listen to an exciting tune"
+      },
+      {
+        "name": "Pallet Town",
+        "description": "Music CD #2 If you have a music player, you can listen to a tune for a tranquil town"
+      },
+      {
+        "name": "Oak's Lab",
+        "description": "Music CD #3 If you have a music player, you can listen to"
+      },
+      {
+        "name": "Road to Viridian City",
+        "description": "Music CD #4 If you have a music player, you can listen to an uplifting tune"
+      },
+      {
+        "name": "Pewter City Theme",
+        "description": "Music CD #5 If you have a music player, you can listen to a tune for a bustling town"
+      },
+      {
+        "name": "Pokémon Center",
+        "description": "Music CD #6 If you have a music player, you can listen to a tune that puts your mind at ease"
+      },
+      {
+        "name": "Caves of Mt. Moon",
+        "description": "Music CD #7 If you have a music player, you can listen to a mystifying tune"
+      },
+      {
+        "name": "Road to Cerulean City",
+        "description": "Music CD #8 If you have a music player, you can listen to a lighthearted tuune."
+      },
+      {
+        "name": "Fuchsia City Theme",
+        "description": "Music CD #9 If you have a music player, you can listen to for a refreshing town"
+      },
+      {
+        "name": "Pokémon Gym",
+        "description": "Music CD #10 If you have a music player, you can listen to a powerful tune"
+      },
+      {
+        "name": "Road to Bill",
+        "description": "Music CD #11 If you have a music player, you can listen to a valiant tune"
+      },
+      {
+        "name": "Vermilion City Theme",
+        "description": "Music CD #12 If you have a music player, you can listen to for a town chock-full of energy"
+      },
+      {
+        "name": "The S.S. Anne",
+        "description": "Music CD #13 If you have a music player, you can listen to a tune that reminds you of luxury"
+      },
+      {
+        "name": "Rocket Hideout",
+        "description": "Music CD #14 If you have a music player, you can listen to a terrifying tune"
+      },
+      {
+        "name": "Silph Co.",
+        "description": "Music CD #15 If you have a music player, you can listen to a suspicious tune"
+      },
+      {
+        "name": "Battle! (Gym Leader Battle)",
+        "description": "Music CD #16 If you have a music player, you can listen to a heart-pumping tune"
+      },
+      {
+        "name": "Union Cave",
+        "description": "Music CD #17 If you have a music player, you can listen to an eerie tune"
+      },
+      {
+        "name": "Ecruteak City",
+        "description": "Music CD #18 If you have a music player, you can listen to a graceful turne."
+      },
+      {
+        "name": "Bell Tower",
+        "description": "Music CD #19 If you have a music player, you can listen to a dignified tune"
+      },
+      {
+        "name": "Fortree City",
+        "description": "Music CD #20 If you have a music player, you can listen to a low-key tune"
+      },
+      {
+        "name": "Sootopolis City",
+        "description": "Music CD #21 If you have a music player, you can listen to a dreamy tune."
+      },
+      {
+        "name": "Route 209 (Day)",
+        "description": "Music CD #22 If you have a music player, you can listen to a nostalgic tune"
+      },
+      {
+        "name": "Mt. Coronet",
+        "description": "Music CD #23 If you have a music player, you can listen to a celestial tune"
+      },
+      {
+        "name": "Game Corner",
+        "description": "Music CD #24 If you have a music player, you can listen to an upbeat, fast-paced tune"
+      },
+      {
+        "name": "Driftveil City",
+        "description": "Music CD #25 If you have a music player, you can listen to a nautical tune"
+      },
+      {
+        "name": "Route 10 (Unova)",
+        "description": "Music CD #26 If you have a music player, you can listen to a tense tune"
+      },
+      {
+        "name": "Dress Up With Props",
+        "description": "Music CD #27 If you have a music player, you can listen to a cutesy pop tune"
+      },
+      {
+        "name": "Snowbelle City",
+        "description": "Music CD #28 If you have a music player, you can listen to a melancholy tune."
+      },
+      {
+        "name": "Boutique",
+        "description": "Music CD #29 If you have a music player, you can listen to"
+      },
+      {
+        "name": "Super Training!",
+        "description": "Music CD #30 If you have a music player, you can listen to an energetic tune"
+      },
+      {
+        "name": "Contest Spectacular",
+        "description": "Music CD #31 If you have a music player, you can listen to a fune tune."
+      },
+      {
+        "name": "Hau'oli City (Day)",
+        "description": "Music CD #32 If you have a music player, you can listen to a tropical tune"
+      },
+      {
+        "name": "Aether Paradise",
+        "description": "Music CD #33 If you have a music player, you can listen to a mysterious tune"
+      },
+      {
+        "name": "Ultra Ruin",
+        "description": "Music CD #34 If you have a music player, you can listen to a tune full of static and jumbled noises"
+      },
+      {
+        "name": "Wild Area (North)",
+        "description": "Music CD #35 If you have a music player, you can listen to a dynamic tune."
+      },
+      {
+        "name": "Wyndon",
+        "description": "Music CD #36 If you have a music player, you can listen to"
+      },
+      {
+        "name": "Rose Tower",
+        "description": "Music CD #37 If you have a music player, you can listen to a high-tempo tune."
+      },
+      {
+        "name": "Battle! (Gym Leader) 1",
+        "description": "Music CD #38 If you have a music player, you can listen to an invigorating tune."
+      },
+      {
+        "name": "Jubilife Village",
+        "description": "Music CD #39 If you have a music player, you can listen to a warm, nostalgic tune"
+      },
+      {
+        "name": "South Province",
+        "description": "Music CD #40 If you have a music player, you can listen to"
+      },
+      {
+        "name": "The Academy",
+        "description": "Music CD #41 If you have a music player, you can listen to"
+      },
+      {
+        "name": "Area Zero",
+        "description": "Music CD #42 If you have a music player, you can listen to that feels special somehow"
+      },
+      {
+        "name": "Battle! (Gym Leader) 2",
+        "description": "Music CD #43 If you have a music player, you can listen to that fills you with courage"
+      },
+      {
+        "name": "Nugget",
+        "description": "It's made of pure gold that gives off a lustrous gleam. Try hanging it up in a frame!"
+      },
+      {
+        "name": "Silver Bottle Cap",
+        "description": "A lovely silver bottle cap. Try hanging it up in a frame!"
+      },
+      {
+        "name": "Gold Bottle Cap",
+        "description": "A lovely gold bottle cap. Try hanging it up in a frame!"
+      },
+      {
+        "name": "Armor Fossil",
+        "description": "An ancient Pokémon fossil. It looks like a smooth shield"
+      }
+    ]
+  },
+  {
+    "category": "Sharp Stuff",
+    "items": [
+      {
+        "name": "Vending machine",
+        "description": "Connect this to electricity to make it light up! Looks like it still has some things inside for sale."
+      }
+    ]
+  },
+  {
+    "category": "Shiny Stuff",
+    "items": [
+      {
+        "name": "Crystal fragment",
+        "description": "A piece of broken crystal. It's transparent, so you can see right through it."
+      },
+      {
+        "name": "Stardust",
+        "description": "Sand that can be processed into Star Pieces. It can be found on Dream Islands"
+      },
+      {
+        "name": "Gaming chair",
+        "description": "With its large backrest and cushions, you could sit comfortable in this chair for a long time."
+      },
+      {
+        "name": "Gaming bed",
+        "description": "A cool, stylish bed. Flip on the power switch to get a cyberspace vibe going"
+      },
+      {
+        "name": "Gold Teeth",
+        "description": "Their lustrous golden shine hasn't changed at all. Maybe someone dropped them long ago?"
+      },
+      {
+        "name": "Big Nugget",
+        "description": "It's made of pure gold that gives off a lustrous gleam. It seems like it was popular among enthusiasts."
+      },
+      {
+        "name": "Auspicious Armor",
+        "description": "Heavy armor recreated from armor fragments. Auspicious wishes live within it"
+      },
+      {
+        "name": "Malicious Armor",
+        "description": "Heavy armor recreated from armor fragments. Malicious will lurks within it"
+      },
+      {
+        "name": "Red meteor lamp",
+        "description": "When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe."
+      },
+      {
+        "name": "Orange meteor lamp",
+        "description": "When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe."
+      },
+      {
+        "name": "Yellow meteor lamp",
+        "description": "When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe."
+      },
+      {
+        "name": "Green meteor lamp",
+        "description": "When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe."
+      },
+      {
+        "name": "Blue meteor lamp",
+        "description": "When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe."
+      },
+      {
+        "name": "Indigo meteor lamp",
+        "description": "When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe."
+      },
+      {
+        "name": "Violet meteor lamp",
+        "description": "When powered on, this sparkles like a shooting star and instantly gives its surroundings a mystical vibe."
+      },
+      {
+        "name": "Music mat (low do)",
+        "description": "A strange mat that makes different sounds when you step on it depending on the direction it's facing"
+      },
+      {
+        "name": "Music mat (Re)",
+        "description": "A strange mat that makes different sounds when you step on it depending on the direction it's facing"
+      },
+      {
+        "name": "Music mat (Mi)",
+        "description": "A strange mat that makes different sounds when you step on it depending on the direction it's facing"
+      },
+      {
+        "name": "Music mat (Fa)",
+        "description": "A strange mat that makes different sounds when you step on it depending on the direction it's facing"
+      },
+      {
+        "name": "Music mat (Sol)",
+        "description": "A strange mat that makes different sounds when you step on it depending on the direction it's facing"
+      },
+      {
+        "name": "Music mat (La)",
+        "description": "A strange mat that makes different sounds when you step on it depending on the direction it's facing"
+      },
+      {
+        "name": "Music mat (Ti)",
+        "description": "A strange mat that makes different sounds when you step on it depending on the direction it's facing"
+      },
+      {
+        "name": "Music mat (High do)",
+        "description": "A strange mat that makes different sounds when you step on it depending on the direction it's facing"
+      },
+      {
+        "name": "Star Piece",
+        "description": "Apparently, if you give this to a Pokémon visiting from far away, they'll give you a gift in return"
+      },
+      {
+        "name": "Rainbow Feather",
+        "description": "A mysterious feather that shines with a rainbow light. Looks like it fell from a Pokémon flying in the sky..."
+      },
+      {
+        "name": "Silver Feather",
+        "description": "A mysterious feather that shines with a silver light. Looks like it fell from a Pokémon flying in the sky..."
+      }
+    ]
+  },
+  {
+    "category": "Slender Objects",
+    "items": [
+      {
+        "name": "Vine rope",
+        "description": "Obtained by cutting vines, which grow in caves and high-altitude areas"
+      },
+      {
+        "name": "Twine",
+        "description": "Obtained by destroying textile garbage. Bug-type Pokémon can also produce it."
+      },
+      {
+        "name": "Fancy pen",
+        "description": "A high-class ballpoint pen that exudes luxury. A very important person could have used this"
+      },
+      {
+        "name": "Vine wall decoration",
+        "description": "With just a few leaves and vine ropes, you can make a stylish wall decoration"
+      },
+      {
+        "name": "Fishing rod",
+        "description": "A must-have item for fishing up Pokémon. Set one by the water and wait patiently for a bite!"
+      },
+      {
+        "name": "Mushroom streetlight",
+        "description": "Darkness poses no problem when you've got a gentle mushroom glow."
+      },
+      {
+        "name": "Town streetlight",
+        "description": "Power this with electricity to illuminate the area with gentle light"
+      },
+      {
+        "name": "Harbor streetlight",
+        "description": "A streetlight that invokes harbor vibes. The life buoy stands out as the main highlight."
+      },
+      {
+        "name": "Chic streetlight",
+        "description": "When powered on, this light emits a gentle glow that faintly illuminates its surroundings"
+      },
+      {
+        "name": "Double streetlight",
+        "description": "When pwoered on, both lamps shine brightly to illuminate their surroundings"
+      },
+      {
+        "name": "Mushroom lamp",
+        "description": "The mushroom emits a gentle glow, illuminating the surroundings with soft light"
+      },
+      {
+        "name": "Wing Fossil (right wing)",
+        "description": "A fossil of an ancient Pokémon's right wing. Its finger bones have become part of the wing"
+      },
+      {
+        "name": "Wing Fossil (left wing)",
+        "description": "A fossil of an ancient Pokémon's left wing. By joining its bones together, you can tell the size of the wing"
+      },
+      {
+        "name": "Wing fossil (body)",
+        "description": "A fossil of an ancient Pokémon's body. A hump juts out from the middle of its rickety spine"
+      },
+      {
+        "name": "Wing Fossil (tail)",
+        "description": "A fossil of an ancient Pokémon's tail. Long and slend, it looks like it could bend gracefully"
+      },
+      {
+        "name": "Headbutt Fossil (body)",
+        "description": "A fossil of an ancient Pokémon's body. Its torso is big, but its arms are quite small"
+      },
+      {
+        "name": "Headbutt Fossil (tail)",
+        "description": "A fossil of an ancient Pokémon's tail. Its base is thick and sturdy"
+      },
+      {
+        "name": "Shield Fossil (body)",
+        "description": "A fossil of an ancient Pokémon's body. Its thick bones supported a heavy head."
+      },
+      {
+        "name": "Shield Fossil (tail)",
+        "description": "A fossil of an ancient Pokémon's tail. Its hind hooves are particularly large."
+      },
+      {
+        "name": "Despot Fossil (body)",
+        "description": "A fossil of an ancient Pokémon's body. Its sharp claws look like they could slice through anything"
+      },
+      {
+        "name": "Despot Fossil (legs)",
+        "description": "A fossil of an ancient Pokémon's legs. Two stocky legs support the rest of its body."
+      },
+      {
+        "name": "Despot Fossil (tail)",
+        "description": "A fossil of an ancient Pokémon's tail. Even the very tip is spiky like its frill"
+      },
+      {
+        "name": "Tundra Fossil (body)",
+        "description": "A fossil of an ancient Pokémon's body. It must have been pretty tall with a spin like this"
+      },
+      {
+        "name": "Tundra Fossil (tail)",
+        "description": "A fossil of an ancient Pokémon's tail. The tip is curled up and looks like a spring"
+      },
+      {
+        "name": "Wire",
+        "description": "A wire that can support objects of any weight. It's perfect for hanging furnishings from the ceiling"
+      },
+      {
+        "name": "Metal chain",
+        "description": "A thin, sturdy chain. Link a few pieces together and you can use them to climb up to high places"
+      },
+      {
+        "name": "Rope",
+        "description": "A length of thick, sturdy rope. Tie a few together and climb it to reach high places"
+      },
+      {
+        "name": "Broken streetlight",
+        "description": "This rusted streetlight doesn't even have a light bulb. It can't be powered on anymore."
+      }
+    ]
+  },
+  {
+    "category": "Soft Stuff",
+    "items": [
+      {
+        "name": "Squishy clay",
+        "description": "A soft malleable crafting material used for all sorts of things. It can also be fired and hardened into bricks"
+      },
+      {
+        "name": "Plain sofa",
+        "description": "If you see small Pokémon on this sofa, try sitting down next to them"
+      },
+      {
+        "name": "Resort sofa",
+        "description": "Sitting on this makes you feel like you're in the tropics! Feel free to just laze the day away..."
+      },
+      {
+        "name": "Chic sofa",
+        "description": "A luxurious high-class sofa. It looks exactly like the ones on the S.S. Anne"
+      },
+      {
+        "name": "Antique sofa",
+        "description": "A retro sofa with Poké Ball designs here and there"
+      },
+      {
+        "name": "Mini plain bed",
+        "description": "A small, plain bed. Great for solo sleepers!"
+      },
+      {
+        "name": "Straw bed",
+        "description": "It's a little itchy, but that doesn't bother Pokémon. They'll snooze away just fine on this."
+      },
+      {
+        "name": "Poké Ball bed",
+        "description": "A big bed. Even large Pokémon could sprawl out on it."
+      },
+      {
+        "name": "Plain bed",
+        "description": "A bed with a simple deisng. It looks like it would mesh with a variety of rooms"
+      },
+      {
+        "name": "Guest-room bed",
+        "description": "A bed with a rather high-class vibe. It looks like it belongs on a luxury ship or in a fancy hotel."
+      },
+      {
+        "name": "Antique bed",
+        "description": "This bed has a relaxing, nostalgic atmosphere. The blanket is smooth to the touch"
+      },
+      {
+        "name": "Eevee doll",
+        "description": "If you set this down and inspect it, Drifloon may fly over and whisk you away to a Dream Island"
+      },
+      {
+        "name": "Pikachu doll",
+        "description": "If you set this down and inspect it, Drifloon may fly over and whisk you away to a Dream Island"
+      },
+      {
+        "name": "Clefairy doll",
+        "description": "If you set this down and inspect it, Drifloon may fly over and whisk you away to a Dream Island"
+      },
+      {
+        "name": "Dragonite doll",
+        "description": "If you set this down and inspect it, Drifloon may fly over and whisk you away to a Dream Island"
+      },
+      {
+        "name": "Ditto doll",
+        "description": "If you set this down and inspect it, Drifloon may fly over and whisk you away to a Dream Island"
+      },
+      {
+        "name": "Substitute doll",
+        "description": "If you set this down and inspect it, Drifloon may fly over and whisk you away to a Dream Island"
+      },
+      {
+        "name": "Soft Sand",
+        "description": "Loose, silky sand. Try hanging it up in a frame!"
+      }
+    ]
+  },
+  {
+    "category": "Spinning Stuff",
+    "items": []
+  },
+  {
+    "category": "Spooky Stuff",
+    "items": [
+      {
+        "name": "Boo-in-the-box",
+        "description": "Open the box, and -BOING!-out pops the Gengar!"
+      },
+      {
+        "name": "Slender candle",
+        "description": "Light this up to get a flickering bright-red flame. It's small enough to fit on a desk"
+      },
+      {
+        "name": "Eerie candle",
+        "description": "Fwoosh! This candle glows with a bluish flame when lit. It's small enough to fit on top of a desk."
+      },
+      {
+        "name": "Gravestone",
+        "description": "A place where souls can rest in peace. Ghost-type Pokémon might enjoy this"
+      }
+    ]
+  },
+  {
+    "category": "Stone Stuff",
+    "items": [
+      {
+        "name": "Stone",
+        "description": "Just a normal stone you can find anywhere. It can be used as a material for a lot of things"
+      },
+      {
+        "name": "Stone table",
+        "description": "A table made from stones. It's as hard as an Onix!"
+      },
+      {
+        "name": "Stone bench",
+        "description": "A wide, rock-solid seat. This would make a great park bench"
+      },
+      {
+        "name": "Luxury bed",
+        "description": "An extravagantly crafted bed. It somehow reminds you of a Luxury Ball!"
+      },
+      {
+        "name": "Stone fireplace",
+        "description": "A huge fireplace. Light this up to make a space feel warm and cozy"
+      },
+      {
+        "name": "Mysterious statue",
+        "description": "Doesn't seem like anyone knows exactly what this is a statue of..."
+      },
+      {
+        "name": "Fiery Magby statue",
+        "description": "If you place a switch nearby and activate it, Magby will shoot fire out of their mouth! Fwooosh!"
+      },
+      {
+        "name": "Campfire",
+        "description": "A campfire made from gathered sticks. When lit, it illuminates the area with a warm light."
+      },
+      {
+        "name": "Concrete pipe",
+        "description": "Link several of these to make the pipe as long a syou want! The inside is pitch black"
+      },
+      {
+        "name": "Garden ornament",
+        "description": "This decoration looks like Maushold spending quality time on a log."
+      },
+      {
+        "name": "Strength rock",
+        "description": "Though this boulder is incredibly big, it looks like you could use Strength to push it."
+      },
+      {
+        "name": "Stone tiling (wallpaper)",
+        "description": "Wallpaper that can be used in larger houses. You can appliy it to walls, floors and even ceilings"
+      },
+      {
+        "name": "Stone flooring (wallpaper)",
+        "description": "Wallpaper that can be used in larger houses. You can appliy it to walls, floors and even ceilings"
+      },
+      {
+        "name": "Stone brick wall (wallpaper)",
+        "description": "Wallpaper that can be used in larger houses. You can appliy it to walls, floors and even ceilings"
+      },
+      {
+        "name": "Stone brick wall",
+        "description": "Stone bricks that exude calmness. They're perfect for making buildings, flower beds, and such."
+      },
+      {
+        "name": "Stone pillar (upper)",
+        "description": "A heavy stone pillar with a design that would pair nicely with a fancy brick wall"
+      },
+      {
+        "name": "Stone pillar (middle)",
+        "description": "A heavy stone pillar with a design that would pair nicely with a fancy brick wall"
+      },
+      {
+        "name": "Stone pillar (lower)",
+        "description": "A heavy stone pillar with a design that would pair nicely with a fancy brick wall"
+      },
+      {
+        "name": "Stone flooring",
+        "description": "Place these to create an entryway. Most folks won't notice if it gets a little dirty."
+      },
+      {
+        "name": "Stone tiling",
+        "description": "Even rough, ordinary stones can be polished and stacked to make shiny tiles"
+      },
+      {
+        "name": "Stone steps",
+        "description": "Steps made of stacked stones. Place several of these for a stately atmosphere"
+      },
+      {
+        "name": "Stone hipped roof",
+        "description": "You can arrange these vertically or horizontally to make a roof"
+      },
+      {
+        "name": "Stone roof valley",
+        "description": "When you're planning out the shape of your roof, putting in some valleys adds a really nice touch"
+      },
+      {
+        "name": "Stone roof decoration",
+        "description": "Try putting this on a roof! It looks great whether you install one or a whole bunch"
+      },
+      {
+        "name": "Stone fencing",
+        "description": "Looks great on its own or arranged in a row."
+      },
+      {
+        "name": "Stone debris",
+        "description": "Sometimes found blocking the road. Break them to obtain stones."
+      },
+      {
+        "name": "Metal Debris",
+        "description": "It's hard to tell what these warn out objects were originally. They look difficult to process as is."
+      }
+    ]
+  },
+  {
+    "category": "Strange Stuff",
+    "items": [
+      {
+        "name": "Armor fragment",
+        "description": "A piece of shattered armor. Gather all the shards to create armor brimming with emotions"
+      },
+      {
+        "name": "Polygonal Shelf",
+        "description": "A stylish, eye-catching shelf. Looks hard to use but still functions as a shelf just fine,"
+      },
+      {
+        "name": "CD rack",
+        "description": "A rack with CDs on it. Sure to appeal to music lovers"
+      },
+      {
+        "name": "Funky diffuser",
+        "description": "The symbol on it looks dangerous, but it doesn't seem like this will actually spew out poison gas..."
+      },
+      {
+        "name": "Repel",
+        "description": "When you press the spray cap, a weird scent spritzes out and permeates the area"
+      },
+      {
+        "name": "Gravestone",
+        "description": "A place where souls can rest in peace. Ghost-type Pokémon might enjoy this"
+      },
+      {
+        "name": "Music mat (low do)",
+        "description": "A strange mat that makes different sounds when you step on it depending on the direction it's facing"
+      },
+      {
+        "name": "Music mat (Re)",
+        "description": "A strange mat that makes different sounds when you step on it depending on the direction it's facing"
+      },
+      {
+        "name": "Music mat (Mi)",
+        "description": "A strange mat that makes different sounds when you step on it depending on the direction it's facing"
+      },
+      {
+        "name": "Music mat (Fa)",
+        "description": "A strange mat that makes different sounds when you step on it depending on the direction it's facing"
+      },
+      {
+        "name": "Music mat (Sol)",
+        "description": "A strange mat that makes different sounds when you step on it depending on the direction it's facing"
+      },
+      {
+        "name": "Music mat (La)",
+        "description": "A strange mat that makes different sounds when you step on it depending on the direction it's facing"
+      },
+      {
+        "name": "Music mat (Ti)",
+        "description": "A strange mat that makes different sounds when you step on it depending on the direction it's facing"
+      },
+      {
+        "name": "Music mat (High do)",
+        "description": "A strange mat that makes different sounds when you step on it depending on the direction it's facing"
+      },
+      {
+        "name": "Large Lost Relic",
+        "description": "Is this a time capsule? Professor Tangrowth might know what it is!"
+      },
+      {
+        "name": "Small Lost Relic",
+        "description": "It looks like canned food but doesn't seem to have anything isnide. Show it to Professor Tangrowth"
+      },
+      {
+        "name": "Skull Fossil",
+        "description": "An ancient Pokémon fossil. It looks like a hard, sturdy skill"
+      },
+      {
+        "name": "Armor Fossil",
+        "description": "An ancient Pokémon fossil. It looks like a smooth shield"
+      },
+      {
+        "name": "Jaw Fossil",
+        "description": "An ancient Pokémon fossil. It looks like a large jaw"
+      },
+      {
+        "name": "Sail Fossil",
+        "description": "An ancient Pokémon fossil. It looks like a thin sail from a Pokémon's body"
+      },
+      {
+        "name": "Wing Fossil (head)",
+        "description": "A fossil of an ancient Pokémon's head. Its jagged fangs look just likea saw"
+      },
+      {
+        "name": "Wing Fossil (right wing)",
+        "description": "A fossil of an ancient Pokémon's right wing. Its finger bones have become part of the wing"
+      },
+      {
+        "name": "Wing Fossil (left wing)",
+        "description": "A fossil of an ancient Pokémon's left wing. By joining its bones together, you can tell the size of the wing"
+      },
+      {
+        "name": "Wing fossil (body)",
+        "description": "A fossil of an ancient Pokémon's body. A hump juts out from the middle of its rickety spine"
+      },
+      {
+        "name": "Wing Fossil (tail)",
+        "description": "A fossil of an ancient Pokémon's tail. Long and slend, it looks like it could bend gracefully"
+      },
+      {
+        "name": "Headbutt Fossil (head)",
+        "description": "A fossil of an ancient Pokémon's head. Its skull is dense and bulbous"
+      },
+      {
+        "name": "Headbutt Fossil (body)",
+        "description": "A fossil of an ancient Pokémon's body. Its torso is big, but its arms are quite small"
+      },
+      {
+        "name": "Headbutt Fossil (tail)",
+        "description": "A fossil of an ancient Pokémon's tail. Its base is thick and sturdy"
+      },
+      {
+        "name": "Shield Fossil (Head)",
+        "description": "A fossil of an ancient Pokémon's head. Its sturdy, like a giant shield"
+      },
+      {
+        "name": "Shield Fossil (body)",
+        "description": "A fossil of an ancient Pokémon's body. Its thick bones supported a heavy head."
+      },
+      {
+        "name": "Shield Fossil (tail)",
+        "description": "A fossil of an ancient Pokémon's tail. Its hind hooves are particularly large."
+      },
+      {
+        "name": "Despot Fossil (head)",
+        "description": "A fossil of an ancient Pokémon's headf. Its large fangs are as sharp as knives"
+      },
+      {
+        "name": "Despot Fossil (body)",
+        "description": "A fossil of an ancient Pokémon's body. Its sharp claws look like they could slice through anything"
+      },
+      {
+        "name": "Despot Fossil (legs)",
+        "description": "A fossil of an ancient Pokémon's legs. Two stocky legs support the rest of its body."
+      },
+      {
+        "name": "Despot Fossil (tail)",
+        "description": "A fossil of an ancient Pokémon's tail. Even the very tip is spiky like its frill"
+      },
+      {
+        "name": "Tundra Fossil (head)",
+        "description": "A fossil of an ancient Pokémon's head. It has sails that resemble an aurora"
+      },
+      {
+        "name": "Tundra Fossil (body)",
+        "description": "A fossil of an ancient Pokémon's body. It must have been pretty tall with a spin like this"
+      },
+      {
+        "name": "Tundra Fossil (tail)",
+        "description": "A fossil of an ancient Pokémon's tail. The tip is curled up and looks like a spring"
+      }
+    ]
+  },
+  {
+    "category": "Symbols",
+    "items": [
+      {
+        "name": "Sign",
+        "description": "A sign made out of wood. There's an important message witten on it... Probably!"
+      },
+      {
+        "name": "Signpost",
+        "description": "A sign that looks like it belongs at a bus stop. It could serve as a guiding landmark in cities or on roads!"
+      },
+      {
+        "name": "Information board",
+        "description": "A sign with information about the town written on it. Nobody knows what town it's for, though."
+      },
+      {
+        "name": "Team Rocket Wall Hanging",
+        "description": "The symbol of a certain organization. Just looking at it makes you want to get up to some mischief"
+      }
+    ]
+  },
+  {
+    "category": "Watching Stuff",
+    "items": [
+      {
+        "name": "Extravagant flowers",
+        "description": "With robust orange flowers in full bloom, using this decoration is sure to add some color to an area"
+      },
+      {
+        "name": "Television",
+        "description": "A large television that can be easily viewed from far away. It's a flatscreen, so carrying it is easy-peasy."
+      },
+      {
+        "name": "Pinwheels",
+        "description": "Pokémon like to spin these round and round. Wind-producing Pokémon especially like them!"
+      },
+      {
+        "name": "Blank canvas",
+        "description": "A completely empty canvas. A Pokémon artist might be inspired to paint something on it."
+      },
+      {
+        "name": "Painting (landscape)",
+        "description": "One of Smearguru's passion prjects. The contrast betwee the forest and the mountain is beautiful"
+      },
+      {
+        "name": "Painting (portrait)",
+        "description": "One of Smearguru's passion projects. The subject has been masterfully recreated, wobbliness and all."
+      },
+      {
+        "name": "Painting (still life)",
+        "description": "One of Smearguru's passion projects. Each and every object looks just like the real thing"
+      }
+    ]
+  },
+  {
+    "category": "Wobbly Stuff",
+    "items": [
+      {
+        "name": "Resort hammock",
+        "description": "The breeze feels so nice when you're lying on this hammock. It's perfect for dozing off!"
+      },
+      {
+        "name": "Wobbuffet Wobbler",
+        "description": "An exceptionally durable Wobbuffet doll. It gets back up no matter how many times you knock it over."
+      }
+    ]
+  },
+  {
+    "category": "Wooden Stuff",
+    "items": [
+      {
+        "name": "Storage box",
+        "description": "A convenient box you can store items in. It's made of wood and easy to move things in and out of."
+      },
+      {
+        "name": "Wall storage box",
+        "description": "It may be small, but it can store lots of stuff. Try mounting it on a wall"
+      },
+      {
+        "name": "Big storage box",
+        "description": "Roughly three times bigger than your standard storage box. You can put a lot of things inside."
+      },
+      {
+        "name": "Plain chest",
+        "description": "A chest with a simple design. It can be used to store items."
+      },
+      {
+        "name": "Office cabinet",
+        "description": "Compacy furniture that's surprisingly spacious. Open the sliding door to put items inside"
+      },
+      {
+        "name": "Antique chest",
+        "description": "Its four curvy legs are adorable. Try putting lots of different things in the draw"
+      },
+      {
+        "name": "Plain closet",
+        "description": "Open the curtains and store your stuff! You don't actually need the hangers-but they're there anyway!"
+      },
+      {
+        "name": "Antique closet",
+        "description": "A large bulky closet. Try storing different things in it!"
+      },
+      {
+        "name": "Log table",
+        "description": "With just some cutting and sanding, you can turn logs into a proper table"
+      },
+      {
+        "name": "Plain stand",
+        "description": "This low table has a simple design and is perfect for displaying items"
+      },
+      {
+        "name": "Food counter",
+        "description": "A counter that is perfect for putting out food at parties"
+      },
+      {
+        "name": "Plain table",
+        "description": "This simple table can be placed just about anywhere! Try putting different things on it"
+      },
+      {
+        "name": "Antique table",
+        "description": "Its lumpy legs are cute. You can make a large table by arranging several of these together"
+      },
+      {
+        "name": "Study desk",
+        "description": "Just looking at this desk feels like it will somehow make you smarter"
+      },
+      {
+        "name": "Log chair",
+        "description": "You can sit on this log to take a quick breather. Other Pokémon might stop by to take a break too."
+      },
+      {
+        "name": "Plain chair",
+        "description": "This chair is just the right height for eating meals in the dining room"
+      },
+      {
+        "name": "Log Bed",
+        "description": "A bed made from small logs. You'll sleep soundly enveloped by a woodsy aroma"
+      },
+      {
+        "name": "Guest-room bed",
+        "description": "A bed with a rather high-class vibe. It looks like it belongs on a luxury ship or in a fancy hotel."
+      },
+      {
+        "name": "CD rack",
+        "description": "A rack with CDs on it. Sure to appeal to music lovers"
+      },
+      {
+        "name": "Magazine rack",
+        "description": "This stand has a great selection of weekly magazines and photo books."
+      },
+      {
+        "name": "Mini bookcase",
+        "description": "A small bookcase packed with books. It's tiny enough to fit in tight spaces!"
+      },
+      {
+        "name": "Bookcase",
+        "description": "Furniture with colorful books arranged on the shelves. It looks like there's room for even MORE books!"
+      },
+      {
+        "name": "Dining cabinet",
+        "description": "A cupboard packed full of plates, cups-even a tea set"
+      },
+      {
+        "name": "Toy blocks",
+        "description": "Stacking toys that are fun to play with. Discover all the different combinations you can make!"
+      },
+      {
+        "name": "Wreath",
+        "description": "A simple wreath crafted from branches and leaves. It'd look nice and elegant on a wall"
+      },
+      {
+        "name": "Antique clock",
+        "description": "This clock ticks away the hours. It lets out a loud bong at designated times"
+      },
+      {
+        "name": "Vine wall decoration",
+        "description": "With just a few leaves and vine ropes, you can make a stylish wall decoration"
+      },
+      {
+        "name": "Slide",
+        "description": "An essential part of any playground. Its imposing size leaves a real impression"
+      },
+      {
+        "name": "Water basin",
+        "description": "Fill this with water so Pokémon can do some watering for you"
+      },
+      {
+        "name": "Arrow sign",
+        "description": "An arrow-shaped sign. You could use it as a guidepost at forked roads"
+      },
+      {
+        "name": "Worn wooden crate",
+        "description": "A sturdy but somewhat shabby box. Stack a bunch of them to create a warehouse vibe."
+      },
+      {
+        "name": "Wooden crate",
+        "description": "You have absolutely no idea how to open this box...But you can put stuff on top of it at least!"
+      },
+      {
+        "name": "Frame",
+        "description": "A frame for hanging an item on a wall. Try putting different things inside!"
+      },
+      {
+        "name": "Cutting board",
+        "description": "Kitchen equipment for making salads. Grab some ingredients and make something tasty!"
+      },
+      {
+        "name": "Mushroom lamp",
+        "description": "The mushroom emits a gentle glow, illuminating the surroundings with soft light"
+      },
+      {
+        "name": "Worn lumber",
+        "description": "Pieces of wood that are cracked and peeling. They look difficult to process as is"
+      }
+    ]
+  }
+]
