@@ -42,7 +42,11 @@ export function RegionMap({ region }: Props) {
       maxBoundsViscosity: 0.8,
     });
 
-    map.fitBounds(MAP_BOUNDS);
+    // Defer fitBounds so Leaflet measures the container after flex layout resolves.
+    setTimeout(() => {
+      map.invalidateSize();
+      map.fitBounds(MAP_BOUNDS, { animate: false });
+    }, 50);
 
     const slug = TILE_SLUG[region];
     const layer = L.tileLayer(`/serebii/maps/${slug}/tile_{z}-{x}-{y}.png`, {
@@ -91,13 +95,15 @@ export function RegionMap({ region }: Props) {
     layer.addTo(map);
     layerRef.current = layer;
 
-    // Reset view to show full map
-    map.fitBounds(MAP_BOUNDS);
+    map.fitBounds(MAP_BOUNDS, { animate: false });
   }, [region]);
 
   return (
-    <div className="flex h-full w-full flex-col">
-      <div ref={containerRef} className="flex-1" style={{ background: "#1a1a2e" }} />
+    <div style={{ display: "flex", flexDirection: "column", width: "100%", height: "100%" }}>
+      <div
+        ref={containerRef}
+        style={{ flex: "1 1 0", minHeight: 0, width: "100%", background: "#1a1a2e" }}
+      />
       <div className="flex shrink-0 items-center justify-between border-t border-[var(--color-border)] bg-[var(--color-panel)] px-3 py-1 text-[10px] text-[var(--color-muted)]">
         <span>Scroll to zoom · Click-drag to pan</span>
         <a

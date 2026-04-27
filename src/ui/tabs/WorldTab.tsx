@@ -230,7 +230,13 @@ export function WorldTab() {
 
         {/* Map pane */}
         {viewMode !== "3d" && (
-          <div className={viewMode === "split" ? "w-[40%] shrink-0" : "flex-1"}>
+          <div
+            style={
+              viewMode === "split"
+                ? { width: "40%", flexShrink: 0, height: "100%" }
+                : { flex: "1 1 0", minWidth: 0, height: "100%" }
+            }
+          >
             <RegionMap region={region} />
           </div>
         )}
