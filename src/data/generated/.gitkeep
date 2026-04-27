@@ -1,0 +1,2 @@
+# Generated data files land here from `npm run ingest`.
+# Files are committed so the app runs without cloning the upstream submodule.
