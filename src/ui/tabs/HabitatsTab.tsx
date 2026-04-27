@@ -2,6 +2,7 @@ import { useMemo, useState } from "react";
 import {
   habitats as ALL_HABITATS,
   pokemon as ALL_POKEMON,
+  habitatImageUrl,
   type Habitat,
   type Pokemon,
 } from "../../data/loadGenerated";
@@ -23,17 +24,18 @@ const POKEMON_BY_HABITAT: Map<string, Pokemon[]> = (() => {
 })();
 
 type Mode = "all" | "standard" | "event";
-
-const MODE_LABEL: Record<Mode, string> = {
-  all: "All",
-  standard: "Standard",
-  event: "Event",
-};
+const MODE_LABEL: Record<Mode, string> = { all: "All", standard: "Standard", event: "Event" };
 
 export function HabitatsTab() {
   const [query, setQuery] = useState("");
   const [mode, setMode] = useState<Mode>("all");
   const [selected, setSelected] = useState<Habitat | null>(null);
+
+  const counts = useMemo(() => {
+    const standard = ALL_HABITATS.filter((h) => !h.isEvent).length;
+    const event = ALL_HABITATS.length - standard;
+    return { all: ALL_HABITATS.length, standard, event };
+  }, []);
 
   const filtered = useMemo(() => {
     const q = query.trim().toLowerCase();
@@ -46,12 +48,6 @@ export function HabitatsTab() {
       return true;
     });
   }, [query, mode]);
-
-  const counts = useMemo(() => {
-    const standard = ALL_HABITATS.filter((h) => !h.isEvent).length;
-    const event = ALL_HABITATS.length - standard;
-    return { all: ALL_HABITATS.length, standard, event };
-  }, []);
 
   return (
     <div className="flex h-full flex-col">
@@ -75,6 +71,18 @@ export function HabitatsTab() {
             />
           ))}
         </div>
+        <div className="text-[10px] text-[var(--color-muted)]">
+          Habitat data and icons courtesy of{" "}
+          <a
+            href="https://www.serebii.net/pokemonpokopia/habitats.shtml"
+            target="_blank"
+            rel="noreferrer"
+            className="underline hover:text-[var(--color-accent)]"
+          >
+            Serebii.net
+          </a>
+          .
+        </div>
       </div>
 
       <div className="flex flex-1 overflow-hidden">
@@ -84,7 +92,7 @@ export function HabitatsTab() {
               No habitats match these filters.
             </div>
           ) : (
-            <div className="grid gap-2 [grid-template-columns:repeat(auto-fill,minmax(260px,1fr))]">
+            <div className="grid gap-2 [grid-template-columns:repeat(auto-fill,minmax(220px,1fr))]">
               {filtered.map((h) => (
                 <HabitatCard
                   key={h.id}
@@ -110,34 +118,51 @@ interface HabitatCardProps {
 
 function HabitatCard({ habitat, selected, onClick }: HabitatCardProps) {
   const pokemonCount = POKEMON_BY_HABITAT.get(habitat.name.toLowerCase())?.length ?? 0;
+  const img = habitatImageUrl(habitat.image);
   return (
     <button
       onClick={onClick}
       className={
-        "flex flex-col gap-1 rounded border p-3 text-left transition-colors " +
+        "flex flex-col gap-1.5 rounded border p-2.5 text-left transition-colors " +
         (selected
           ? "border-[var(--color-accent)] bg-[var(--color-panel-hi)]"
           : "border-[var(--color-border)] bg-[var(--color-panel)] hover:border-[var(--color-accent)]")
       }
     >
-      <div className="flex items-center justify-between gap-2">
-        <span className="text-[10px] uppercase tracking-wider text-[var(--color-muted)]">
-          #{habitat.id}
-        </span>
-        <div className="flex items-center gap-1">
-          {habitat.isEvent && (
-            <span className="rounded bg-[var(--color-accent)] px-1.5 py-0.5 text-[9px] uppercase text-black">
-              Event
+      <div className="flex items-center gap-2">
+        {img ? (
+          <img
+            src={img}
+            alt={habitat.name}
+            className="h-12 w-12 shrink-0 rounded bg-[var(--color-panel-hi)] object-contain p-0.5"
+            loading="lazy"
+          />
+        ) : (
+          <div className="h-12 w-12 shrink-0 rounded bg-[var(--color-panel-hi)]" />
+        )}
+        <div className="min-w-0 flex-1">
+          <div className="flex items-center justify-between gap-2">
+            <span className="text-[10px] uppercase tracking-wider text-[var(--color-muted)]">
+              {habitat.numberStr}
             </span>
-          )}
-          {pokemonCount > 0 && (
-            <span className="text-[10px] text-[var(--color-muted)]">
-              {pokemonCount} Pokemon
-            </span>
-          )}
+            <div className="flex items-center gap-1">
+              {habitat.isEvent && (
+                <span className="rounded bg-[var(--color-accent)] px-1.5 py-0.5 text-[9px] uppercase text-black">
+                  Event
+                </span>
+              )}
+              {pokemonCount > 0 && (
+                <span className="text-[10px] text-[var(--color-muted)]">
+                  {pokemonCount}
+                </span>
+              )}
+            </div>
+          </div>
+          <div className="truncate text-sm font-medium leading-tight">
+            {habitat.name}
+          </div>
         </div>
       </div>
-      <div className="text-sm font-medium leading-tight">{habitat.name}</div>
       <div className="line-clamp-2 text-xs text-[var(--color-muted)]">
         {habitat.description}
       </div>
@@ -159,18 +184,28 @@ function HabitatDetail({ habitat }: HabitatDetailProps) {
   }
 
   const pokemonHere = POKEMON_BY_HABITAT.get(habitat.name.toLowerCase()) ?? [];
+  const img = habitatImageUrl(habitat.image);
 
   return (
     <aside className="hidden w-[360px] shrink-0 overflow-y-auto border-l border-[var(--color-border)] bg-[var(--color-panel)] p-4 lg:block">
-      <div className="flex items-start gap-2">
+      <div className="flex items-start gap-3">
+        {img && (
+          <img
+            src={img}
+            alt={habitat.name}
+            className="h-20 w-20 shrink-0 rounded bg-[var(--color-panel-hi)] object-contain p-1"
+          />
+        )}
         <div className="flex-1">
-          <div className="text-xs text-[var(--color-muted)]">#{habitat.id}</div>
+          <div className="flex items-center gap-1.5">
+            <span className="text-xs text-[var(--color-muted)]">{habitat.numberStr}</span>
+            {habitat.isEvent && (
+              <span className="rounded bg-[var(--color-accent)] px-1.5 py-0.5 text-[9px] uppercase text-black">
+                Event
+              </span>
+            )}
+          </div>
           <div className="text-lg font-semibold leading-tight">{habitat.name}</div>
-          {habitat.isEvent && (
-            <span className="mt-1 inline-block rounded bg-[var(--color-accent)] px-2 py-0.5 text-[10px] uppercase text-black">
-              Event Habitat
-            </span>
-          )}
         </div>
       </div>
       <p className="mt-3 text-sm text-[var(--color-text)]">{habitat.description}</p>

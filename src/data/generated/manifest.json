@@ -1,9 +1,9 @@
 {
-  "generatedAt": "2026-04-27T15:04:18.825Z",
-  "source": "JEschete/PokopiaPlanning + nintendolife.com",
+  "generatedAt": "2026-04-27T17:43:38.791Z",
+  "source": "JEschete/PokopiaPlanning (favorites/houses) + nintendolife.com (Pokopia dex numbering) + serebii.net/pokemonpokopia (habitats/items + images) + PokeAPI (Pokemon sprites)",
   "pokemon": 300,
-  "habitats": 212,
-  "items": 1230,
+  "habitats": 213,
+  "items": 1527,
   "itemsByFavorite": 43,
   "locations": 6,
   "specialties": 31,

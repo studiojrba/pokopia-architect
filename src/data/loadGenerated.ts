@@ -48,15 +48,23 @@ export interface Pokemon {
 export interface Habitat {
   id: string;
   number: number;
+  numberStr: string;
   name: string;
   description: string;
+  /** Serebii image filename (e.g. "1.png" or "e1.png"). Use {@link habitatImageUrl}. */
+  image: string;
   isEvent: boolean;
 }
 
 export interface Item {
   name: string;
+  /** Top-level Serebii category: Materials, Food, Furniture, Misc., etc. */
   category: string;
+  /** In-game tag shown by Serebii: Decoration, Food, Relaxation, Road, Toy, or "". */
+  tag: string;
   description: string;
+  /** Serebii image filename (e.g. "honey.png"). Use {@link itemImageUrl}. */
+  image: string;
   locations: string[];
 }
 
@@ -168,4 +176,16 @@ export function pokemonSpriteUrl(nationalDex: number | null): string | null {
     return null;
   }
   return `/sprites/pokemon/${nationalDex}.png`;
+}
+
+/** Serebii habitat icon URL (e.g. /serebii/habitats/1.png). */
+export function habitatImageUrl(image: string | null | undefined): string | null {
+  if (!image) return null;
+  return `/serebii/habitats/${image}`;
+}
+
+/** Serebii item icon URL (e.g. /serebii/items/honey.png). */
+export function itemImageUrl(image: string | null | undefined): string | null {
+  if (!image) return null;
+  return `/serebii/items/${image}`;
 }

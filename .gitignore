@@ -25,3 +25,7 @@ dist-ssr
 
 # OS
 Thumbs.db
+
+# Cached Serebii HTML used by `npm run ingest`. We ship the parsed JSON and
+# attribution-ed images, but not Serebii's raw HTML.
+.serebii-cache/

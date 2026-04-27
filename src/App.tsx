@@ -56,6 +56,48 @@ function App() {
         {tab === "houses" && <HousesTab />}
         {tab === "items" && <ItemsTab />}
       </main>
+      <footer className="flex items-center justify-center gap-3 border-t border-[var(--color-border)] bg-[var(--color-panel)] px-4 py-1.5 text-[10px] text-[var(--color-muted)]">
+        <span>Data sources:</span>
+        <a
+          href="https://www.serebii.net/pokemonpokopia/"
+          target="_blank"
+          rel="noreferrer"
+          className="underline hover:text-[var(--color-accent)]"
+        >
+          Serebii.net
+        </a>
+        <span>·</span>
+        <a
+          href="https://www.nintendolife.com/guides/pokemon-pokopia-complete-pokedex-all-pokemon-habitats"
+          target="_blank"
+          rel="noreferrer"
+          className="underline hover:text-[var(--color-accent)]"
+        >
+          Nintendo Life
+        </a>
+        <span>·</span>
+        <a
+          href="https://pokeapi.co"
+          target="_blank"
+          rel="noreferrer"
+          className="underline hover:text-[var(--color-accent)]"
+        >
+          PokéAPI
+        </a>
+        <span>·</span>
+        <a
+          href="https://github.com/JEschete/PokopiaPlanning"
+          target="_blank"
+          rel="noreferrer"
+          className="underline hover:text-[var(--color-accent)]"
+        >
+          JEschete/PokopiaPlanning
+        </a>
+        <span className="ml-2 opacity-50">
+          All Pokémon data © Nintendo / Game Freak. Pokopia is a Nintendo Switch game.
+          Serebii data used with attribution, not for commercial purposes.
+        </span>
+      </footer>
     </div>
   );
 }

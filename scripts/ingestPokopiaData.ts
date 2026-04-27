@@ -80,15 +80,24 @@ interface PokemonEntry {
 interface Habitat {
   id: string;
   number: number;
+  numberStr: string;
   name: string;
+  /** Serebii image filename (e.g. "1.png" or "e1.png"). Lives at /serebii/habitats/{image}. */
+  image: string;
   description: string;
   isEvent: boolean;
 }
 
 interface ItemEntry {
   name: string;
+  /** Top-level Serebii category: Materials, Food, Furniture, Misc., etc. */
   category: string;
+  /** Optional in-game tag (Decoration / Food / Relaxation / Road / Toy). */
+  tag: string;
   description: string;
+  /** Serebii image filename (e.g. "honey.png"). Lives at /serebii/items/{image}. */
+  image: string;
+  /** Multi-line locations as displayed by Serebii. */
   locations: string[];
 }
 
@@ -400,105 +409,254 @@ async function resolveAllNationalDex(pokemon: PokemonEntry[]): Promise<void> {
 }
 
 // -----------------------------------------------------------------------------
-// Habitats markdown (209 + 3)
+// Serebii habitats + items (data and images)
+//
+// Habitats and items are sourced from serebii.net/pokemonpokopia/. Serebii is
+// generally the most up-to-date community reference for new Pokemon games.
+// We cache the raw HTML pages under .serebii-cache/ (gitignored) and download
+// referenced images into public/serebii/{habitats,items}/. Attribution is
+// surfaced in the app footer and README.
 // -----------------------------------------------------------------------------
 
+const SEREBII_BASE = "https://www.serebii.net/pokemonpokopia";
+const SEREBII_CACHE = join(ROOT, ".serebii-cache");
+const SEREBII_HABITAT_IMAGES = join(ROOT, "public", "serebii", "habitats");
+const SEREBII_ITEM_IMAGES = join(ROOT, "public", "serebii", "items");
+
+const REFRESH_SEREBII = process.argv.includes("--refresh-serebii");
+
+const FETCH_HEADERS: Record<string, string> = {
+  "User-Agent":
+    "Mozilla/5.0 (compatible; PokopiaArchitect/0.1; +https://github.com/studiojrba/pokopia-architect)",
+};
+
+/**
+ * Read a Serebii page from the local cache, fetching from the network on
+ * cache miss (or when --refresh-serebii is passed). Serebii serves ISO-8859-1
+ * encoded HTML; we decode it to a real UTF-8 string and cache that.
+ * Cached pages are not committed to the repo to avoid mirroring Serebii's HTML.
+ */
+async function loadSerebiiPage(filename: string, url: string): Promise<string> {
+  await ensureDir(SEREBII_CACHE);
+  const cachePath = join(SEREBII_CACHE, filename);
+
+  const decode = (buf: Buffer): string => {
+    // If it's already valid UTF-8 (no replacement characters from a prior bad
+    // decode and no high-byte non-UTF-8 sequences), use it directly. Otherwise
+    // assume Serebii's native ISO-8859-1.
+    const utf8 = buf.toString("utf8");
+    if (!utf8.includes("\ufffd")) return utf8;
+    return buf.toString("latin1");
+  };
+
+  if (!REFRESH_SEREBII && existsSync(cachePath)) {
+    const buf = await readFile(cachePath);
+    return decode(buf);
+  }
+  console.log(`  fetching ${url}`);
+  const res = await fetch(url, { headers: FETCH_HEADERS });
+  if (!res.ok) {
+    throw new Error(`Failed to fetch ${url}: ${res.status} ${res.statusText}`);
+  }
+  const buf = Buffer.from(await res.arrayBuffer());
+  const decoded = decode(buf);
+  // Cache the decoded UTF-8 form so subsequent runs are unambiguous.
+  await writeFile(cachePath, decoded, "utf8");
+  return decoded;
+}
+
+/** Decode the small subset of HTML entities Serebii actually emits. */
+function htmlDecode(s: string): string {
+  return s
+    .replace(/&amp;/g, "&")
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&apos;/g, "'")
+    .replace(/&eacute;/g, "\u00e9")
+    .replace(/&Eacute;/g, "\u00c9")
+    .replace(/&nbsp;/g, " ")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function stripTags(s: string): string {
+  return htmlDecode(s.replace(/<[^>]+>/g, ""));
+}
+
+/**
+ * Download a single binary asset to disk if it isn't already cached. Returns
+ * `true` on a fresh download, `false` if the file already exists.
+ */
+async function downloadAsset(url: string, dest: string): Promise<boolean> {
+  if (existsSync(dest)) return false;
+  const res = await fetch(url, { headers: FETCH_HEADERS });
+  if (!res.ok) {
+    throw new Error(`Failed to fetch ${url}: ${res.status} ${res.statusText}`);
+  }
+  const buf = Buffer.from(await res.arrayBuffer());
+  await writeFile(dest, buf);
+  return true;
+}
+
 async function parseHabitats(): Promise<Habitat[]> {
-  const md = await readUpstream("reference", "Habitats.md");
-  const lines = md.split(/\r?\n/);
+  const html = await loadSerebiiPage(
+    "habitats.html",
+    `${SEREBII_BASE}/habitats.shtml`,
+  );
+  // The habitat table is the second <table> on the page (the first is the
+  // page intro). Each row has: No. / Picture / Name / Description.
+  const tables = html.match(/<table[\s\S]*?<\/table>/g) ?? [];
+  if (tables.length < 2) {
+    throw new Error("Serebii habitats page: expected habitat table not found");
+  }
+  const rows = tables[1].match(/<tr[\s\S]*?<\/tr>/g) ?? [];
   const habitats: Habitat[] = [];
-  let inEventSection = false;
-  for (const line of lines) {
-    if (/^##\s+Event Habitats/i.test(line)) {
-      inEventSection = true;
-      continue;
-    }
-    const match = line.match(/^\|\s*(E?\d+)\s*\|\s*([^|]+?)\s*\|\s*([^|]+?)\s*\|$/);
-    if (!match) continue;
-    const [, num, name, description] = match;
-    if (/^-+$/.test(num) || num === "#") continue;
-    const isEvent = num.startsWith("E");
-    const number = parseInt(num.replace(/^E/, ""), 10);
-    if (!Number.isFinite(number)) continue;
+  for (const row of rows) {
+    const cells = row.match(/<td[^>]*>([\s\S]*?)<\/td>/g);
+    if (!cells || cells.length < 4) continue;
+    const numCell = stripTags(cells[0]);
+    const numMatch = numCell.match(/#?(\d+)/);
+    if (!numMatch) continue;
+    const number = parseInt(numMatch[1], 10);
+    const imgMatch = cells[1].match(/<img[^>]+src="([^"]+)"/);
+    const image = imgMatch ? imgMatch[1].split("/").pop()! : "";
+    const name = stripTags(cells[2]);
+    const description = stripTags(cells[3]);
+    if (!name) continue;
+    // Event habitats use image filenames starting with "e" (e.g. "e1.png").
+    // They share display numbers with standard habitats so use a distinct ID.
+    const isEvent = /^e\d+\.png$/i.test(image);
     habitats.push({
-      id: isEvent ? `E${String(number).padStart(3, "0")}` : String(number).padStart(3, "0"),
+      id: isEvent
+        ? `E${String(number).padStart(3, "0")}`
+        : String(number).padStart(3, "0"),
       number,
-      name: name.trim(),
-      description: description.trim(),
-      isEvent: isEvent || inEventSection,
+      numberStr: isEvent
+        ? `#E${String(number).padStart(3, "0")}`
+        : `#${String(number).padStart(3, "0")}`,
+      name,
+      image,
+      description,
+      isEvent,
     });
   }
+  // Sort by number, then standard before event within same number.
+  habitats.sort((a, b) => a.number - b.number || Number(a.isEvent) - Number(b.isEvent));
   return habitats;
 }
 
-// -----------------------------------------------------------------------------
-// Item List (parsed by category sections)
-// -----------------------------------------------------------------------------
-
 async function parseItems(): Promise<ItemEntry[]> {
-  const txt = await readUpstream("reference", "Item List.txt");
-  const lines = txt.split(/\r?\n/);
+  const html = await loadSerebiiPage(
+    "items.html",
+    `${SEREBII_BASE}/items.shtml`,
+  );
+  // Each category section starts with <h2><a name="..."></a>List of X</h2>.
+  // Pre-collect every section header position so we can label the next table.
+  const sectionRe = /<h2>\s*<a name="[^"]+"\s*><\/a>List of ([^<]+)<\/h2>/g;
+  const sections: { index: number; category: string }[] = [];
+  let s: RegExpExecArray | null;
+  while ((s = sectionRe.exec(html)) !== null) {
+    sections.push({ index: s.index, category: htmlDecode(s[1]).trim() });
+  }
+
   const items: ItemEntry[] = [];
-  let category: string | null = null;
-  let pending: ItemEntry | null = null;
-
-  const flush = () => {
-    if (pending) items.push(pending);
-    pending = null;
-  };
-
-  for (const raw of lines) {
-    const line = raw;
-    const trimmed = line.trim();
-
-    const sectionMatch = trimmed.match(/^List of (.+?)\s*$/i);
-    if (sectionMatch) {
-      flush();
-      category = sectionMatch[1].trim();
-      continue;
+  const tableRe = /<table[\s\S]*?<\/table>/g;
+  let m: RegExpExecArray | null;
+  while ((m = tableRe.exec(html)) !== null) {
+    // Find the most recent section header at or before this table.
+    let category: string | null = null;
+    for (let i = sections.length - 1; i >= 0; i--) {
+      if (sections[i].index < m.index) {
+        category = sections[i].category;
+        break;
+      }
     }
+    if (!category) continue; // tables before the first section header (page nav)
 
-    // Skip the column header line that appears after each section heading.
-    if (
-      trimmed === "Picture \tName \tDescription \tLocations" ||
-      /^Picture\s+Name\s+Description\s+Locations$/.test(trimmed)
-    ) {
-      continue;
-    }
-
-    if (!category) continue;
-    if (!trimmed) {
-      // Blank line breaks an item's location continuation block.
-      flush();
-      continue;
-    }
-
-    if (line.includes("\t")) {
-      flush();
-      const parts = line.split("\t");
-      const [, name, description, firstLocation] = [
-        parts[0] ?? "",
-        parts[1] ?? "",
-        parts[2] ?? "",
-        parts[3] ?? "",
-      ];
-      const cleanName = (name || "").trim();
-      if (!cleanName) continue;
-      pending = {
-        name: cleanName,
+    const rows = m[0].match(/<tr[\s\S]*?<\/tr>/g) ?? [];
+    for (const row of rows) {
+      const cells = row.match(/<td[^>]*>([\s\S]*?)<\/td>/g);
+      if (!cells || cells.length < 5) continue;
+      // Skip the column header row.
+      if (/Picture/i.test(stripTags(cells[0])) && /Name/i.test(stripTags(cells[1]))) {
+        continue;
+      }
+      const imgMatch = cells[0].match(/<img[^>]+src="([^"]+)"/);
+      const image = imgMatch ? imgMatch[1].split("/").pop()! : "";
+      const name = stripTags(cells[1]);
+      const description = stripTags(cells[2]);
+      const tag = stripTags(cells[3]);
+      // Locations cell is rich html; split on <br /> first, then strip tags.
+      const locations = cells[4]
+        .replace(/^<td[^>]*>/, "")
+        .replace(/<\/td>$/, "")
+        .split(/<br\s*\/?>/i)
+        .map((seg) => stripTags(seg))
+        .filter(Boolean);
+      if (!name) continue;
+      items.push({
+        name,
         category,
-        description: (description || "").trim(),
-        locations: [],
-      };
-      const firstLoc = (firstLocation || "").trim();
-      if (firstLoc) pending.locations.push(firstLoc);
-    } else if (pending) {
-      // Continuation line for the current item's locations column.
-      pending.locations.push(trimmed);
+        tag: tag === "" || tag === " " ? "" : tag,
+        description,
+        image,
+        locations,
+      });
     }
   }
-  flush();
   return items;
+}
+
+/**
+ * Download Serebii habitat + item images into public/serebii/. Files already
+ * present on disk are skipped, so re-runs are cheap. Pass --refresh-serebii
+ * to also drop the cached HTML pages.
+ */
+async function downloadSerebiiImages(
+  habitats: Habitat[],
+  items: ItemEntry[],
+): Promise<void> {
+  await ensureDir(SEREBII_HABITAT_IMAGES);
+  await ensureDir(SEREBII_ITEM_IMAGES);
+
+  let hDownloaded = 0;
+  let hCached = 0;
+  for (const h of habitats) {
+    if (!h.image) continue;
+    const url = `${SEREBII_BASE}/habitatdex/${h.image}`;
+    const dest = join(SEREBII_HABITAT_IMAGES, h.image);
+    try {
+      const fresh = await downloadAsset(url, dest);
+      if (fresh) hDownloaded++; else hCached++;
+    } catch (err) {
+      console.warn(`    habitat image ${h.image}: ${(err as Error).message}`);
+    }
+  }
+  console.log(`  habitat images: ${hDownloaded} downloaded, ${hCached} cached`);
+
+  let iDownloaded = 0;
+  let iCached = 0;
+  let iMissing = 0;
+  for (const it of items) {
+    if (!it.image) {
+      iMissing++;
+      continue;
+    }
+    const url = `${SEREBII_BASE}/items/${it.image}`;
+    const dest = join(SEREBII_ITEM_IMAGES, it.image);
+    try {
+      const fresh = await downloadAsset(url, dest);
+      if (fresh) iDownloaded++; else iCached++;
+    } catch (err) {
+      console.warn(`    item image ${it.image}: ${(err as Error).message}`);
+      iMissing++;
+    }
+  }
+  console.log(
+    `  item images: ${iDownloaded} downloaded, ${iCached} cached, ${iMissing} missing`,
+  );
 }
 
 // -----------------------------------------------------------------------------
@@ -845,7 +1003,11 @@ async function main(): Promise<void> {
 
   await writeJson("manifest", {
     generatedAt: new Date().toISOString(),
-    source: "JEschete/PokopiaPlanning + nintendolife.com",
+    source:
+      "JEschete/PokopiaPlanning (favorites/houses) + " +
+      "nintendolife.com (Pokopia dex numbering) + " +
+      "serebii.net/pokemonpokopia (habitats/items + images) + " +
+      "PokeAPI (Pokemon sprites)",
     pokemon: pokemon.length,
     habitats: habitats.length,
     items: items.length,
@@ -857,6 +1019,9 @@ async function main(): Promise<void> {
 
   console.log("Downloading Pokemon sprites...");
   await downloadSprites(pokemon);
+
+  console.log("Downloading Serebii habitat + item images...");
+  await downloadSerebiiImages(habitats, items);
 
   console.log("Done.");
 }
