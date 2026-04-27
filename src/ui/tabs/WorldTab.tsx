@@ -1,12 +1,9 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import { Scene } from "../../scene/Scene";
 import { Hotbar } from "../panels/Hotbar";
 import { BlockPalette } from "../panels/BlockPalette";
-import { RegionMap } from "../panels/RegionMap";
 import { useEditorStore, type ToolMode, type CameraMode } from "../../editor/store";
 import { REGION_LIST } from "../../data/regions";
-
-type ViewMode = "3d" | "map" | "split";
 
 const TOOL_ICONS: Record<ToolMode, string> = {
   build: "🧱",
@@ -24,7 +21,6 @@ const CAMERA_LABELS: Record<CameraMode, string> = {
 };
 
 export function WorldTab() {
-  const [viewMode, setViewMode] = useState<ViewMode>("3d");
   const toolMode = useEditorStore((s) => s.toolMode);
   const setToolMode = useEditorStore((s) => s.setToolMode);
   const cameraMode = useEditorStore((s) => s.cameraMode);
@@ -163,27 +159,6 @@ export function WorldTab() {
         </button>
 
         <div className="ml-auto flex items-center gap-2">
-          {/* View mode toggle */}
-          <div className="flex rounded border border-[var(--color-border)] overflow-hidden">
-            {(["3d", "map", "split"] as ViewMode[]).map((m) => (
-              <button
-                key={m}
-                onClick={() => setViewMode(m)}
-                title={m === "3d" ? "3D Builder" : m === "map" ? "Region Map" : "Split View"}
-                className={
-                  "px-2 py-1 text-xs transition-colors " +
-                  (viewMode === m
-                    ? "bg-[var(--color-accent)] text-black"
-                    : "text-[var(--color-text)] hover:bg-[var(--color-panel-hi)]")
-                }
-              >
-                {m === "3d" ? "3D" : m === "map" ? "Map" : "Split"}
-              </button>
-            ))}
-          </div>
-
-          <div className="h-4 w-px bg-[var(--color-border)]" />
-
           {/* Block count */}
           <span className="text-[10px] text-[var(--color-muted)]">
             {blockCount} block{blockCount !== 1 ? "s" : ""}
@@ -208,38 +183,15 @@ export function WorldTab() {
         </span>
       </div>
 
-      {/* Main canvas area */}
-      <div className="relative flex flex-1 overflow-hidden">
-        {/* 3D pane */}
-        {viewMode !== "map" && (
-          <div
-            className={
-              "relative flex-1 " +
-              (viewMode === "split" ? "border-r border-[var(--color-border)]" : "")
-            }
-          >
-            <Scene />
-            {/* Hotbar — centered at bottom */}
-            <div className="pointer-events-none absolute bottom-4 left-0 right-0 flex justify-center">
-              <Hotbar onOpenPalette={togglePalette} />
-            </div>
-            {/* Block Palette overlay */}
-            {showPalette && <BlockPalette onClose={togglePalette} />}
-          </div>
-        )}
-
-        {/* Map pane */}
-        {viewMode !== "3d" && (
-          <div
-            style={
-              viewMode === "split"
-                ? { width: "40%", flexShrink: 0, height: "100%" }
-                : { flex: "1 1 0", minWidth: 0, height: "100%" }
-            }
-          >
-            <RegionMap region={region} />
-          </div>
-        )}
+      {/* 3D canvas */}
+      <div className="relative flex-1">
+        <Scene />
+        {/* Hotbar — centered at bottom */}
+        <div className="pointer-events-none absolute bottom-4 left-0 right-0 flex justify-center">
+          <Hotbar onOpenPalette={togglePalette} />
+        </div>
+        {/* Block Palette overlay */}
+        {showPalette && <BlockPalette onClose={togglePalette} />}
       </div>
     </div>
   );

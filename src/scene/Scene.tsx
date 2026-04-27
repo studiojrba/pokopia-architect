@@ -3,9 +3,10 @@ import * as THREE from "three";
 import { Canvas, useThree } from "@react-three/fiber";
 import { OrbitControls, Grid } from "@react-three/drei";
 import { useEditorStore } from "../editor/store";
-import { REGIONS } from "../data/regions";
+import { REGIONS, type RegionId } from "../data/regions";
 import { VoxelGrid } from "./VoxelGrid";
 import { GhostBlock } from "./GhostBlock";
+import { useGroundTexture } from "./useGroundTexture";
 
 // ---------------------------------------------------------------------------
 // Ground plane — handles pointer events for placement on the base level
@@ -123,11 +124,13 @@ function CameraRig({ sx, sz }: { sx: number; sz: number }) {
 // ---------------------------------------------------------------------------
 
 function SceneContent({
+  region,
   sx,
   sz,
   ground,
   sky,
 }: {
+  region: RegionId;
   sx: number;
   sz: number;
   ground: string;
@@ -136,6 +139,7 @@ function SceneContent({
   const ghostRef = useRef<THREE.Vector3 | null>(null);
   const placeBlock = useEditorStore((s) => s.placeBlock);
   const removeBlock = useEditorStore((s) => s.removeBlock);
+  const mapTexture = useGroundTexture(region);
 
   const handlePlace = useCallback(
     (x: number, y: number, z: number) => placeBlock(x, y, z),
@@ -149,9 +153,9 @@ function SceneContent({
   return (
     <>
       <color attach="background" args={[sky]} />
-      <ambientLight intensity={0.55} />
+      <ambientLight intensity={0.6} />
       <directionalLight
-        position={[100, 200, 100]}
+        position={[sx * 0.5, 200, sz * 0.5]}
         intensity={1.0}
         castShadow
         shadow-mapSize-width={2048}
@@ -162,24 +166,31 @@ function SceneContent({
         shadow-camera-bottom={-sx / 2}
       />
 
-      {/* Ground visual */}
-      <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.01, 0]} receiveShadow>
+      {/* Ground — Serebii map texture or fallback colour */}
+      <mesh rotation={[-Math.PI / 2, 0, 0]} position={[0, -0.02, 0]} receiveShadow>
         <planeGeometry args={[sx, sz]} />
-        <meshStandardMaterial color={ground} />
+        {mapTexture ? (
+          <meshStandardMaterial map={mapTexture} roughness={0.9} metalness={0} />
+        ) : (
+          <meshStandardMaterial color={ground} />
+        )}
       </mesh>
 
-      {/* Grid overlay */}
+      {/* Subtle grid overlay so users can judge block positions */}
       <Grid
         args={[sx, sz]}
-        position={[0, 0.005, 0]}
+        position={[0, 0.01, 0]}
         cellSize={1}
-        cellThickness={0.3}
-        cellColor="#444"
+        cellThickness={0.2}
+        cellColor={mapTexture ? "#ffffff" : "#444"}
+        cellOpacity={mapTexture ? 0.08 : 0.5}
         sectionSize={16}
-        sectionThickness={0.8}
-        sectionColor="#666"
+        sectionThickness={0.6}
+        sectionColor={mapTexture ? "#ffffff" : "#666"}
+        sectionOpacity={mapTexture ? 0.18 : 0.7}
         infiniteGrid={false}
-        fadeDistance={Math.max(sx, sz) * 1.2}
+        fadeDistance={Math.max(sx, sz) * 1.4}
+        fadeStrength={1.5}
       />
 
       {/* Invisible hit-plane for ground placement */}
@@ -206,13 +217,19 @@ export function Scene() {
   const regionDef = REGIONS[region];
   const { x: sx, z: sz } = regionDef.size;
 
+  // Isometric-ish starting view: high enough to see the full map,
+  // angled so the terrain is visible as a 3D surface.
+  const camH = Math.max(sx, sz) * 0.8;
+  const camD = Math.max(sx, sz) * 0.55;
+
   return (
     <Canvas
       shadows
-      camera={{ position: [sx * 0.4, 60, sz * 0.5], fov: 55 }}
+      camera={{ position: [0, camH, camD], fov: 50 }}
       gl={{ antialias: true }}
     >
       <SceneContent
+        region={region}
         sx={sx}
         sz={sz}
         ground={regionDef.ground}
