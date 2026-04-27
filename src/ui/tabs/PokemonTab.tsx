@@ -184,7 +184,11 @@ function PokemonCard({ pokemon, selected, onClick }: PokemonCardProps) {
           : "border-[var(--color-border)] bg-[var(--color-panel)] hover:border-[var(--color-accent)]")
       }
     >
-      <PokemonSprite dex={pokemon.number} name={pokemon.name} size={72} />
+      <PokemonSprite
+        name={pokemon.name}
+        nationalDex={pokemon.nationalDex}
+        size={72}
+      />
       <div className="flex w-full items-center justify-between gap-1 px-1">
         <span className="text-[10px] text-[var(--color-muted)]">
           {pokemon.numberStr}
@@ -214,7 +218,11 @@ function PokemonDetail({ pokemon }: PokemonDetailProps) {
   return (
     <aside className="hidden w-[360px] shrink-0 overflow-y-auto border-l border-[var(--color-border)] bg-[var(--color-panel)] p-4 lg:block">
       <div className="flex items-start gap-3">
-        <PokemonSprite dex={pokemon.number} name={pokemon.name} size={96} />
+        <PokemonSprite
+          name={pokemon.name}
+          nationalDex={pokemon.nationalDex}
+          size={96}
+        />
         <div className="min-w-0 flex-1">
           <div className="text-xs text-[var(--color-muted)]">{pokemon.numberStr}</div>
           <div className="text-lg font-semibold leading-tight">{pokemon.name}</div>

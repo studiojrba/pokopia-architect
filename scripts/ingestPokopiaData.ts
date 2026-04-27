@@ -24,6 +24,7 @@ const UPSTREAM = join(ROOT, "data", "upstream");
 const REFERENCE = join(UPSTREAM, "reference");
 const PLANNING = join(UPSTREAM, "planning");
 const FAV_DIR = join(REFERENCE, "Items By Favorite");
+const CURATED = join(ROOT, "data", "curated");
 const OUT = join(ROOT, "src", "data", "generated");
 const SPRITES = join(ROOT, "public", "sprites", "pokemon");
 
@@ -60,6 +61,15 @@ interface PokemonEntry {
   number: number;
   numberStr: string;
   name: string;
+  /** PokeAPI species slug used to resolve sprites. */
+  slug: string;
+  /**
+   * Official National Pokedex number (PokeAPI species id), used for sprite
+   * lookups. `null` when the species could not be resolved via PokeAPI.
+   * Pokopia's `number` is its own internal ordering and does NOT match the
+   * National Pokedex, so sprites must use this field instead.
+   */
+  nationalDex: number | null;
   primaryLocation: string;
   specialties: string[];
   idealHabitat: HabitatType | string;
@@ -148,10 +158,30 @@ async function readUpstream(...parts: string[]): Promise<string> {
 }
 
 // -----------------------------------------------------------------------------
-// Pokemon CSV (305 entries)
+// Pokemon dex (curated Nintendo Life list + JEschete CSV for rich data)
 // -----------------------------------------------------------------------------
 
-async function parsePokemon(): Promise<PokemonEntry[]> {
+interface CuratedPokemon {
+  number: number;
+  name: string;
+}
+
+interface JEschetePokemon {
+  name: string;
+  primaryLocation: string;
+  specialties: string[];
+  idealHabitat: string;
+  favorites: string[];
+  habitats: PokemonHabitat[];
+}
+
+/**
+ * Read the JEschete/PokopiaPlanning CSV. Its numbering is unreliable (typos,
+ * fan-fic extras like Peakychu/Mosslax, dex=0 entries), so we discard the
+ * `Number` column and key everything by normalized name. Only the rich data
+ * (favorites, habitats, specialties) is consumed.
+ */
+async function parseJEscheteCsv(): Promise<JEschetePokemon[]> {
   const csv = await readUpstream("reference", "Pokopia.csv");
   const result = Papa.parse<Record<string, string>>(csv, {
     header: true,
@@ -171,28 +201,24 @@ async function parsePokemon(): Promise<PokemonEntry[]> {
 
   const splitList = (value: string | undefined): string[] => {
     if (!value) return [];
-    return value
-      .split(",")
-      .map((v) => v.trim())
-      .filter(Boolean);
+    return value.split(",").map((v) => v.trim()).filter(Boolean);
   };
 
-  const entries: PokemonEntry[] = [];
+  const entries: JEschetePokemon[] = [];
   for (const row of result.data) {
-    const numberStr = (row["Number"] || "").trim();
-    if (!numberStr) continue;
-    const number = parseInt(numberStr.replace(/^#/, ""), 10);
+    const name = (row["Name"] || "").trim();
+    if (!name) continue;
     const habitats: PokemonHabitat[] = [];
     for (let h = 1; h <= 3; h++) {
-      const name = (row[`Habitat ${h}`] || "").trim();
-      if (!name) continue;
+      const habName = (row[`Habitat ${h}`] || "").trim();
+      if (!habName) continue;
       const available: Partial<Record<RegionId, boolean>> = {};
       for (const { label, id } of csvRegionLabels) {
         const cell = (row[`Habitat ${h} ${label}`] || "").trim();
         if (cell) available[id] = /yes/i.test(cell);
       }
       habitats.push({
-        name,
+        name: habName,
         available,
         rarity: (row[`Habitat ${h} Rarity`] || "").trim() || undefined,
         timesOfDay: splitList(row[`Habitat ${h} Time`]),
@@ -200,9 +226,7 @@ async function parsePokemon(): Promise<PokemonEntry[]> {
       });
     }
     entries.push({
-      number,
-      numberStr,
-      name: (row["Name"] || "").trim(),
+      name,
       primaryLocation: (row["Primary Location"] || "").trim(),
       specialties: [row["Specialty 1"], row["Specialty 2"]]
         .map((s) => (s || "").trim())
@@ -221,8 +245,158 @@ async function parsePokemon(): Promise<PokemonEntry[]> {
       habitats,
     });
   }
-  entries.sort((a, b) => a.number - b.number);
   return entries;
+}
+
+/**
+ * Normalize a Pokemon display name to a key that collapses regional/form
+ * variants to the base species, so we can look up rich JEschete data by the
+ * canonical Nintendo Life name. Also handles JEschete's NPC nickname
+ * "Stereo Rotom" -> "rotom".
+ */
+function jeKey(name: string): string {
+  let s = name.toLowerCase().trim();
+  s = s.replace(/\s+(low key|amped|curly|droopy|stretchy)\s+form$/, "");
+  s = s.replace(/\s+east\s+sea$/, "");
+  // JEschete NPC nicknames that don't appear in Nintendo Life. We don't strip
+  // "Paldean " here because Paldean Wooper is a distinct form in NL.
+  if (s === "stereo rotom") s = "rotom";
+  // Drop fan-fic JEschete entries (no canonical Pokemon).
+  if (s === "peakychu" || s === "mosslax" || s === "professor tangrowth") {
+    return ""; // empty key -> won't match anything
+  }
+  return s;
+}
+
+/**
+ * Convert a canonical Pokemon name into a PokeAPI species slug. Handles
+ * regional forms (Paldean prefix) and special punctuation (Mr. Mime,
+ * Farfetch'd, Mime Jr.).
+ */
+function pokemonSlug(name: string): string {
+  let s = name.toLowerCase().trim();
+  s = s.replace(/^paldean\s+/, "");
+  s = s.replace(/[.']/g, "");
+  s = s.replace(/\s+/g, "-");
+  return s;
+}
+
+/**
+ * Build the final Pokemon list by walking the curated Nintendo Life pokedex
+ * and merging in matching rich data from the JEschete CSV. Curated entries
+ * with no JEschete match (Mime Jr., Mr. Mime, Farfetch'd) get empty rich data
+ * but still appear with the correct Pokopia dex number and canonical name.
+ */
+async function buildPokemon(): Promise<PokemonEntry[]> {
+  const curated = JSON.parse(
+    await readFile(join(CURATED, "pokopia-pokedex.json"), "utf8"),
+  ) as CuratedPokemon[];
+  const je = await parseJEscheteCsv();
+
+  // Index JEschete by normalized name. When multiple entries share a key
+  // (e.g. Tatsugiri Curly/Droopy/Stretchy, Toxtricity Low Key/Amped), prefer
+  // the entry with the most populated favorites list - JEschete sometimes
+  // leaves form-specific rows empty (e.g. Tatsugiri Curly has no favorites).
+  const jeMap = new Map<string, JEschetePokemon>();
+  for (const e of je) {
+    const key = jeKey(e.name);
+    if (!key) continue;
+    const existing = jeMap.get(key);
+    if (!existing || e.favorites.length > existing.favorites.length) {
+      jeMap.set(key, e);
+    }
+  }
+
+  const entries: PokemonEntry[] = [];
+  let matched = 0;
+  let unmatched = 0;
+  for (const c of curated) {
+    const key = jeKey(c.name);
+    const rich = jeMap.get(key);
+    if (rich) matched++;
+    else unmatched++;
+    entries.push({
+      number: c.number,
+      numberStr: `#${String(c.number).padStart(3, "0")}`,
+      name: c.name,
+      slug: pokemonSlug(c.name),
+      nationalDex: null,
+      primaryLocation: rich?.primaryLocation ?? "",
+      specialties: rich?.specialties ?? [],
+      idealHabitat: rich?.idealHabitat ?? "",
+      favorites: rich?.favorites ?? [],
+      habitats: rich?.habitats ?? [],
+    });
+  }
+  console.log(
+    `  rich data: ${matched} matched JEschete entries, ${unmatched} curated-only`,
+  );
+  if (unmatched > 0) {
+    const missing = entries.filter((e) => e.favorites.length === 0);
+    for (const m of missing) {
+      console.warn(`    no JEschete data: #${m.number} ${m.name}`);
+    }
+  }
+
+  // Surface JEschete entries we deliberately skipped so the contributor knows
+  // why their rich data didn't make it into the output.
+  const usedKeys = new Set(curated.map((c) => jeKey(c.name)));
+  const dropped = je.filter((e) => {
+    const k = jeKey(e.name);
+    return k === "" || !usedKeys.has(k);
+  });
+  if (dropped.length > 0) {
+    console.log(`  dropped ${dropped.length} JEschete entries not in curated list:`);
+    for (const d of dropped) console.log(`    - ${d.name}`);
+  }
+
+  return entries;
+}
+
+const SPECIES_URL = (slug: string) =>
+  `https://pokeapi.co/api/v2/pokemon-species/${slug}/`;
+
+async function resolveNationalDex(slug: string): Promise<number | null> {
+  try {
+    const res = await fetch(SPECIES_URL(slug));
+    if (!res.ok) return null;
+    const data = (await res.json()) as { id?: number };
+    return typeof data.id === "number" ? data.id : null;
+  } catch {
+    return null;
+  }
+}
+
+async function resolveAllNationalDex(pokemon: PokemonEntry[]): Promise<void> {
+  const uniqueSlugs = Array.from(new Set(pokemon.map((p) => p.slug)));
+  const cache = new Map<string, number | null>();
+  const concurrency = 8;
+  const queue = [...uniqueSlugs];
+  await Promise.all(
+    Array.from({ length: concurrency }, async () => {
+      while (queue.length > 0) {
+        const slug = queue.shift();
+        if (slug === undefined) return;
+        cache.set(slug, await resolveNationalDex(slug));
+      }
+    }),
+  );
+  let resolved = 0;
+  let unresolved = 0;
+  for (const p of pokemon) {
+    p.nationalDex = cache.get(p.slug) ?? null;
+    if (p.nationalDex == null) unresolved++;
+    else resolved++;
+  }
+  console.log(
+    `  national dex: ${resolved} resolved, ${unresolved} unresolved (across ${uniqueSlugs.length} unique slugs)`,
+  );
+  if (unresolved > 0) {
+    const missing = pokemon.filter((p) => p.nationalDex == null);
+    for (const p of missing) {
+      console.warn(`    unresolved: ${p.name} (slug: ${p.slug})`);
+    }
+  }
 }
 
 // -----------------------------------------------------------------------------
@@ -587,9 +761,13 @@ async function downloadSprite(dex: number): Promise<"downloaded" | "skipped" | "
 
 async function downloadSprites(pokemon: PokemonEntry[]): Promise<void> {
   await ensureDir(SPRITES);
-  const dexNumbers = Array.from(new Set(pokemon.map((p) => p.number))).sort(
-    (a, b) => a - b,
-  );
+  const dexNumbers = Array.from(
+    new Set(
+      pokemon
+        .map((p) => p.nationalDex)
+        .filter((d): d is number => typeof d === "number" && d > 0),
+    ),
+  ).sort((a, b) => a - b);
   let downloaded = 0;
   let skipped = 0;
   let missing = 0;
@@ -613,7 +791,7 @@ async function downloadSprites(pokemon: PokemonEntry[]): Promise<void> {
     }),
   );
   console.log(
-    `  sprites: ${downloaded} downloaded, ${skipped} cached, ${missing} missing`,
+    `  sprites: ${downloaded} downloaded, ${skipped} cached, ${missing} missing (national dex)`,
   );
 }
 
@@ -627,8 +805,14 @@ async function main(): Promise<void> {
 
   console.log("Parsing upstream data...");
 
-  const pokemon = await parsePokemon();
+  const pokemon = await buildPokemon();
+  console.log("Resolving National Pokedex numbers via PokeAPI...");
+  await resolveAllNationalDex(pokemon);
   await writeJson("pokemon", pokemon);
+
+  // Re-key house group pokemon numbers using the curated dex (JEschete's
+  // numbering is stale and disagrees with the in-game Pokopia dex).
+  const dexByName = new Map(pokemon.map((p) => [p.name.toLowerCase(), p.number]));
 
   const habitats = await parseHabitats();
   await writeJson("habitats", habitats);
@@ -646,11 +830,22 @@ async function main(): Promise<void> {
   await writeJson("specialties", specialties);
 
   const houseGroups = await parseHouseGroups();
+  // Sync house group pokemon numbers with the canonical curated dex so that
+  // displayed numbers match the in-game Pokopia ordering.
+  for (const g of houseGroups) {
+    for (const p of g.pokemon) {
+      const corrected = dexByName.get(p.name.toLowerCase());
+      if (corrected != null && corrected !== p.number) {
+        p.number = corrected;
+        p.numberStr = `#${String(corrected).padStart(3, "0")}`;
+      }
+    }
+  }
   await writeJson("houseGroups", houseGroups);
 
   await writeJson("manifest", {
     generatedAt: new Date().toISOString(),
-    source: "JEschete/PokopiaPlanning",
+    source: "JEschete/PokopiaPlanning + nintendolife.com",
     pokemon: pokemon.length,
     habitats: habitats.length,
     items: items.length,

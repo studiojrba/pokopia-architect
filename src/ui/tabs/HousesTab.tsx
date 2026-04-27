@@ -181,7 +181,7 @@ function HouseCard({ group, selected, onClick }: HouseCardProps) {
             className="rounded-full border border-[var(--color-border)] bg-[var(--color-panel-hi)]"
             title={p.name}
           >
-            <PokemonSprite dex={p.number} name={p.name} size={36} />
+            <PokemonSprite name={p.name} size={36} />
           </div>
         ))}
         {group.pokemon.length > 6 && (
@@ -290,7 +290,7 @@ function MemberRow({ pokemon, shared }: MemberRowProps) {
   const sharedLower = new Set(shared.map((s) => s.toLowerCase()));
   return (
     <div className="flex items-center gap-2 rounded border border-[var(--color-border)] bg-[var(--color-panel-hi)] p-2">
-      <PokemonSprite dex={pokemon.number} name={pokemon.name} size={48} />
+      <PokemonSprite name={pokemon.name} size={48} />
       <div className="min-w-0 flex-1">
         <div className="flex items-baseline gap-2">
           <span className="text-[10px] text-[var(--color-muted)]">

@@ -1,51 +1,10 @@
 [
   {
-    "number": 0,
-    "numberStr": "#00",
-    "name": "Toxtricity Low Key Form",
-    "primaryLocation": "Rocky Ridges",
-    "specialties": [
-      "Generate",
-      "Hype"
-    ],
-    "idealHabitat": "Humid",
-    "favorites": [
-      "Electronics",
-      "Play spaces",
-      "Noisy stuff",
-      "Slender objects",
-      "Sharp stuff",
-      "Bitter flavors"
-    ],
-    "habitats": [
-      {
-        "name": "Low-key rock stage",
-        "available": {
-          "witheredWasteland": true,
-          "bleakBeach": true,
-          "rockyRidges": true,
-          "sparklingSkylands": true,
-          "paletteTown": true
-        },
-        "rarity": "Rare",
-        "timesOfDay": [
-          "Morning",
-          "Day",
-          "Evening",
-          "Night"
-        ],
-        "weathers": [
-          "Sun",
-          "Cloud",
-          "Rain"
-        ]
-      }
-    ]
-  },
-  {
     "number": 1,
     "numberStr": "#001",
     "name": "Bulbasaur",
+    "slug": "bulbasaur",
+    "nationalDex": 1,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Grow"
@@ -110,6 +69,8 @@
     "number": 2,
     "numberStr": "#002",
     "name": "Ivysaur",
+    "slug": "ivysaur",
+    "nationalDex": 2,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Grow"
@@ -174,6 +135,8 @@
     "number": 3,
     "numberStr": "#003",
     "name": "Venusaur",
+    "slug": "venusaur",
+    "nationalDex": 3,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Grow",
@@ -239,6 +202,8 @@
     "number": 4,
     "numberStr": "#004",
     "name": "Charmander",
+    "slug": "charmander",
+    "nationalDex": 4,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Burn"
@@ -281,6 +246,8 @@
     "number": 5,
     "numberStr": "#005",
     "name": "Charmeleon",
+    "slug": "charmeleon",
+    "nationalDex": 5,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Burn"
@@ -323,6 +290,8 @@
     "number": 6,
     "numberStr": "#006",
     "name": "Charizard",
+    "slug": "charizard",
+    "nationalDex": 6,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Burn",
@@ -386,6 +355,8 @@
     "number": 7,
     "numberStr": "#007",
     "name": "Squirtle",
+    "slug": "squirtle",
+    "nationalDex": 7,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Water"
@@ -450,6 +421,8 @@
     "number": 8,
     "numberStr": "#008",
     "name": "Wartortle",
+    "slug": "wartortle",
+    "nationalDex": 8,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Water"
@@ -492,6 +465,8 @@
     "number": 9,
     "numberStr": "#009",
     "name": "Blastoise",
+    "slug": "blastoise",
+    "nationalDex": 9,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Water",
@@ -557,6 +532,8 @@
     "number": 10,
     "numberStr": "#010",
     "name": "Pidgey",
+    "slug": "pidgey",
+    "nationalDex": 16,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Fly",
@@ -621,6 +598,8 @@
     "number": 11,
     "numberStr": "#011",
     "name": "Pidgeotto",
+    "slug": "pidgeotto",
+    "nationalDex": 17,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Fly",
@@ -684,6 +663,8 @@
     "number": 12,
     "numberStr": "#012",
     "name": "Pidgeot",
+    "slug": "pidgeot",
+    "nationalDex": 18,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Fly",
@@ -726,6 +707,8 @@
     "number": 13,
     "numberStr": "#013",
     "name": "Oddish",
+    "slug": "oddish",
+    "nationalDex": 43,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Grow"
@@ -765,6 +748,8 @@
     "number": 14,
     "numberStr": "#014",
     "name": "Gloom",
+    "slug": "gloom",
+    "nationalDex": 44,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Grow"
@@ -807,6 +792,8 @@
     "number": 15,
     "numberStr": "#015",
     "name": "Vileplume",
+    "slug": "vileplume",
+    "nationalDex": 45,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Grow",
@@ -850,6 +837,8 @@
     "number": 16,
     "numberStr": "#016",
     "name": "Bellossom",
+    "slug": "bellossom",
+    "nationalDex": 182,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Grow",
@@ -893,6 +882,8 @@
     "number": 17,
     "numberStr": "#017",
     "name": "Paras",
+    "slug": "paras",
+    "nationalDex": 46,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Search"
@@ -957,6 +948,8 @@
     "number": 18,
     "numberStr": "#018",
     "name": "Parasect",
+    "slug": "parasect",
+    "nationalDex": 47,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Search"
@@ -1021,6 +1014,8 @@
     "number": 19,
     "numberStr": "#019",
     "name": "Venonat",
+    "slug": "venonat",
+    "nationalDex": 48,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Search"
@@ -1079,6 +1074,8 @@
     "number": 20,
     "numberStr": "#020",
     "name": "Venomoth",
+    "slug": "venomoth",
+    "nationalDex": 49,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Search"
@@ -1137,6 +1134,8 @@
     "number": 21,
     "numberStr": "#021",
     "name": "Bellsprout",
+    "slug": "bellsprout",
+    "nationalDex": 69,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Grow",
@@ -1180,6 +1179,8 @@
     "number": 22,
     "numberStr": "#022",
     "name": "Weepinbell",
+    "slug": "weepinbell",
+    "nationalDex": 70,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Grow",
@@ -1245,6 +1246,8 @@
     "number": 23,
     "numberStr": "#023",
     "name": "Victreebel",
+    "slug": "victreebel",
+    "nationalDex": 71,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Grow",
@@ -1310,6 +1313,8 @@
     "number": 24,
     "numberStr": "#024",
     "name": "Slowpoke",
+    "slug": "slowpoke",
+    "nationalDex": 79,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Water",
@@ -1353,6 +1358,8 @@
     "number": 25,
     "numberStr": "#025",
     "name": "Slowbro",
+    "slug": "slowbro",
+    "nationalDex": 80,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Water",
@@ -1418,6 +1425,8 @@
     "number": 26,
     "numberStr": "#026",
     "name": "Slowking",
+    "slug": "slowking",
+    "nationalDex": 199,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Water",
@@ -1489,6 +1498,8 @@
     "number": 27,
     "numberStr": "#027",
     "name": "Magnemite",
+    "slug": "magnemite",
+    "nationalDex": 81,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Generate"
@@ -1531,6 +1542,8 @@
     "number": 28,
     "numberStr": "#028",
     "name": "Magneton",
+    "slug": "magneton",
+    "nationalDex": 82,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Generate"
@@ -1595,6 +1608,8 @@
     "number": 29,
     "numberStr": "#029",
     "name": "Magnezone",
+    "slug": "magnezone",
+    "nationalDex": 462,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Generate",
@@ -1660,6 +1675,8 @@
     "number": 30,
     "numberStr": "#030",
     "name": "Onix",
+    "slug": "onix",
+    "nationalDex": 95,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Crush",
@@ -1703,6 +1720,8 @@
     "number": 31,
     "numberStr": "#031",
     "name": "Steelix",
+    "slug": "steelix",
+    "nationalDex": 208,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Crush",
@@ -1746,6 +1765,8 @@
     "number": 32,
     "numberStr": "#032",
     "name": "Cubone",
+    "slug": "cubone",
+    "nationalDex": 104,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Build"
@@ -1788,6 +1809,8 @@
     "number": 33,
     "numberStr": "#033",
     "name": "Marowak",
+    "slug": "marowak",
+    "nationalDex": 105,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Build"
@@ -1830,6 +1853,8 @@
     "number": 34,
     "numberStr": "#034",
     "name": "Tyrogue",
+    "slug": "tyrogue",
+    "nationalDex": 236,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Trade"
@@ -1872,6 +1897,8 @@
     "number": 35,
     "numberStr": "#035",
     "name": "Hitmonlee",
+    "slug": "hitmonlee",
+    "nationalDex": 106,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Trade"
@@ -1914,6 +1941,8 @@
     "number": 36,
     "numberStr": "#036",
     "name": "Hitmonchan",
+    "slug": "hitmonchan",
+    "nationalDex": 107,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Trade"
@@ -1956,6 +1985,8 @@
     "number": 37,
     "numberStr": "#037",
     "name": "Hitmontop",
+    "slug": "hitmontop",
+    "nationalDex": 237,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Trade"
@@ -1998,6 +2029,8 @@
     "number": 38,
     "numberStr": "#038",
     "name": "Koffing",
+    "slug": "koffing",
+    "nationalDex": 109,
     "primaryLocation": "Palette Town",
     "specialties": [
       "Recycle"
@@ -2040,6 +2073,8 @@
     "number": 39,
     "numberStr": "#039",
     "name": "Weezing",
+    "slug": "weezing",
+    "nationalDex": 110,
     "primaryLocation": "Palette Town",
     "specialties": [
       "Recyvle"
@@ -2104,6 +2139,8 @@
     "number": 40,
     "numberStr": "#040",
     "name": "Tangela",
+    "slug": "tangela",
+    "nationalDex": 114,
     "primaryLocation": "Palette Town",
     "specialties": [
       "Grow",
@@ -2147,6 +2184,8 @@
     "number": 41,
     "numberStr": "#041",
     "name": "Tangrowth",
+    "slug": "tangrowth",
+    "nationalDex": 465,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Grow",
@@ -2187,51 +2226,11 @@
     ]
   },
   {
-    "number": 41,
-    "numberStr": "#041",
-    "name": "Professor Tangrowth",
-    "primaryLocation": "Dream Island",
-    "specialties": [
-      "Appraise"
-    ],
-    "idealHabitat": "Humid",
-    "favorites": [
-      "Lots of nature",
-      "Complicated stuff",
-      "Letters and words",
-      "Strange stuff",
-      "Group activities",
-      "Dry flavors"
-    ],
-    "habitats": [
-      {
-        "name": "Professor's treasure trove",
-        "available": {
-          "witheredWasteland": true,
-          "bleakBeach": true,
-          "rockyRidges": true,
-          "sparklingSkylands": true,
-          "paletteTown": true
-        },
-        "rarity": "Common",
-        "timesOfDay": [
-          "Morning",
-          "Day",
-          "Evening",
-          "Night"
-        ],
-        "weathers": [
-          "Sun",
-          "Cloud",
-          "Rain"
-        ]
-      }
-    ]
-  },
-  {
     "number": 42,
     "numberStr": "#042",
     "name": "Scyther",
+    "slug": "scyther",
+    "nationalDex": 123,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Chop"
@@ -2274,6 +2273,8 @@
     "number": 43,
     "numberStr": "#043",
     "name": "Scizor",
+    "slug": "scizor",
+    "nationalDex": 212,
     "primaryLocation": "Palette Town",
     "specialties": [
       "Chop"
@@ -2316,6 +2317,8 @@
     "number": 44,
     "numberStr": "#044",
     "name": "Pinsir",
+    "slug": "pinsir",
+    "nationalDex": 127,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Chop",
@@ -2359,6 +2362,8 @@
     "number": 45,
     "numberStr": "#045",
     "name": "Magikarp",
+    "slug": "magikarp",
+    "nationalDex": 129,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "???"
@@ -2401,6 +2406,8 @@
     "number": 46,
     "numberStr": "#046",
     "name": "Gyarados",
+    "slug": "gyarados",
+    "nationalDex": 130,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Water"
@@ -2443,6 +2450,8 @@
     "number": 47,
     "numberStr": "#047",
     "name": "Ditto",
+    "slug": "ditto",
+    "nationalDex": 132,
     "primaryLocation": "Dream Island",
     "specialties": [
       "Transform"
@@ -2457,6 +2466,8 @@
     "number": 48,
     "numberStr": "#048",
     "name": "Hoothoot",
+    "slug": "hoothoot",
+    "nationalDex": 163,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Trade",
@@ -2522,6 +2533,8 @@
     "number": 49,
     "numberStr": "#049",
     "name": "Noctowl",
+    "slug": "noctowl",
+    "nationalDex": 164,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Trade",
@@ -2584,6 +2597,8 @@
     "number": 50,
     "numberStr": "#050",
     "name": "Heracross",
+    "slug": "heracross",
+    "nationalDex": 214,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Chop",
@@ -2627,6 +2642,8 @@
     "number": 51,
     "numberStr": "#051",
     "name": "Volbeat",
+    "slug": "volbeat",
+    "nationalDex": 313,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Hype"
@@ -2669,6 +2686,8 @@
     "number": 52,
     "numberStr": "#052",
     "name": "Illumise",
+    "slug": "illumise",
+    "nationalDex": 314,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Hype"
@@ -2711,6 +2730,8 @@
     "number": 53,
     "numberStr": "#053",
     "name": "Gulpin",
+    "slug": "gulpin",
+    "nationalDex": 316,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Storage"
@@ -2752,6 +2773,8 @@
     "number": 54,
     "numberStr": "#054",
     "name": "Swalot",
+    "slug": "swalot",
+    "nationalDex": 317,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Storage"
@@ -2794,6 +2817,8 @@
     "number": 55,
     "numberStr": "#055",
     "name": "Cacnea",
+    "slug": "cacnea",
+    "nationalDex": 331,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Grow"
@@ -2834,6 +2859,8 @@
     "number": 56,
     "numberStr": "#056",
     "name": "Cacturne",
+    "slug": "cacturne",
+    "nationalDex": 332,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Grow",
@@ -2874,6 +2901,8 @@
     "number": 57,
     "numberStr": "#057",
     "name": "Combee",
+    "slug": "combee",
+    "nationalDex": 415,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Litter"
@@ -2916,6 +2945,8 @@
     "number": 58,
     "numberStr": "#058",
     "name": "Vespiquen",
+    "slug": "vespiquen",
+    "nationalDex": 416,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Gather Honey",
@@ -2959,6 +2990,8 @@
     "number": 59,
     "numberStr": "#059",
     "name": "Shellos",
+    "slug": "shellos",
+    "nationalDex": 422,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Water"
@@ -2971,48 +3004,6 @@
       "Colorful stuff",
       "Containers",
       "Sour Flavors"
-    ],
-    "habitats": [
-      {
-        "name": "Road Sign",
-        "available": {
-          "witheredWasteland": true,
-          "bleakBeach": true,
-          "rockyRidges": true,
-          "sparklingSkylands": true,
-          "paletteTown": true
-        },
-        "rarity": "Common",
-        "timesOfDay": [
-          "Morning",
-          "Day",
-          "Evening",
-          "Night"
-        ],
-        "weathers": [
-          "Sun",
-          "Cloud",
-          "Rain"
-        ]
-      }
-    ]
-  },
-  {
-    "number": 59,
-    "numberStr": "#059",
-    "name": "Shellos East Sea",
-    "primaryLocation": "Withered Wastelands",
-    "specialties": [
-      "Water"
-    ],
-    "idealHabitat": "Humid",
-    "favorites": [
-      "Lots of water",
-      "Ocean vibes",
-      "Cleanliness",
-      "Colorful stuff",
-      "Containers",
-      "Dry flavors"
     ],
     "habitats": [
       {
@@ -3043,6 +3034,8 @@
     "number": 60,
     "numberStr": "#060",
     "name": "Gastrodon",
+    "slug": "gastrodon",
+    "nationalDex": 423,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Water",
@@ -3083,52 +3076,11 @@
     ]
   },
   {
-    "number": 60,
-    "numberStr": "#060",
-    "name": "Gastrodon East Sea",
-    "primaryLocation": "Withered Wastelands",
-    "specialties": [
-      "Water",
-      "Trade"
-    ],
-    "idealHabitat": "Humid",
-    "favorites": [
-      "Lots of water",
-      "Lots of dirt",
-      "Ocean vibes",
-      "Cleanliness",
-      "Containers",
-      "Dry flavors"
-    ],
-    "habitats": [
-      {
-        "name": "Ocean fishing spot",
-        "available": {
-          "witheredWasteland": true,
-          "bleakBeach": true,
-          "rockyRidges": true,
-          "sparklingSkylands": true,
-          "paletteTown": true
-        },
-        "rarity": "Rare",
-        "timesOfDay": [
-          "Morning",
-          "Day",
-          "Evening",
-          "Night"
-        ],
-        "weathers": [
-          "Sun",
-          "Cloud",
-          "Rain"
-        ]
-      }
-    ]
-  },
-  {
     "number": 61,
     "numberStr": "#061",
     "name": "Drifloon",
+    "slug": "drifloon",
+    "nationalDex": 425,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Dream Island"
@@ -3199,6 +3151,8 @@
     "number": 62,
     "numberStr": "#062",
     "name": "Drifblim",
+    "slug": "drifblim",
+    "nationalDex": 426,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Fly",
@@ -3242,6 +3196,8 @@
     "number": 63,
     "numberStr": "#063",
     "name": "Drilbur",
+    "slug": "drilbur",
+    "nationalDex": 529,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Search"
@@ -3284,6 +3240,8 @@
     "number": 64,
     "numberStr": "#064",
     "name": "Excadrill",
+    "slug": "excadrill",
+    "nationalDex": 530,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Search",
@@ -3327,6 +3285,8 @@
     "number": 65,
     "numberStr": "#065",
     "name": "Timburr",
+    "slug": "timburr",
+    "nationalDex": 532,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Build"
@@ -3369,6 +3329,8 @@
     "number": 66,
     "numberStr": "#066",
     "name": "Gurdurr",
+    "slug": "gurdurr",
+    "nationalDex": 533,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Build"
@@ -3433,6 +3395,8 @@
     "number": 67,
     "numberStr": "#067",
     "name": "Conkeldurr",
+    "slug": "conkeldurr",
+    "nationalDex": 534,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Build",
@@ -3476,6 +3440,8 @@
     "number": 68,
     "numberStr": "#068",
     "name": "Litwick",
+    "slug": "litwick",
+    "nationalDex": 607,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Burn"
@@ -3540,6 +3506,8 @@
     "number": 69,
     "numberStr": "#069",
     "name": "Lampent",
+    "slug": "lampent",
+    "nationalDex": 608,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Burn"
@@ -3604,6 +3572,8 @@
     "number": 70,
     "numberStr": "#070",
     "name": "Chandelure",
+    "slug": "chandelure",
+    "nationalDex": 609,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Burn"
@@ -3646,6 +3616,8 @@
     "number": 71,
     "numberStr": "#071",
     "name": "Axew",
+    "slug": "axew",
+    "nationalDex": 610,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Chop"
@@ -3710,6 +3682,8 @@
     "number": 72,
     "numberStr": "#072",
     "name": "Fraxure",
+    "slug": "fraxure",
+    "nationalDex": 611,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Chop"
@@ -3774,6 +3748,8 @@
     "number": 73,
     "numberStr": "#073",
     "name": "Haxorus",
+    "slug": "haxorus",
+    "nationalDex": 612,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Chop",
@@ -3839,6 +3815,8 @@
     "number": 74,
     "numberStr": "#074",
     "name": "Goomy",
+    "slug": "goomy",
+    "nationalDex": 704,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Water"
@@ -3898,6 +3876,8 @@
     "number": 75,
     "numberStr": "#075",
     "name": "Sliggoo",
+    "slug": "sliggoo",
+    "nationalDex": 705,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Water"
@@ -3938,6 +3918,8 @@
     "number": 76,
     "numberStr": "#076",
     "name": "Goodra",
+    "slug": "goodra",
+    "nationalDex": 706,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Water",
@@ -3979,6 +3961,8 @@
     "number": 77,
     "numberStr": "#077",
     "name": "Cramorant",
+    "slug": "cramorant",
+    "nationalDex": 845,
     "primaryLocation": "Palette Town",
     "specialties": [
       "Fly",
@@ -4022,6 +4006,8 @@
     "number": 78,
     "numberStr": "#078",
     "name": "Pichu",
+    "slug": "pichu",
+    "nationalDex": 172,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Generate"
@@ -4063,49 +4049,9 @@
   {
     "number": 79,
     "numberStr": "#079",
-    "name": "Peakychu",
-    "primaryLocation": "Bleak Beach",
-    "specialties": [
-      "Illuminate"
-    ],
-    "idealHabitat": "Bright",
-    "favorites": [
-      "Electronics",
-      "Glass stuff",
-      "Cute stuff",
-      "Healing",
-      "Letters and words",
-      "Sweet Flavors"
-    ],
-    "habitats": [
-      {
-        "name": "Full recovery",
-        "available": {
-          "witheredWasteland": true,
-          "bleakBeach": true,
-          "rockyRidges": true,
-          "sparklingSkylands": true,
-          "paletteTown": true
-        },
-        "rarity": "Rare",
-        "timesOfDay": [
-          "Morning",
-          "Day",
-          "Evening",
-          "Night"
-        ],
-        "weathers": [
-          "Sun",
-          "Cloud",
-          "Rain"
-        ]
-      }
-    ]
-  },
-  {
-    "number": 79,
-    "numberStr": "#079",
     "name": "Pikachu",
+    "slug": "pikachu",
+    "nationalDex": 25,
     "primaryLocation": "Palette Town",
     "specialties": [
       "Generate"
@@ -4148,6 +4094,8 @@
     "number": 80,
     "numberStr": "#080",
     "name": "Raichu",
+    "slug": "raichu",
+    "nationalDex": 26,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Generate",
@@ -4191,6 +4139,8 @@
     "number": 81,
     "numberStr": "#081",
     "name": "Zubat",
+    "slug": "zubat",
+    "nationalDex": 41,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Search"
@@ -4249,6 +4199,8 @@
     "number": 82,
     "numberStr": "#082",
     "name": "Golbat",
+    "slug": "golbat",
+    "nationalDex": 42,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Search"
@@ -4288,6 +4240,8 @@
     "number": 83,
     "numberStr": "#083",
     "name": "Crobat",
+    "slug": "crobat",
+    "nationalDex": 169,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Search",
@@ -4347,6 +4301,8 @@
     "number": 84,
     "numberStr": "#084",
     "name": "Meowth",
+    "slug": "meowth",
+    "nationalDex": 52,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Trade"
@@ -4411,6 +4367,8 @@
     "number": 85,
     "numberStr": "#085",
     "name": "Persian",
+    "slug": "persian",
+    "nationalDex": 53,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Trade",
@@ -4454,6 +4412,8 @@
     "number": 86,
     "numberStr": "#086",
     "name": "Psyduck",
+    "slug": "psyduck",
+    "nationalDex": 54,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Search"
@@ -4496,6 +4456,8 @@
     "number": 87,
     "numberStr": "#087",
     "name": "Golduck",
+    "slug": "golduck",
+    "nationalDex": 55,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Search"
@@ -4538,6 +4500,8 @@
     "number": 88,
     "numberStr": "#088",
     "name": "Growlithe",
+    "slug": "growlithe",
+    "nationalDex": 58,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Burn",
@@ -4603,6 +4567,8 @@
     "number": 89,
     "numberStr": "#089",
     "name": "Arcanine",
+    "slug": "arcanine",
+    "nationalDex": 59,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Burn",
@@ -4665,9 +4631,23 @@
     ]
   },
   {
+    "number": 90,
+    "numberStr": "#090",
+    "name": "Farfetch'd",
+    "slug": "farfetchd",
+    "nationalDex": 83,
+    "primaryLocation": "",
+    "specialties": [],
+    "idealHabitat": "",
+    "favorites": [],
+    "habitats": []
+  },
+  {
     "number": 91,
     "numberStr": "#091",
     "name": "Grimer",
+    "slug": "grimer",
+    "nationalDex": 88,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Litter"
@@ -4710,6 +4690,8 @@
     "number": 92,
     "numberStr": "#092",
     "name": "Muk",
+    "slug": "muk",
+    "nationalDex": 89,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Litter"
@@ -4752,6 +4734,8 @@
     "number": 93,
     "numberStr": "#093",
     "name": "Gastly",
+    "slug": "gastly",
+    "nationalDex": 92,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Gather",
@@ -4792,6 +4776,8 @@
     "number": 94,
     "numberStr": "#094",
     "name": "Haunter",
+    "slug": "haunter",
+    "nationalDex": 93,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Gather",
@@ -4851,6 +4837,8 @@
     "number": 95,
     "numberStr": "#095",
     "name": "Gengar",
+    "slug": "gengar",
+    "nationalDex": 94,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Gather",
@@ -4891,6 +4879,8 @@
     "number": 96,
     "numberStr": "#096",
     "name": "Voltorb",
+    "slug": "voltorb",
+    "nationalDex": 100,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Generate",
@@ -4956,6 +4946,8 @@
     "number": 97,
     "numberStr": "#097",
     "name": "Electrode",
+    "slug": "electrode",
+    "nationalDex": 101,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Generate",
@@ -5021,6 +5013,8 @@
     "number": 98,
     "numberStr": "#098",
     "name": "Exeggcute",
+    "slug": "exeggcute",
+    "nationalDex": 102,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Grow",
@@ -5108,6 +5102,8 @@
     "number": 99,
     "numberStr": "#099",
     "name": "Exeggutor",
+    "slug": "exeggutor",
+    "nationalDex": 103,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Grow",
@@ -5173,6 +5169,8 @@
     "number": 100,
     "numberStr": "#100",
     "name": "Happiny",
+    "slug": "happiny",
+    "nationalDex": 440,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Trade"
@@ -5237,6 +5235,8 @@
     "number": 101,
     "numberStr": "#101",
     "name": "Chansey",
+    "slug": "chansey",
+    "nationalDex": 113,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Trade"
@@ -5279,6 +5279,8 @@
     "number": 102,
     "numberStr": "#102",
     "name": "Blissey",
+    "slug": "blissey",
+    "nationalDex": 242,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Trade",
@@ -5322,6 +5324,8 @@
     "number": 103,
     "numberStr": "#103",
     "name": "Elekid",
+    "slug": "elekid",
+    "nationalDex": 239,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Generate"
@@ -5364,6 +5368,8 @@
     "number": 104,
     "numberStr": "#104",
     "name": "Electabuzz",
+    "slug": "electabuzz",
+    "nationalDex": 125,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Generate"
@@ -5428,6 +5434,8 @@
     "number": 105,
     "numberStr": "#105",
     "name": "Electivire",
+    "slug": "electivire",
+    "nationalDex": 466,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Generate",
@@ -5493,6 +5501,8 @@
     "number": 106,
     "numberStr": "#106",
     "name": "Lapras",
+    "slug": "lapras",
+    "nationalDex": 131,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Water"
@@ -5535,6 +5545,8 @@
     "number": 107,
     "numberStr": "#107",
     "name": "Munchlax",
+    "slug": "munchlax",
+    "nationalDex": 446,
     "primaryLocation": "Palette Town",
     "specialties": [
       "Bulldoze"
@@ -5598,49 +5610,9 @@
   {
     "number": 108,
     "numberStr": "#108",
-    "name": "Mosslax",
-    "primaryLocation": "Bleak Beach",
-    "specialties": [
-      "Eat"
-    ],
-    "idealHabitat": "Bright",
-    "favorites": [
-      "Soft stuff",
-      "Fabric",
-      "Looks like food",
-      "Watching stuff",
-      "Strange stuff",
-      "Spicy flavors"
-    ],
-    "habitats": [
-      {
-        "name": "Gourmet's altar",
-        "available": {
-          "witheredWasteland": true,
-          "bleakBeach": true,
-          "rockyRidges": true,
-          "sparklingSkylands": true,
-          "paletteTown": true
-        },
-        "rarity": "Common",
-        "timesOfDay": [
-          "Morning",
-          "Day",
-          "Evening",
-          "Night"
-        ],
-        "weathers": [
-          "Sun",
-          "Cloud",
-          "Rain"
-        ]
-      }
-    ]
-  },
-  {
-    "number": 109,
-    "numberStr": "#109",
     "name": "Snorlax",
+    "slug": "snorlax",
+    "nationalDex": 143,
     "primaryLocation": "Palette Town",
     "specialties": [
       "Trade",
@@ -5706,6 +5678,8 @@
     "number": 109,
     "numberStr": "#109",
     "name": "Spinarak",
+    "slug": "spinarak",
+    "nationalDex": 167,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Litter"
@@ -5748,6 +5722,8 @@
     "number": 110,
     "numberStr": "#110",
     "name": "Ariados",
+    "slug": "ariados",
+    "nationalDex": 168,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Litter"
@@ -5790,6 +5766,8 @@
     "number": 111,
     "numberStr": "#111",
     "name": "Mareep",
+    "slug": "mareep",
+    "nationalDex": 179,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Generate",
@@ -5855,6 +5833,8 @@
     "number": 112,
     "numberStr": "#112",
     "name": "Flaaffy",
+    "slug": "flaaffy",
+    "nationalDex": 180,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Generate",
@@ -5920,6 +5900,8 @@
     "number": 113,
     "numberStr": "#113",
     "name": "Ampharos",
+    "slug": "ampharos",
+    "nationalDex": 181,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Generate",
@@ -5963,6 +5945,8 @@
     "number": 114,
     "numberStr": "#114",
     "name": "Azurill",
+    "slug": "azurill",
+    "nationalDex": 298,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Water",
@@ -6028,6 +6012,8 @@
     "number": 115,
     "numberStr": "#115",
     "name": "Marill",
+    "slug": "marill",
+    "nationalDex": 183,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Water",
@@ -6093,6 +6079,8 @@
     "number": 116,
     "numberStr": "#116",
     "name": "Azumarill",
+    "slug": "azumarill",
+    "nationalDex": 184,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Water",
@@ -6134,6 +6122,8 @@
     "number": 117,
     "numberStr": "#117",
     "name": "Paldean Wooper",
+    "slug": "wooper",
+    "nationalDex": 194,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Litter"
@@ -6176,6 +6166,8 @@
     "number": 118,
     "numberStr": "#118",
     "name": "Clodsire",
+    "slug": "clodsire",
+    "nationalDex": 980,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Litter",
@@ -6241,6 +6233,8 @@
     "number": 119,
     "numberStr": "#119",
     "name": "Smeargle",
+    "slug": "smeargle",
+    "nationalDex": 235,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Paint"
@@ -6283,6 +6277,8 @@
     "number": 120,
     "numberStr": "#120",
     "name": "Torchic",
+    "slug": "torchic",
+    "nationalDex": 255,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Burn"
@@ -6347,6 +6343,8 @@
     "number": 121,
     "numberStr": "#121",
     "name": "Combusken",
+    "slug": "combusken",
+    "nationalDex": 256,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Burn",
@@ -6412,6 +6410,8 @@
     "number": 122,
     "numberStr": "#122",
     "name": "Blaziken",
+    "slug": "blaziken",
+    "nationalDex": 257,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Burn",
@@ -6477,6 +6477,8 @@
     "number": 123,
     "numberStr": "#123",
     "name": "Wingull",
+    "slug": "wingull",
+    "nationalDex": 278,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Water",
@@ -6540,6 +6542,8 @@
     "number": 124,
     "numberStr": "#124",
     "name": "Pelipper",
+    "slug": "pelipper",
+    "nationalDex": 279,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Water",
@@ -6603,6 +6607,8 @@
     "number": 125,
     "numberStr": "#125",
     "name": "Makuhita",
+    "slug": "makuhita",
+    "nationalDex": 296,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Build",
@@ -6668,6 +6674,8 @@
     "number": 126,
     "numberStr": "#126",
     "name": "Hariyama",
+    "slug": "hariyama",
+    "nationalDex": 297,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Build",
@@ -6733,6 +6741,8 @@
     "number": 127,
     "numberStr": "#127",
     "name": "Absol",
+    "slug": "absol",
+    "nationalDex": 359,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Chop"
@@ -6775,6 +6785,8 @@
     "number": 128,
     "numberStr": "#128",
     "name": "Piplup",
+    "slug": "piplup",
+    "nationalDex": 393,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Water"
@@ -6817,6 +6829,8 @@
     "number": 129,
     "numberStr": "#129",
     "name": "Prinplup",
+    "slug": "prinplup",
+    "nationalDex": 394,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Water",
@@ -6882,6 +6896,8 @@
     "number": 130,
     "numberStr": "#130",
     "name": "Empoleon",
+    "slug": "empoleon",
+    "nationalDex": 395,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Water",
@@ -6945,6 +6961,8 @@
     "number": 131,
     "numberStr": "#131",
     "name": "Audino",
+    "slug": "audino",
+    "nationalDex": 531,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Trade"
@@ -6987,6 +7005,8 @@
     "number": 132,
     "numberStr": "#132",
     "name": "Trubbish",
+    "slug": "trubbish",
+    "nationalDex": 568,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Recycle"
@@ -7029,6 +7049,8 @@
     "number": 133,
     "numberStr": "#133",
     "name": "Garbodor",
+    "slug": "garbodor",
+    "nationalDex": 569,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Recycle",
@@ -7072,6 +7094,8 @@
     "number": 134,
     "numberStr": "#134",
     "name": "Zorua",
+    "slug": "zorua",
+    "nationalDex": 570,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Trade"
@@ -7114,6 +7138,8 @@
     "number": 135,
     "numberStr": "#135",
     "name": "Zoroark",
+    "slug": "zoroark",
+    "nationalDex": 571,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Trade",
@@ -7179,6 +7205,8 @@
     "number": 136,
     "numberStr": "#136",
     "name": "Minccino",
+    "slug": "minccino",
+    "nationalDex": 572,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Gather"
@@ -7243,6 +7271,8 @@
     "number": 137,
     "numberStr": "#137",
     "name": "Cinccino",
+    "slug": "cinccino",
+    "nationalDex": 573,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Gather",
@@ -7286,6 +7316,8 @@
     "number": 138,
     "numberStr": "#138",
     "name": "Grubbin",
+    "slug": "grubbin",
+    "nationalDex": 736,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Chop"
@@ -7349,6 +7381,8 @@
     "number": 139,
     "numberStr": "#139",
     "name": "Charjabug",
+    "slug": "charjabug",
+    "nationalDex": 737,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Generate",
@@ -7392,6 +7426,8 @@
     "number": 140,
     "numberStr": "#140",
     "name": "Vikavolt",
+    "slug": "vikavolt",
+    "nationalDex": 738,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Generate",
@@ -7435,6 +7471,8 @@
     "number": 141,
     "numberStr": "#141",
     "name": "Mimikyu",
+    "slug": "mimikyu",
+    "nationalDex": 778,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Trade"
@@ -7477,6 +7515,8 @@
     "number": 142,
     "numberStr": "#142",
     "name": "Pawmi",
+    "slug": "pawmi",
+    "nationalDex": 921,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Generate"
@@ -7541,6 +7581,8 @@
     "number": 143,
     "numberStr": "#143",
     "name": "Pawmo",
+    "slug": "pawmo",
+    "nationalDex": 922,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Generate",
@@ -7606,6 +7648,8 @@
     "number": 144,
     "numberStr": "#144",
     "name": "Pawmot",
+    "slug": "pawmot",
+    "nationalDex": 923,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Generate",
@@ -7648,42 +7692,9 @@
   {
     "number": 145,
     "numberStr": "#145",
-    "name": "Tatsugiri Curly Form",
-    "primaryLocation": "Bleak Beach",
-    "specialties": [
-      "Trade"
-    ],
-    "idealHabitat": "Humid",
-    "favorites": [],
-    "habitats": [
-      {
-        "name": "Beach Set",
-        "available": {
-          "witheredWasteland": true,
-          "bleakBeach": true,
-          "rockyRidges": true,
-          "sparklingSkylands": true,
-          "paletteTown": true
-        },
-        "rarity": "Rare",
-        "timesOfDay": [
-          "Morning",
-          "Day",
-          "Evening",
-          "Night"
-        ],
-        "weathers": [
-          "Sun",
-          "Cloud",
-          "Rain"
-        ]
-      }
-    ]
-  },
-  {
-    "number": 145,
-    "numberStr": "#145",
-    "name": "Tatsugiri Droopy Form",
+    "name": "Tatsugiri",
+    "slug": "tatsugiri",
+    "nationalDex": 978,
     "primaryLocation": "Bleak Beach",
     "specialties": [
       "Trade"
@@ -7723,51 +7734,11 @@
     ]
   },
   {
-    "number": 145,
-    "numberStr": "#145",
-    "name": "Tatsugiri Stretchy Form",
-    "primaryLocation": "Bleak Beach",
-    "specialties": [
-      "Trade"
-    ],
-    "idealHabitat": "Humid",
-    "favorites": [
-      "Lots of water",
-      "Ocean vibes",
-      "Group activities",
-      "Letters and words",
-      "Containers",
-      "Spicy flavors"
-    ],
-    "habitats": [
-      {
-        "name": "Beach Set",
-        "available": {
-          "witheredWasteland": true,
-          "bleakBeach": true,
-          "rockyRidges": true,
-          "sparklingSkylands": true,
-          "paletteTown": true
-        },
-        "rarity": "Rare",
-        "timesOfDay": [
-          "Morning",
-          "Day",
-          "Evening",
-          "Night"
-        ],
-        "weathers": [
-          "Sun",
-          "Cloud",
-          "Rain"
-        ]
-      }
-    ]
-  },
-  {
     "number": 146,
     "numberStr": "#146",
     "name": "Ekans",
+    "slug": "ekans",
+    "nationalDex": 23,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Search"
@@ -7810,6 +7781,8 @@
     "number": 147,
     "numberStr": "#147",
     "name": "Arbok",
+    "slug": "arbok",
+    "nationalDex": 24,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Search"
@@ -7852,6 +7825,8 @@
     "number": 148,
     "numberStr": "#148",
     "name": "Cleffa",
+    "slug": "cleffa",
+    "nationalDex": 173,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Hype"
@@ -7891,6 +7866,8 @@
     "number": 149,
     "numberStr": "#149",
     "name": "Clefairy",
+    "slug": "clefairy",
+    "nationalDex": 35,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Hype"
@@ -7949,6 +7926,8 @@
     "number": 150,
     "numberStr": "#150",
     "name": "Clefable",
+    "slug": "clefable",
+    "nationalDex": 36,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Hype",
@@ -8008,6 +7987,8 @@
     "number": 151,
     "numberStr": "#151",
     "name": "Igglybuff",
+    "slug": "igglybuff",
+    "nationalDex": 174,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Hype"
@@ -8050,6 +8031,8 @@
     "number": 152,
     "numberStr": "#152",
     "name": "Jigglypuff",
+    "slug": "jigglypuff",
+    "nationalDex": 39,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Hype"
@@ -8114,6 +8097,8 @@
     "number": 153,
     "numberStr": "#153",
     "name": "Wigglytuff",
+    "slug": "wigglytuff",
+    "nationalDex": 40,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Hype",
@@ -8157,6 +8142,8 @@
     "number": 154,
     "numberStr": "#154",
     "name": "Diglett",
+    "slug": "diglett",
+    "nationalDex": 50,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Hype"
@@ -8221,6 +8208,8 @@
     "number": 155,
     "numberStr": "#155",
     "name": "Dugtrio",
+    "slug": "dugtrio",
+    "nationalDex": 51,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Hype",
@@ -8286,6 +8275,8 @@
     "number": 156,
     "numberStr": "#156",
     "name": "Machop",
+    "slug": "machop",
+    "nationalDex": 66,
     "primaryLocation": "Palette Town",
     "specialties": [
       "Build",
@@ -8329,6 +8320,8 @@
     "number": 157,
     "numberStr": "#157",
     "name": "Machoke",
+    "slug": "machoke",
+    "nationalDex": 67,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Build",
@@ -8394,6 +8387,8 @@
     "number": 158,
     "numberStr": "#158",
     "name": "Machamp",
+    "slug": "machamp",
+    "nationalDex": 68,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Build",
@@ -8459,6 +8454,8 @@
     "number": 159,
     "numberStr": "#159",
     "name": "Geodude",
+    "slug": "geodude",
+    "nationalDex": 74,
     "primaryLocation": "Palette Town",
     "specialties": [
       "Crush"
@@ -8501,6 +8498,8 @@
     "number": 160,
     "numberStr": "#160",
     "name": "Graveler",
+    "slug": "graveler",
+    "nationalDex": 75,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Crush"
@@ -8543,6 +8542,8 @@
     "number": 161,
     "numberStr": "#161",
     "name": "Golem",
+    "slug": "golem",
+    "nationalDex": 76,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Crush",
@@ -8586,6 +8587,8 @@
     "number": 162,
     "numberStr": "#162",
     "name": "Magby",
+    "slug": "magby",
+    "nationalDex": 240,
     "primaryLocation": "Withered Wastelands",
     "specialties": [
       "Burn"
@@ -8628,6 +8631,8 @@
     "number": 163,
     "numberStr": "#163",
     "name": "Magmar",
+    "slug": "magmar",
+    "nationalDex": 126,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Burn"
@@ -8670,6 +8675,8 @@
     "number": 164,
     "numberStr": "#164",
     "name": "Magmortar",
+    "slug": "magmortar",
+    "nationalDex": 467,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Burn",
@@ -8713,6 +8720,8 @@
     "number": 165,
     "numberStr": "#165",
     "name": "Bonsly",
+    "slug": "bonsly",
+    "nationalDex": 438,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Bulldoze"
@@ -8755,6 +8764,8 @@
     "number": 166,
     "numberStr": "#166",
     "name": "Sudowoodo",
+    "slug": "sudowoodo",
+    "nationalDex": 185,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Trade"
@@ -8819,6 +8830,8 @@
     "number": 167,
     "numberStr": "#167",
     "name": "Murkrow",
+    "slug": "murkrow",
+    "nationalDex": 198,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Trade",
@@ -8878,6 +8891,8 @@
     "number": 168,
     "numberStr": "#168",
     "name": "Honchkrow",
+    "slug": "honchkrow",
+    "nationalDex": 430,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Trade",
@@ -8918,6 +8933,8 @@
     "number": 169,
     "numberStr": "#169",
     "name": "Larvitar",
+    "slug": "larvitar",
+    "nationalDex": 246,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Crush",
@@ -8961,6 +8978,8 @@
     "number": 170,
     "numberStr": "#170",
     "name": "Pupitar",
+    "slug": "pupitar",
+    "nationalDex": 247,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Crush",
@@ -9004,6 +9023,8 @@
     "number": 171,
     "numberStr": "#171",
     "name": "Tyranitar",
+    "slug": "tyranitar",
+    "nationalDex": 248,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Crush",
@@ -9069,6 +9090,8 @@
     "number": 172,
     "numberStr": "#172",
     "name": "Lotad",
+    "slug": "lotad",
+    "nationalDex": 270,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Water"
@@ -9155,6 +9178,8 @@
     "number": 173,
     "numberStr": "#173",
     "name": "Lombre",
+    "slug": "lombre",
+    "nationalDex": 271,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Water"
@@ -9219,6 +9244,8 @@
     "number": 174,
     "numberStr": "#174",
     "name": "Ludicolo",
+    "slug": "ludicolo",
+    "nationalDex": 272,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Water",
@@ -9262,6 +9289,8 @@
     "number": 175,
     "numberStr": "#175",
     "name": "Mawile",
+    "slug": "mawile",
+    "nationalDex": 303,
     "primaryLocation": "Palette Town",
     "specialties": [
       "Trade",
@@ -9305,6 +9334,8 @@
     "number": 176,
     "numberStr": "#176",
     "name": "Torkoal",
+    "slug": "torkoal",
+    "nationalDex": 324,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Burn"
@@ -9347,6 +9378,8 @@
     "number": 177,
     "numberStr": "#177",
     "name": "Kricketot",
+    "slug": "kricketot",
+    "nationalDex": 401,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Hype"
@@ -9411,6 +9444,8 @@
     "number": 178,
     "numberStr": "#178",
     "name": "Kricketune",
+    "slug": "kricketune",
+    "nationalDex": 402,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Hype"
@@ -9453,6 +9488,8 @@
     "number": 179,
     "numberStr": "#179",
     "name": "Chatot",
+    "slug": "chatot",
+    "nationalDex": 441,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Hype",
@@ -9537,6 +9574,8 @@
     "number": 180,
     "numberStr": "#180",
     "name": "Riolu",
+    "slug": "riolu",
+    "nationalDex": 447,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Build"
@@ -9601,6 +9640,8 @@
     "number": 181,
     "numberStr": "#181",
     "name": "Lucario",
+    "slug": "lucario",
+    "nationalDex": 448,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Build"
@@ -9642,7 +9683,9 @@
   {
     "number": 182,
     "numberStr": "#182",
-    "name": "Stereo Rotom",
+    "name": "Rotom",
+    "slug": "rotom",
+    "nationalDex": 479,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "DJ"
@@ -9685,6 +9728,8 @@
     "number": 183,
     "numberStr": "#183",
     "name": "Larvesta",
+    "slug": "larvesta",
+    "nationalDex": 636,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Burn"
@@ -9727,6 +9772,8 @@
     "number": 184,
     "numberStr": "#184",
     "name": "Volcarona",
+    "slug": "volcarona",
+    "nationalDex": 637,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Burn",
@@ -9792,6 +9839,8 @@
     "number": 185,
     "numberStr": "#185",
     "name": "Rowlet",
+    "slug": "rowlet",
+    "nationalDex": 722,
     "primaryLocation": "Palette Town",
     "specialties": [
       "Grow"
@@ -9834,6 +9883,8 @@
     "number": 186,
     "numberStr": "#186",
     "name": "Dartrix",
+    "slug": "dartrix",
+    "nationalDex": 723,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Grow",
@@ -9877,6 +9928,8 @@
     "number": 187,
     "numberStr": "#187",
     "name": "Decidueye",
+    "slug": "decidueye",
+    "nationalDex": 724,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Grow",
@@ -9942,6 +9995,8 @@
     "number": 188,
     "numberStr": "#188",
     "name": "Scorbunny",
+    "slug": "scorbunny",
+    "nationalDex": 813,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Burn"
@@ -9984,6 +10039,8 @@
     "number": 189,
     "numberStr": "#189",
     "name": "Raboot",
+    "slug": "raboot",
+    "nationalDex": 814,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Burn"
@@ -10048,6 +10105,8 @@
     "number": 190,
     "numberStr": "#190",
     "name": "Cinderace",
+    "slug": "cinderace",
+    "nationalDex": 815,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Burn",
@@ -10113,6 +10172,8 @@
     "number": 191,
     "numberStr": "#191",
     "name": "Skwovet",
+    "slug": "skwovet",
+    "nationalDex": 819,
     "primaryLocation": "Palette Town",
     "specialties": [
       "Search",
@@ -10156,6 +10217,8 @@
     "number": 192,
     "numberStr": "#192",
     "name": "Greedent",
+    "slug": "greedent",
+    "nationalDex": 820,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Party"
@@ -10198,6 +10261,8 @@
     "number": 193,
     "numberStr": "#193",
     "name": "Rolycoly",
+    "slug": "rolycoly",
+    "nationalDex": 837,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Burn",
@@ -10241,6 +10306,8 @@
     "number": 194,
     "numberStr": "#194",
     "name": "Carkol",
+    "slug": "carkol",
+    "nationalDex": 838,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Burn",
@@ -10284,6 +10351,8 @@
     "number": 195,
     "numberStr": "#195",
     "name": "Coalossal",
+    "slug": "coalossal",
+    "nationalDex": 839,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Burn",
@@ -10349,6 +10418,8 @@
     "number": 196,
     "numberStr": "#196",
     "name": "Toxel",
+    "slug": "toxel",
+    "nationalDex": 848,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Generate"
@@ -10390,7 +10461,9 @@
   {
     "number": 197,
     "numberStr": "#197",
-    "name": "Toxtricity Amped Form",
+    "name": "Toxtricity",
+    "slug": "toxtricity",
+    "nationalDex": 849,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Generate",
@@ -10434,6 +10507,8 @@
     "number": 198,
     "numberStr": "#198",
     "name": "Fidough",
+    "slug": "fidough",
+    "nationalDex": 926,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Search"
@@ -10496,6 +10571,8 @@
     "number": 199,
     "numberStr": "#199",
     "name": "Dachsbun",
+    "slug": "dachsbun",
+    "nationalDex": 927,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Search",
@@ -10559,6 +10636,8 @@
     "number": 200,
     "numberStr": "#200",
     "name": "Charcadet",
+    "slug": "charcadet",
+    "nationalDex": 935,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Burn"
@@ -10601,6 +10680,8 @@
     "number": 201,
     "numberStr": "#201",
     "name": "Armarouge",
+    "slug": "armarouge",
+    "nationalDex": 936,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Burn"
@@ -10643,6 +10724,8 @@
     "number": 202,
     "numberStr": "#202",
     "name": "Ceruledge",
+    "slug": "ceruledge",
+    "nationalDex": 937,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Burn"
@@ -10685,6 +10768,8 @@
     "number": 203,
     "numberStr": "#203",
     "name": "Glimmet",
+    "slug": "glimmet",
+    "nationalDex": 969,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Litter"
@@ -10749,6 +10834,8 @@
     "number": 204,
     "numberStr": "#204",
     "name": "Glimmora",
+    "slug": "glimmora",
+    "nationalDex": 970,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Litter"
@@ -10813,6 +10900,8 @@
     "number": 205,
     "numberStr": "#205",
     "name": "Gimmighoul",
+    "slug": "gimmighoul",
+    "nationalDex": 999,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Collect"
@@ -10855,6 +10944,8 @@
     "number": 206,
     "numberStr": "#206",
     "name": "Gholdengo",
+    "slug": "gholdengo",
+    "nationalDex": 1000,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Collect"
@@ -10897,6 +10988,8 @@
     "number": 207,
     "numberStr": "#207",
     "name": "Vulpix",
+    "slug": "vulpix",
+    "nationalDex": 37,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Burn"
@@ -10939,6 +11032,8 @@
     "number": 208,
     "numberStr": "#208",
     "name": "Ninetales",
+    "slug": "ninetales",
+    "nationalDex": 38,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Burn"
@@ -11003,6 +11098,8 @@
     "number": 209,
     "numberStr": "#209",
     "name": "Poliwag",
+    "slug": "poliwag",
+    "nationalDex": 60,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Water"
@@ -11045,6 +11142,8 @@
     "number": 210,
     "numberStr": "#210",
     "name": "Poliwhirl",
+    "slug": "poliwhirl",
+    "nationalDex": 61,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Water"
@@ -11087,6 +11186,8 @@
     "number": 211,
     "numberStr": "#211",
     "name": "Poliwrath",
+    "slug": "poliwrath",
+    "nationalDex": 62,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Water",
@@ -11151,6 +11252,8 @@
     "number": 212,
     "numberStr": "#212",
     "name": "Politoed",
+    "slug": "politoed",
+    "nationalDex": 186,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Water",
@@ -11238,6 +11341,8 @@
     "number": 213,
     "numberStr": "#213",
     "name": "Abra",
+    "slug": "abra",
+    "nationalDex": 63,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Teleport"
@@ -11302,6 +11407,8 @@
     "number": 214,
     "numberStr": "#214",
     "name": "Kadabra",
+    "slug": "kadabra",
+    "nationalDex": 64,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Teleport"
@@ -11344,6 +11451,8 @@
     "number": 215,
     "numberStr": "#215",
     "name": "Alakazam",
+    "slug": "alakazam",
+    "nationalDex": 65,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Teleport",
@@ -11406,9 +11515,35 @@
     ]
   },
   {
+    "number": 216,
+    "numberStr": "#216",
+    "name": "Mime Jr.",
+    "slug": "mime-jr",
+    "nationalDex": 439,
+    "primaryLocation": "",
+    "specialties": [],
+    "idealHabitat": "",
+    "favorites": [],
+    "habitats": []
+  },
+  {
+    "number": 217,
+    "numberStr": "#217",
+    "name": "Mr. Mime",
+    "slug": "mr-mime",
+    "nationalDex": 122,
+    "primaryLocation": "",
+    "specialties": [],
+    "idealHabitat": "",
+    "favorites": [],
+    "habitats": []
+  },
+  {
     "number": 218,
     "numberStr": "#218",
     "name": "Porygon",
+    "slug": "porygon",
+    "nationalDex": 137,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Recycle"
@@ -11451,6 +11586,8 @@
     "number": 219,
     "numberStr": "#219",
     "name": "Porygon2",
+    "slug": "porygon2",
+    "nationalDex": 233,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Recycle"
@@ -11493,6 +11630,8 @@
     "number": 220,
     "numberStr": "#220",
     "name": "Porygon-Z",
+    "slug": "porygon-z",
+    "nationalDex": 474,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Rarify"
@@ -11535,6 +11674,8 @@
     "number": 221,
     "numberStr": "#221",
     "name": "Dratini",
+    "slug": "dratini",
+    "nationalDex": 147,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Water"
@@ -11599,6 +11740,8 @@
     "number": 222,
     "numberStr": "#222",
     "name": "Dragonair",
+    "slug": "dragonair",
+    "nationalDex": 148,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Water"
@@ -11663,6 +11806,8 @@
     "number": 223,
     "numberStr": "#223",
     "name": "Dragonite",
+    "slug": "dragonite",
+    "nationalDex": 149,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Water",
@@ -11706,6 +11851,8 @@
     "number": 224,
     "numberStr": "#224",
     "name": "Cyndaquil",
+    "slug": "cyndaquil",
+    "nationalDex": 155,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Burn"
@@ -11748,6 +11895,8 @@
     "number": 225,
     "numberStr": "#225",
     "name": "Quilava",
+    "slug": "quilava",
+    "nationalDex": 156,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Burn"
@@ -11812,6 +11961,8 @@
     "number": 226,
     "numberStr": "#226",
     "name": "Typhlosion",
+    "slug": "typhlosion",
+    "nationalDex": 157,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Burn",
@@ -11877,6 +12028,8 @@
     "number": 227,
     "numberStr": "#227",
     "name": "Misdreavus",
+    "slug": "misdreavus",
+    "nationalDex": 200,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Trade"
@@ -11935,6 +12088,8 @@
     "number": 228,
     "numberStr": "#228",
     "name": "Mismagius",
+    "slug": "mismagius",
+    "nationalDex": 429,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Gather",
@@ -12013,6 +12168,8 @@
     "number": 229,
     "numberStr": "#229",
     "name": "Girafarig",
+    "slug": "girafarig",
+    "nationalDex": 203,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Gather"
@@ -12055,6 +12212,8 @@
     "number": 230,
     "numberStr": "#230",
     "name": "Farigiraf",
+    "slug": "farigiraf",
+    "nationalDex": 981,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Gather",
@@ -12098,6 +12257,8 @@
     "number": 231,
     "numberStr": "#231",
     "name": "Ralts",
+    "slug": "ralts",
+    "nationalDex": 280,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Teleport"
@@ -12140,6 +12301,8 @@
     "number": 232,
     "numberStr": "#232",
     "name": "Kirlia",
+    "slug": "kirlia",
+    "nationalDex": 281,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Teleport"
@@ -12204,6 +12367,8 @@
     "number": 233,
     "numberStr": "#233",
     "name": "Gardevoir",
+    "slug": "gardevoir",
+    "nationalDex": 282,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Teleport",
@@ -12269,6 +12434,8 @@
     "number": 234,
     "numberStr": "#234",
     "name": "Gallade",
+    "slug": "gallade",
+    "nationalDex": 475,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Teleport",
@@ -12312,6 +12479,8 @@
     "number": 235,
     "numberStr": "#235",
     "name": "Plusle",
+    "slug": "plusle",
+    "nationalDex": 311,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Generate"
@@ -12354,6 +12523,8 @@
     "number": 236,
     "numberStr": "#236",
     "name": "Minun",
+    "slug": "minun",
+    "nationalDex": 312,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Generate"
@@ -12396,6 +12567,8 @@
     "number": 237,
     "numberStr": "#237",
     "name": "Trapinch",
+    "slug": "trapinch",
+    "nationalDex": 328,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Bulldoze",
@@ -12439,6 +12612,8 @@
     "number": 238,
     "numberStr": "#238",
     "name": "Vibrava",
+    "slug": "vibrava",
+    "nationalDex": 329,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Bulldoze",
@@ -12482,6 +12657,8 @@
     "number": 239,
     "numberStr": "#239",
     "name": "Flygon",
+    "slug": "flygon",
+    "nationalDex": 330,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Bulldoze",
@@ -12525,6 +12702,8 @@
     "number": 240,
     "numberStr": "#240",
     "name": "Swablu",
+    "slug": "swablu",
+    "nationalDex": 333,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Litter"
@@ -12567,6 +12746,8 @@
     "number": 241,
     "numberStr": "#241",
     "name": "Altaria",
+    "slug": "altaria",
+    "nationalDex": 334,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Litter",
@@ -12610,6 +12791,8 @@
     "number": 242,
     "numberStr": "#242",
     "name": "Duskull",
+    "slug": "duskull",
+    "nationalDex": 355,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Gather"
@@ -12649,6 +12832,8 @@
     "number": 243,
     "numberStr": "#243",
     "name": "Dusclops",
+    "slug": "dusclops",
+    "nationalDex": 356,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Gather"
@@ -12688,6 +12873,8 @@
     "number": 244,
     "numberStr": "#244",
     "name": "Dusknoir",
+    "slug": "dusknoir",
+    "nationalDex": 477,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Gather",
@@ -12728,6 +12915,8 @@
     "number": 245,
     "numberStr": "#245",
     "name": "Beldum",
+    "slug": "beldum",
+    "nationalDex": 374,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Recycle"
@@ -12770,6 +12959,8 @@
     "number": 246,
     "numberStr": "#246",
     "name": "Metang",
+    "slug": "metang",
+    "nationalDex": 375,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Recycle"
@@ -12812,6 +13003,8 @@
     "number": 247,
     "numberStr": "#247",
     "name": "Metagross",
+    "slug": "metagross",
+    "nationalDex": 376,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Recycle",
@@ -12855,6 +13048,8 @@
     "number": 248,
     "numberStr": "#248",
     "name": "Snivy",
+    "slug": "snivy",
+    "nationalDex": 495,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Grow"
@@ -12897,6 +13092,8 @@
     "number": 249,
     "numberStr": "#249",
     "name": "Servine",
+    "slug": "servine",
+    "nationalDex": 496,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Grow",
@@ -12940,6 +13137,8 @@
     "number": 250,
     "numberStr": "#250",
     "name": "Serperior",
+    "slug": "serperior",
+    "nationalDex": 497,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Grow",
@@ -13005,6 +13204,8 @@
     "number": 251,
     "numberStr": "#251",
     "name": "Froakie",
+    "slug": "froakie",
+    "nationalDex": 656,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Water"
@@ -13047,6 +13248,8 @@
     "number": 252,
     "numberStr": "#252",
     "name": "Frogadier",
+    "slug": "frogadier",
+    "nationalDex": 657,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Water"
@@ -13111,6 +13314,8 @@
     "number": 253,
     "numberStr": "#253",
     "name": "Greninja",
+    "slug": "greninja",
+    "nationalDex": 658,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Water",
@@ -13176,6 +13381,8 @@
     "number": 254,
     "numberStr": "#254",
     "name": "Dedenne",
+    "slug": "dedenne",
+    "nationalDex": 702,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Search"
@@ -13218,6 +13425,8 @@
     "number": 255,
     "numberStr": "#255",
     "name": "Noibat",
+    "slug": "noibat",
+    "nationalDex": 714,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Search"
@@ -13260,6 +13469,8 @@
     "number": 256,
     "numberStr": "#256",
     "name": "Noivern",
+    "slug": "noivern",
+    "nationalDex": 715,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Search",
@@ -13303,6 +13514,8 @@
     "number": 257,
     "numberStr": "#257",
     "name": "Rookidee",
+    "slug": "rookidee",
+    "nationalDex": 821,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Chop"
@@ -13345,6 +13558,8 @@
     "number": 258,
     "numberStr": "#258",
     "name": "Corvisquire",
+    "slug": "corvisquire",
+    "nationalDex": 822,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Chop"
@@ -13387,6 +13602,8 @@
     "number": 259,
     "numberStr": "#259",
     "name": "Corviknight",
+    "slug": "corviknight",
+    "nationalDex": 823,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Chop",
@@ -13451,6 +13668,8 @@
     "number": 260,
     "numberStr": "#260",
     "name": "Dreepy",
+    "slug": "dreepy",
+    "nationalDex": 885,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Gather",
@@ -13494,6 +13713,8 @@
     "number": 261,
     "numberStr": "#261",
     "name": "Drakloak",
+    "slug": "drakloak",
+    "nationalDex": 886,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Gather",
@@ -13559,6 +13780,8 @@
     "number": 262,
     "numberStr": "#262",
     "name": "Dragapult",
+    "slug": "dragapult",
+    "nationalDex": 887,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Gather",
@@ -13602,6 +13825,8 @@
     "number": 263,
     "numberStr": "#263",
     "name": "Sprigatito",
+    "slug": "sprigatito",
+    "nationalDex": 906,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Grow"
@@ -13666,6 +13891,8 @@
     "number": 264,
     "numberStr": "#264",
     "name": "Floragato",
+    "slug": "floragato",
+    "nationalDex": 907,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Grow"
@@ -13708,6 +13935,8 @@
     "number": 265,
     "numberStr": "#265",
     "name": "Meowscarada",
+    "slug": "meowscarada",
+    "nationalDex": 908,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Grow",
@@ -13751,6 +13980,8 @@
     "number": 266,
     "numberStr": "#266",
     "name": "Wattrel",
+    "slug": "wattrel",
+    "nationalDex": 940,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Generate"
@@ -13793,6 +14024,8 @@
     "number": 267,
     "numberStr": "#267",
     "name": "Kilowattrel",
+    "slug": "kilowattrel",
+    "nationalDex": 941,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Generate",
@@ -13836,6 +14069,8 @@
     "number": 268,
     "numberStr": "#268",
     "name": "Tinkatink",
+    "slug": "tinkatink",
+    "nationalDex": 957,
     "primaryLocation": "Palette Town",
     "specialties": [
       "Build"
@@ -13921,6 +14156,8 @@
     "number": 269,
     "numberStr": "#269",
     "name": "Tinkatuff",
+    "slug": "tinkatuff",
+    "nationalDex": 958,
     "primaryLocation": "Palette Town",
     "specialties": [
       "Build"
@@ -13963,6 +14200,8 @@
     "number": 270,
     "numberStr": "#270",
     "name": "Tinkaton",
+    "slug": "tinkaton",
+    "nationalDex": 959,
     "primaryLocation": "Sparkling Skylands",
     "specialties": [
       "Engineer"
@@ -14005,6 +14244,8 @@
     "number": 271,
     "numberStr": "#271",
     "name": "Aerodactyl",
+    "slug": "aerodactyl",
+    "nationalDex": 142,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Fly"
@@ -14047,6 +14288,8 @@
     "number": 272,
     "numberStr": "#272",
     "name": "Cranidos",
+    "slug": "cranidos",
+    "nationalDex": 408,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Crush"
@@ -14089,6 +14332,8 @@
     "number": 273,
     "numberStr": "#273",
     "name": "Rampardos",
+    "slug": "rampardos",
+    "nationalDex": 409,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Crush",
@@ -14132,6 +14377,8 @@
     "number": 274,
     "numberStr": "#274",
     "name": "Shieldon",
+    "slug": "shieldon",
+    "nationalDex": 410,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Crush"
@@ -14174,6 +14421,8 @@
     "number": 275,
     "numberStr": "#275",
     "name": "Bastiodon",
+    "slug": "bastiodon",
+    "nationalDex": 411,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Crush",
@@ -14217,6 +14466,8 @@
     "number": 276,
     "numberStr": "#276",
     "name": "Tyrunt",
+    "slug": "tyrunt",
+    "nationalDex": 696,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Crush"
@@ -14259,6 +14510,8 @@
     "number": 277,
     "numberStr": "#277",
     "name": "Tyrantrum",
+    "slug": "tyrantrum",
+    "nationalDex": 697,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Crush",
@@ -14302,6 +14555,8 @@
     "number": 278,
     "numberStr": "#278",
     "name": "Amaura",
+    "slug": "amaura",
+    "nationalDex": 698,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Crush"
@@ -14344,6 +14599,8 @@
     "number": 279,
     "numberStr": "#279",
     "name": "Aurorus",
+    "slug": "aurorus",
+    "nationalDex": 699,
     "primaryLocation": "Rocky Ridges",
     "specialties": [
       "Crush",
@@ -14387,6 +14644,8 @@
     "number": 280,
     "numberStr": "#280",
     "name": "Eevee",
+    "slug": "eevee",
+    "nationalDex": 133,
     "primaryLocation": "Palette Town",
     "specialties": [
       "Trade"
@@ -14429,6 +14688,8 @@
     "number": 281,
     "numberStr": "#281",
     "name": "Vaporeon",
+    "slug": "vaporeon",
+    "nationalDex": 134,
     "primaryLocation": "Palette Town",
     "specialties": [
       "Water"
@@ -14471,6 +14732,8 @@
     "number": 282,
     "numberStr": "#282",
     "name": "Jolteon",
+    "slug": "jolteon",
+    "nationalDex": 135,
     "primaryLocation": "Palette Town",
     "specialties": [
       "Generate"
@@ -14513,6 +14776,8 @@
     "number": 283,
     "numberStr": "#283",
     "name": "Flareon",
+    "slug": "flareon",
+    "nationalDex": 136,
     "primaryLocation": "Palette Town",
     "specialties": [
       "Burn"
@@ -14555,6 +14820,8 @@
     "number": 284,
     "numberStr": "#284",
     "name": "Espeon",
+    "slug": "espeon",
+    "nationalDex": 196,
     "primaryLocation": "Palette Town",
     "specialties": [
       "Gather"
@@ -14597,6 +14864,8 @@
     "number": 285,
     "numberStr": "#285",
     "name": "Umbreon",
+    "slug": "umbreon",
+    "nationalDex": 197,
     "primaryLocation": "Palette Town",
     "specialties": [
       "Search"
@@ -14639,6 +14908,8 @@
     "number": 286,
     "numberStr": "#286",
     "name": "Leafeon",
+    "slug": "leafeon",
+    "nationalDex": 470,
     "primaryLocation": "Palette Town",
     "specialties": [
       "Grow"
@@ -14681,6 +14952,8 @@
     "number": 287,
     "numberStr": "#287",
     "name": "Glaceon",
+    "slug": "glaceon",
+    "nationalDex": 471,
     "primaryLocation": "Palette Town",
     "specialties": [
       "Trade"
@@ -14723,6 +14996,8 @@
     "number": 288,
     "numberStr": "#288",
     "name": "Sylveon",
+    "slug": "sylveon",
+    "nationalDex": 700,
     "primaryLocation": "Palette Town",
     "specialties": [
       "Hype"
@@ -14765,6 +15040,8 @@
     "number": 289,
     "numberStr": "#289",
     "name": "Kyogre",
+    "slug": "kyogre",
+    "nationalDex": 382,
     "primaryLocation": "Dream Island",
     "specialties": [
       "???"
@@ -14784,6 +15061,8 @@
     "number": 290,
     "numberStr": "#290",
     "name": "Raikou",
+    "slug": "raikou",
+    "nationalDex": 243,
     "primaryLocation": "Dream Island",
     "specialties": [
       "Generate"
@@ -14803,6 +15082,8 @@
     "number": 291,
     "numberStr": "#291",
     "name": "Entei",
+    "slug": "entei",
+    "nationalDex": 244,
     "primaryLocation": "Dream Island",
     "specialties": [
       "Burn"
@@ -14822,6 +15103,8 @@
     "number": 292,
     "numberStr": "#292",
     "name": "Suicune",
+    "slug": "suicune",
+    "nationalDex": 245,
     "primaryLocation": "Dream Island",
     "specialties": [
       "Water"
@@ -14841,6 +15124,8 @@
     "number": 293,
     "numberStr": "#293",
     "name": "Volcanion",
+    "slug": "volcanion",
+    "nationalDex": 721,
     "primaryLocation": "Dream Island",
     "specialties": [
       "Burn"
@@ -14860,6 +15145,8 @@
     "number": 294,
     "numberStr": "#294",
     "name": "Articuno",
+    "slug": "articuno",
+    "nationalDex": 144,
     "primaryLocation": "Dream Island",
     "specialties": [
       "Fly"
@@ -14879,6 +15166,8 @@
     "number": 295,
     "numberStr": "#295",
     "name": "Zapdos",
+    "slug": "zapdos",
+    "nationalDex": 145,
     "primaryLocation": "Dream Island",
     "specialties": [
       "Fly"
@@ -14898,6 +15187,8 @@
     "number": 296,
     "numberStr": "#296",
     "name": "Moltres",
+    "slug": "moltres",
+    "nationalDex": 146,
     "primaryLocation": "Dream Island",
     "specialties": [
       "Fly"
@@ -14916,26 +15207,9 @@
   {
     "number": 297,
     "numberStr": "#297",
-    "name": "Lugia",
-    "primaryLocation": "Dream Island",
-    "specialties": [
-      "???"
-    ],
-    "idealHabitat": "Humid",
-    "favorites": [
-      "Strange stuff",
-      "Nice breezes",
-      "Lots of water",
-      "Ocean vibes",
-      "Symbols",
-      "Dry flavors"
-    ],
-    "habitats": []
-  },
-  {
-    "number": 298,
-    "numberStr": "#298",
     "name": "Ho-Oh",
+    "slug": "ho-oh",
+    "nationalDex": 250,
     "primaryLocation": "Dream Island",
     "specialties": [
       "???"
@@ -14952,9 +15226,32 @@
     "habitats": []
   },
   {
+    "number": 298,
+    "numberStr": "#298",
+    "name": "Lugia",
+    "slug": "lugia",
+    "nationalDex": 249,
+    "primaryLocation": "Dream Island",
+    "specialties": [
+      "???"
+    ],
+    "idealHabitat": "Humid",
+    "favorites": [
+      "Strange stuff",
+      "Nice breezes",
+      "Lots of water",
+      "Ocean vibes",
+      "Symbols",
+      "Dry flavors"
+    ],
+    "habitats": []
+  },
+  {
     "number": 299,
     "numberStr": "#299",
     "name": "Mewtwo",
+    "slug": "mewtwo",
+    "nationalDex": 150,
     "primaryLocation": "Dream Island",
     "specialties": [
       "Teleport"
@@ -14974,6 +15271,8 @@
     "number": 300,
     "numberStr": "#300",
     "name": "Mew",
+    "slug": "mew",
+    "nationalDex": 151,
     "primaryLocation": "Dream Island",
     "specialties": [
       "Teleport"

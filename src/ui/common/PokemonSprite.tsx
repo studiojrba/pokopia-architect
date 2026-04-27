@@ -1,14 +1,24 @@
 import { useState } from "react";
-import { pokemonSpriteUrl } from "../../data/loadGenerated";
+import { pokemonByName, pokemonSpriteUrl } from "../../data/loadGenerated";
 
 interface PokemonSpriteProps {
-  dex: number;
   name: string;
+  /**
+   * Official National Pokedex number, used to fetch the sprite. If omitted,
+   * it is resolved from `name` via the generated Pokemon index. Pokopia's
+   * internal dex number must NOT be passed here — it does not match the
+   * National Pokedex (e.g. Pokopia #298 = Ho-Oh, but national #298 = Azurill).
+   */
+  nationalDex?: number | null;
   size?: number;
 }
 
-export function PokemonSprite({ dex, name, size = 64 }: PokemonSpriteProps) {
-  const url = pokemonSpriteUrl(dex);
+export function PokemonSprite({ name, nationalDex, size = 64 }: PokemonSpriteProps) {
+  const resolvedDex =
+    nationalDex !== undefined
+      ? nationalDex
+      : (pokemonByName.get(name.toLowerCase())?.nationalDex ?? null);
+  const url = pokemonSpriteUrl(resolvedDex);
   const [errored, setErrored] = useState(false);
 
   if (!url || errored) {

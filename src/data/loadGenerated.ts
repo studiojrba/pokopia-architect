@@ -27,9 +27,17 @@ export interface PokemonHabitat {
 }
 
 export interface Pokemon {
+  /** Pokopia internal dex number (does NOT match the National Pokedex). */
   number: number;
   numberStr: string;
   name: string;
+  /** PokeAPI species slug (e.g. "ho-oh", "tatsugiri"). */
+  slug: string;
+  /**
+   * Official National Pokedex number. Use this for sprites and any cross-
+   * reference with the wider Pokemon ecosystem; `null` if not resolved.
+   */
+  nationalDex: number | null;
   primaryLocation: string;
   specialties: string[];
   idealHabitat: HabitatType | string;
@@ -150,11 +158,14 @@ export const houseGroupsByRegion: Map<RegionId, HouseGroup[]> = (() => {
 })();
 
 /**
- * Build a public-relative URL for a Pokemon sprite. Returns `null` if no
- * sprite was downloaded for that dex number (the ingest step skips dex 0
- * and any number not present in the upstream CSV).
+ * Build a public-relative URL for a Pokemon sprite. Sprites are keyed by the
+ * official National Pokedex number (resolved via PokeAPI at ingest time),
+ * NOT by Pokopia's internal `number` field. Returns `null` if the species
+ * could not be resolved.
  */
-export function pokemonSpriteUrl(dex: number): string | null {
-  if (!Number.isFinite(dex) || dex <= 0) return null;
-  return `/sprites/pokemon/${dex}.png`;
+export function pokemonSpriteUrl(nationalDex: number | null): string | null {
+  if (nationalDex == null || !Number.isFinite(nationalDex) || nationalDex <= 0) {
+    return null;
+  }
+  return `/sprites/pokemon/${nationalDex}.png`;
 }

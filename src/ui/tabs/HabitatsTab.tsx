@@ -187,7 +187,11 @@ function HabitatDetail({ habitat }: HabitatDetailProps) {
                 className="flex flex-col items-center gap-0.5 rounded border border-[var(--color-border)] bg-[var(--color-panel-hi)] p-1.5"
                 title={p.name}
               >
-                <PokemonSprite dex={p.number} name={p.name} size={48} />
+                <PokemonSprite
+                  name={p.name}
+                  nationalDex={p.nationalDex}
+                  size={48}
+                />
                 <span className="line-clamp-1 w-full text-center text-[9px] text-[var(--color-muted)]">
                   {p.name}
                 </span>
